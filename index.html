@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <section id="header-top">
+            <div class="container-my">
+                <div class="row box-all d-flex justify-content-between">
+                    <div class="left col-lg-2 col-sm-4 col-md-2 col-5 d-flex justify-content-between align-items-center">
+
+                        <!-- US -->
+                        <div class="dropdown">
+                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                US/USD
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">AUS/USD</a></li>
+                                <li><a class="dropdown-item" href="#">BNG/TK</a></li>
+                                <li><a class="dropdown-item" href="#">IN/RP</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- | -->
+
+                        <span class="ps-md-2 ps-lg-2 ps-2 ps-sm-2 ps-xl-2 pe-lg-3 pe-2 pe-sm-2 pe-xl-3 pe-md-2" >|</span>
+
+                        <!-- Sell -->
+                        <div class="dropdown">
+                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Sell With Us
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Returns</a></li>
+                                <li><a class="dropdown-item" href="#">Privacy</a></li>
+                                <li><a class="dropdown-item" href="#">Terms</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- icons -->
+                    <div class="rigth box col-lg-1 col-2 col-sm-2 col-md-2 d-flex justify-content-between align-content-center">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="header-average">
+            <div class="container-my">
+                <div class="row box-all d-flex justify-content-between align-items-center p-0">
+
+                    <div class="logo col-lg-2">
+                        <a href="index.html"><img src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/logo.png" alt=""></a>
+                    </div>
+
+                    <div class="row search-all col-lg-6 d-flex justify-content-rigth align-items-center g-0">
+                        
+                        <div class="box search col-lg-7">
+                            <input class="input-search" type="text" placeholder="Search for your item's type.....">
+                        </div>
+                        <div class="d-flex box category col-lg-5 justify-content-between align-items-center text-center">
+                            <div class="left dropdownIcon col-lg-9">
+                                
+                                <input type="text" class="textbox" placeholder="All category" readonly>
+                                 <div class="option">
+                                    <div class="forOption active-color" onclick="showIcon('All Category')">All Category</div>
+                                    <div class="forOption" onclick="showIcon('Accessories')">Accessories</div>
+                                    <div class="forOption" onclick="showIcon('Best Seller')">Best Seller</div>
+                                    <div class="forOption" onclick="showIcon('Camera')">Camera</div>
+                                    <div class="forOption" onclick="showIcon('Computer')">Computer</div>
+                                    <div class="forOption" onclick="showIcon('Featured')">Featured</div>
+                                    <div class="forOption" onclick="showIcon('Gaming')">Gaming</div>
+                                    <div class="forOption" onclick="showIcon('Headphones')">Headphones</div>
+                                    <div class="forOption" onclick="showIcon('Hot Sell')">Hot Sell</div>
+                                    <div class="forOption" onclick="showIcon('Mobile & Tablet')">Mobile & Tablet</div>
+                                    <div class="forOption" onclick="showIcon('Trend')">Trend</div>
+                                    <div class="forOption" onclick="showIcon('TV & Smart Box')">TV & Smart Box</div>
+                                 </div> 
+
+                            </div>
+                            <button class="col-lg-3 d-inline"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+                        </div>
+                    
+                    </div>
+
+                    <div class="icons col-lg-2 d-flex justify-content-end align-items-center">
+                        <a href=""><i id="i1" class="fa-regular fa-user"></i></a>
+                        <a href=""><i id="i2" class="fa-solid fa-rotate"><span>0</span></i></a>
+                        <a href=""><i id="i3" class="fa-regular fa-heart"><span>0</span></i></a>
+                        <a href=""><i id="i4" class="fa-solid fa-bag-shopping"><span>0</span></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </header>
+    
+<script src="assets/js/bootstrap.bundle.js"></script>
+<script src="assets/js/header.js"></script>
+</body>
+
+</html>

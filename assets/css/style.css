@@ -1,0 +1,249 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+input, select, button {
+  outline: none !important;
+}
+
+.commom-position-icon, header #header-average .box-all .icons #i4, header #header-average .box-all .icons #i3, header #header-average .box-all .icons #i2 {
+  position: relative;
+}
+.commom-position-icon span, header #header-average .box-all .icons #i4 span, header #header-average .box-all .icons #i3 span, header #header-average .box-all .icons #i2 span {
+  position: absolute;
+  background-color: #F7BA01;
+  color: #2d2d2d;
+  padding: 3px 5px;
+  border-radius: 50%;
+  top: -5px;
+  left: 31px;
+  font-size: 8px;
+}
+
+.active-color {
+  background-color: #252525;
+  color: #fff;
+}
+
+.active::before {
+  transform: rotate(-225deg) !important;
+  top: 22px !important;
+}
+.active .option {
+  display: block !important;
+}
+
+header #header-top {
+  background-color: #eee;
+  padding: 5px 0;
+}
+header #header-top .left .dropdown-toggle {
+  text-decoration: none;
+  font-size: 13px;
+  color: #656565;
+  font-weight: 400;
+  cursor: pointer;
+  font-family: "Jost", sans-serif;
+}
+header #header-top .left ul li {
+  color: #6f6f6f;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 3px 0;
+  font-family: "Jost", sans-serif;
+  box-shadow: none;
+}
+header #header-top .left ul li:hover {
+  background-color: #f8f9fa;
+}
+header #header-top .left .dropdown-menu .dropdown-item:focus, header #header-top .left .dropdown-menu .dropdown-item:hover {
+  background-color: #f8f9fa !important;
+}
+header #header-top .rigth .fa-brands {
+  cursor: pointer !important;
+  font-size: 15px !important;
+  color: #868686 !important;
+}
+header #header-top .rigth .fa-brands:hover {
+  font-size: 17px !important;
+  transform: translateY(5%);
+  transition: 0.5s;
+}
+header #header-top span {
+  color: #CECECE;
+}
+
+header #header-average {
+  padding: 17px 0;
+}
+header #header-average .box-all .logo img {
+  width: 80%;
+  height: auto;
+}
+header #header-average .box-all .search-all {
+  margin-right: 0 !important;
+  padding: 3px 8px;
+  font-size: 13px !important;
+  border-radius: 15px !important;
+}
+header #header-average .box-all .search-all .search .input-search {
+  padding-left: 20px !important;
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+  width: 100%;
+  height: 47px;
+  border: 1px solid #eee;
+  color: #89817D;
+}
+header #header-average .box-all .search-all .category {
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+  align-items: center;
+  border: 1px solid #eee;
+  border-left: none;
+  height: 47px !important;
+  color: #89817D !important;
+}
+header #header-average .box-all .search-all .category .dropdownIcon {
+  position: relative;
+}
+header #header-average .box-all .search-all .category .dropdownIcon::before {
+  position: absolute;
+  content: "";
+  width: 7px;
+  height: 7px;
+  border: 2px solid #89817D;
+  right: 21px;
+  top: 18px;
+  z-index: 10000;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(-45deg);
+  transition: 0.5s;
+  pointer-events: none;
+}
+header #header-average .box-all .search-all .category .dropdownIcon .textbox {
+  width: 100%;
+  height: 45px;
+  padding-left: 10px;
+  border: none;
+  cursor: pointer;
+  color: #89817D !important;
+}
+header #header-average .box-all .search-all .category .dropdownIcon .option {
+  position: absolute;
+  width: 100%;
+  top: 48px;
+  left: 0;
+  text-align: start;
+  display: none;
+  border: 1px solid #eee;
+}
+header #header-average .box-all .search-all .category .dropdownIcon .option div {
+  padding: 7px 0 7px 20px;
+  cursor: pointer;
+}
+header #header-average .box-all .search-all .category .dropdownIcon .option div:hover {
+  background-color: #ff6000;
+  color: #fff;
+}
+header #header-average .box-all .search-all .category button {
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+  color: #FFFFFF;
+  background-color: #F7BA01;
+  border: none !important;
+  height: 46px;
+  text-align: center;
+  z-index: -1;
+}
+header #header-average .box-all .search-all .category button i {
+  font-size: 18px;
+}
+header #header-average .box-all .icons a i {
+  font-size: 19px;
+  color: #2d2d2d;
+  padding-left: 18px !important;
+  font-family: "Font Awesome 6 Free";
+}
+@media (max-width: 576px) {
+  header #header-top .box-all {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  header #header-top .box-all .left {
+    margin-right: 25px !important;
+  }
+  header #header-top .box-all .rigth .fa-brands {
+    padding-left: 10px !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  header #header-top .box-all {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  header #header-top .box-all .left {
+    margin-right: 25px !important;
+  }
+  header #header-top .box-all .rigth .fa-brands {
+    padding-left: 10px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  header #header-top .box-all {
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+  header #header-top .box-all .left {
+    justify-content: start !important;
+  }
+  header #header-top .box-all .rigth {
+    justify-content: end !important;
+  }
+  header #header-top .box-all .rigth .fa-brands {
+    margin-left: 10px !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1140px) {
+  header #header-top .box-all {
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+  header #header-top .box-all .left {
+    justify-content: center !important;
+  }
+  header #header-top .box-all .rigth {
+    justify-content: center !important;
+  }
+  header #header-top .box-all .rigth .fa-brands {
+    margin-left: 10px !important;
+  }
+}
+@media (min-width: 1140px) {
+  header #header-top .box-all {
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+  header #header-top .box-all .left {
+    justify-content: center !important;
+  }
+  header #header-top .box-all .rigth {
+    justify-content: center !important;
+  }
+  header #header-top .box-all .rigth .fa-brands {
+    margin-left: 10px !important;
+  }
+}/*# sourceMappingURL=style.css.map */
