@@ -641,6 +641,91 @@ header #header-bottom {
                     }
                     
                 }
+
+                .special-menu{
+                    position: relative;
+                    box-sizing: border-box;
+
+                    .special-drop-down{
+                        visibility: hidden;
+                        position:absolute;
+                        top: 80px;
+                        left: -686px;
+                        width: 1000px;
+                        background-color: #fff; 
+
+                        .box{
+                            border: 2px solid #eee;
+                            .left{
+                                img{
+                                    width: 100%;
+                                }
+                            } 
+                            .rigth{
+                            
+                                a{
+                                    font-size: 12px;
+                                    color: #7d7d7d;
+                                    padding: 3px 12px;
+                                    &:hover{
+                                        color: #025BBF;
+                                    }
+        
+                                    .special-span{
+                                        color:#F7BA01;
+                                        font-size: 13px;
+                                        font-weight: 600;
+                                    }
+                                }
+                                span{
+                                    color: black;
+                                }
+                            }
+                        }
+
+                        .gray{
+                            background-color: #eee !important;
+                        }
+                    }
+
+                    &:hover{
+                        .special-drop-down{
+                            visibility: visible;
+                            height: auto;
+                        }
+                    }
+                }
+
+                .store{
+                    position: relative;
+
+                    .store-drop-down{
+                        visibility: hidden;
+                        position: absolute;
+                        top: 80px;
+                        left: 13px;
+                        width: 200px;                    
+                        border: 1px solid #eee; 
+                        padding: 10px 0 10px 20px !important;
+                        background-color: #fff;
+                        
+                        a{
+                            font-size: 12px;
+                            color: #7d7d7d;
+                            padding: 7px 0;
+                            &:hover{
+                                color: #025BBF;
+                            }
+                        }
+                    }
+
+                    &:hover{
+                        .store-drop-down{
+                            visibility: visible;
+                            height: auto;
+                        }
+                    }
+                }
             }
 
             
