@@ -30,8 +30,8 @@
     }
 }
 
-.dr-active{
-    .options{
+.dr-active {
+    .options {
         display: block !important;
     }
 }
@@ -193,7 +193,7 @@ header #header-average {
                     background-color: #F7BA01;
                     border: none !important;
                     height: 46px;
-                    text-align: center;                    
+                    text-align: center;
 
                     i {
                         font-size: 18px;
@@ -229,21 +229,21 @@ header #header-average {
 
 
         }
-    } 
+    }
 }
 
 header #header-bottom {
     background-color: #0465D2;
     color: #fff;
 
-    .all-categories{        
+    .all-categories {
         position: relative;
 
-        i{
+        i {
             font-size: 14px;
         }
 
-        .title{
+        .title {
             background-color: #025BBF;
             padding: 20px 0 20px 20px;
             height: 78px;
@@ -251,7 +251,8 @@ header #header-bottom {
             color: #fff;
             font-weight: 600;
         }
-        .options{            
+
+        .options {
             position: absolute;
             background-color: #fff;
             width: 250px;
@@ -259,34 +260,201 @@ header #header-bottom {
             left: 12px;
             text-align: start;
             display: none;
-            border: 1px solid #eee;
+            border: 1px solid #eee;            
 
             .forOption{
+                transition: .7s;
 
-                transition: .1s;
-                
-                a{
+                a {
                     font-size: 14px;
                     color: #7d7d7d;
                 }
-                i{
+
+                i {
                     font-size: 10px;
                     color: #7d7d7d;
                 }
-                &:hover{                    
+
+                &:hover {
                     border: 1px solid #e2e2e2;
                     background-color: #eee;
-                    
+
                 }
-                &:hover a{
+
+                &:hover a {
                     color: #025BBF;
                 }
-                &:hover i{
+
+                &:hover i {
                     color: #025BBF;
                 }
             }
         }
 
+        .forOp1{
+               &:hover{
+                .apElements1{
+                    display: block !important;
+                    .ap1{
+                                               
+                        a{
+                            display: block;
+                            color: gray;
+                            padding: 7px 0;
+                            font-size: 14px;
+                            transition: .5s;
+                            &:hover{
+                                color: #025BBF;
+                            }
+                        }
+                    }
+                   } 
+               } 
+        }
+
+        .forOp2,
+        .forOp3,
+        .forOp4{
+            &:hover{
+             .apElements2,
+             .apElements3,
+             .apElements4{
+                 display: block !important;
+                 .ap1{
+                                            
+                     a{
+                         display: block;
+                         color: gray;
+                         padding: 7px 0;
+                         font-size: 14px;
+                         transition: .5s;
+                         &:hover{
+                             color: #025BBF;
+                         }
+                     }
+                 }
+                } 
+            } 
+     }
+
+
+
+        .apElements1{
+            display: none !important;
+            .ap1{                
+                background-color: #fff !important;
+                position: absolute;
+                width: 700px;
+                top: 4px; 
+                left: 261px;
+                border: 1px solid #eee;              
+                
+                .apSpan{
+                    color: black;
+                    font-weight: 500;
+                    margin: 10px 0;
+                    font-size: 17px;
+                }
+        } 
+            
+        }
+
+        .apElements2,
+        .apElements3{
+            display: none !important;
+            .ap1{                
+                background-color: #fff !important;
+                position: absolute;
+                width: 700px;
+                top: 4px; 
+                left: 261px;
+                border: 1px solid #eee;              
+                
+                .apSpan{
+                    color: black;
+                    font-weight: 500;
+                    margin: 10px 0;
+                    font-size: 17px;
+                }
+                img{
+                    padding: 10px;
+                    width: 100%;
+                }
+        } 
+            
+        }
+
+        
+        .apElements4{
+            display: none !important;
+            .ap1{                
+                background-color: #fff !important;
+                position: absolute;
+                width: 700px;                
+                top: 4px; 
+                left: 261px;
+                border: 1px solid #eee;              
+                
+                .apSpan{
+                    color: black;
+                    font-weight: 500;
+                    margin: 10px 0;
+                    font-size: 17px;
+                }
+
+                .rigth{
+                    height: 60px;
+                    img{
+                        height: 100%;
+                    }
+                }
+                
+        } 
+            
+        }
+    }
+
+    .menu-nav{
+        .menu-item{            
+            padding: 20px 0;
+            height: 78px;            
+            font-weight: 600;
+            a{
+                color: #fff;
+            }
+        }
+
+        .menu{
+            padding: 26px 0 14px;           
+            font-weight: 600;
+            ul{
+                display: flex;
+                justify-content: end;
+                list-style: none;
+                align-items: center;
+
+                li{
+                    padding-left: 25px; 
+                    
+                    &::before{
+                        content:'';
+                        
+                    }
+                }
+                
+            }
+
+            a{
+                color: #fff;
+                font-size: 14px;
+            }
+
+
+        }
+
+
     }
 
 }
+
+

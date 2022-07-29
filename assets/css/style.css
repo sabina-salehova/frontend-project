@@ -209,7 +209,7 @@ header #header-bottom .all-categories .options {
   border: 1px solid #eee;
 }
 header #header-bottom .all-categories .options .forOption {
-  transition: 0.1s;
+  transition: 0.7s;
 }
 header #header-bottom .all-categories .options .forOption a {
   font-size: 14px;
@@ -228,6 +228,149 @@ header #header-bottom .all-categories .options .forOption:hover a {
 }
 header #header-bottom .all-categories .options .forOption:hover i {
   color: #025BBF;
+}
+header #header-bottom .all-categories .forOp1:hover .apElements1 {
+  display: block !important;
+}
+header #header-bottom .all-categories .forOp1:hover .apElements1 .ap1 a {
+  display: block;
+  color: gray;
+  padding: 7px 0;
+  font-size: 14px;
+  transition: 0.5s;
+}
+header #header-bottom .all-categories .forOp1:hover .apElements1 .ap1 a:hover {
+  color: #025BBF;
+}
+header #header-bottom .all-categories .forOp2:hover .apElements2,
+header #header-bottom .all-categories .forOp2:hover .apElements3,
+header #header-bottom .all-categories .forOp2:hover .apElements4,
+header #header-bottom .all-categories .forOp3:hover .apElements2,
+header #header-bottom .all-categories .forOp3:hover .apElements3,
+header #header-bottom .all-categories .forOp3:hover .apElements4,
+header #header-bottom .all-categories .forOp4:hover .apElements2,
+header #header-bottom .all-categories .forOp4:hover .apElements3,
+header #header-bottom .all-categories .forOp4:hover .apElements4 {
+  display: block !important;
+}
+header #header-bottom .all-categories .forOp2:hover .apElements2 .ap1 a,
+header #header-bottom .all-categories .forOp2:hover .apElements3 .ap1 a,
+header #header-bottom .all-categories .forOp2:hover .apElements4 .ap1 a,
+header #header-bottom .all-categories .forOp3:hover .apElements2 .ap1 a,
+header #header-bottom .all-categories .forOp3:hover .apElements3 .ap1 a,
+header #header-bottom .all-categories .forOp3:hover .apElements4 .ap1 a,
+header #header-bottom .all-categories .forOp4:hover .apElements2 .ap1 a,
+header #header-bottom .all-categories .forOp4:hover .apElements3 .ap1 a,
+header #header-bottom .all-categories .forOp4:hover .apElements4 .ap1 a {
+  display: block;
+  color: gray;
+  padding: 7px 0;
+  font-size: 14px;
+  transition: 0.5s;
+}
+header #header-bottom .all-categories .forOp2:hover .apElements2 .ap1 a:hover,
+header #header-bottom .all-categories .forOp2:hover .apElements3 .ap1 a:hover,
+header #header-bottom .all-categories .forOp2:hover .apElements4 .ap1 a:hover,
+header #header-bottom .all-categories .forOp3:hover .apElements2 .ap1 a:hover,
+header #header-bottom .all-categories .forOp3:hover .apElements3 .ap1 a:hover,
+header #header-bottom .all-categories .forOp3:hover .apElements4 .ap1 a:hover,
+header #header-bottom .all-categories .forOp4:hover .apElements2 .ap1 a:hover,
+header #header-bottom .all-categories .forOp4:hover .apElements3 .ap1 a:hover,
+header #header-bottom .all-categories .forOp4:hover .apElements4 .ap1 a:hover {
+  color: #025BBF;
+}
+header #header-bottom .all-categories .apElements1 {
+  display: none !important;
+}
+header #header-bottom .all-categories .apElements1 .ap1 {
+  background-color: #fff !important;
+  position: absolute;
+  width: 700px;
+  top: 4px;
+  left: 261px;
+  border: 1px solid #eee;
+}
+header #header-bottom .all-categories .apElements1 .ap1 .apSpan {
+  color: black;
+  font-weight: 500;
+  margin: 10px 0;
+  font-size: 17px;
+}
+header #header-bottom .all-categories .apElements2,
+header #header-bottom .all-categories .apElements3 {
+  display: none !important;
+}
+header #header-bottom .all-categories .apElements2 .ap1,
+header #header-bottom .all-categories .apElements3 .ap1 {
+  background-color: #fff !important;
+  position: absolute;
+  width: 700px;
+  top: 4px;
+  left: 261px;
+  border: 1px solid #eee;
+}
+header #header-bottom .all-categories .apElements2 .ap1 .apSpan,
+header #header-bottom .all-categories .apElements3 .ap1 .apSpan {
+  color: black;
+  font-weight: 500;
+  margin: 10px 0;
+  font-size: 17px;
+}
+header #header-bottom .all-categories .apElements2 .ap1 img,
+header #header-bottom .all-categories .apElements3 .ap1 img {
+  padding: 10px;
+  width: 100%;
+}
+header #header-bottom .all-categories .apElements4 {
+  display: none !important;
+}
+header #header-bottom .all-categories .apElements4 .ap1 {
+  background-color: #fff !important;
+  position: absolute;
+  width: 700px;
+  top: 4px;
+  left: 261px;
+  border: 1px solid #eee;
+}
+header #header-bottom .all-categories .apElements4 .ap1 .apSpan {
+  color: black;
+  font-weight: 500;
+  margin: 10px 0;
+  font-size: 17px;
+}
+header #header-bottom .all-categories .apElements4 .ap1 .rigth {
+  height: 60px;
+}
+header #header-bottom .all-categories .apElements4 .ap1 .rigth img {
+  height: 100%;
+}
+header #header-bottom .menu-nav .menu-item {
+  padding: 20px 0;
+  height: 78px;
+  font-weight: 600;
+}
+header #header-bottom .menu-nav .menu-item a {
+  color: #fff;
+}
+header #header-bottom .menu-nav .menu {
+  padding: 26px 0 14px;
+  font-weight: 600;
+}
+header #header-bottom .menu-nav .menu ul {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  align-items: center;
+}
+header #header-bottom .menu-nav .menu ul li {
+  padding-left: 25px;
+}
+header #header-bottom .menu-nav .menu ul li::before {
+  content: "";
+}
+header #header-bottom .menu-nav .menu a {
+  color: #fff;
+  font-size: 14px;
 }
 
 @media (max-width: 576px) {
