@@ -353,7 +353,6 @@ header #header-bottom .menu-nav .menu-item a {
   color: #fff;
 }
 header #header-bottom .menu-nav .menu {
-  padding: 26px 0 14px;
   font-weight: 600;
 }
 header #header-bottom .menu-nav .menu ul {
@@ -363,14 +362,38 @@ header #header-bottom .menu-nav .menu ul {
   align-items: center;
 }
 header #header-bottom .menu-nav .menu ul li {
-  padding-left: 25px;
+  position: relative;
+  padding: 26px 0 14px 25px;
 }
-header #header-bottom .menu-nav .menu ul li::before {
-  content: "";
-}
-header #header-bottom .menu-nav .menu a {
+header #header-bottom .menu-nav .menu ul li a {
   color: #fff;
   font-size: 14px;
+}
+header #header-bottom .menu-nav .menu ul li a::before {
+  transition: 0.5s;
+  position: absolute;
+  content: "";
+  top: 75px;
+  left: 18px;
+  height: 5px;
+  width: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #F7BA01;
+}
+header #header-bottom .menu-nav .menu ul li:hover a::before {
+  width: 85%;
+}
+header #header-bottom .menu-nav .menu ul .home a::before {
+  position: absolute;
+  content: "";
+  top: 75px;
+  left: 18px;
+  height: 5px;
+  width: 85%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #F7BA01;
 }
 
 @media (max-width: 576px) {
