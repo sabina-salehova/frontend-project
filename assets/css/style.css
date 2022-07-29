@@ -426,6 +426,113 @@ header #header-bottom .menu-nav .menu ul .home:hover .home-drop-down {
   visibility: visible;
   height: auto;
 }
+header #header-bottom .menu-nav .menu ul .category {
+  position: relative;
+}
+header #header-bottom .menu-nav .menu ul .category .categories-drop-down {
+  visibility: hidden;
+  position: absolute;
+  background-color: #fff;
+  border: 2px solid #eee;
+  width: 700px;
+  top: 80px;
+  left: -473px;
+}
+header #header-bottom .menu-nav .menu ul .category .categories-drop-down .rigth img {
+  width: 100%;
+}
+header #header-bottom .menu-nav .menu ul .category .categories-drop-down a {
+  font-size: 12px;
+  color: #7d7d7d;
+  padding: 7px 12px;
+}
+header #header-bottom .menu-nav .menu ul .category .categories-drop-down a:hover {
+  color: #025BBF;
+}
+header #header-bottom .menu-nav .menu ul .category .categories-drop-down span {
+  color: black;
+}
+header #header-bottom .menu-nav .menu ul .category:hover .categories-drop-down {
+  visibility: visible;
+  height: auto;
+}
+header #header-bottom .menu-nav .menu ul .shop {
+  position: relative;
+}
+header #header-bottom .menu-nav .menu ul .shop .shop-drop-down {
+  visibility: hidden;
+  position: absolute;
+  top: 80px;
+  left: -686px;
+  width: 1000px;
+  background-color: #fff;
+  border: 2px solid #eee;
+}
+header #header-bottom .menu-nav .menu ul .shop .shop-drop-down a {
+  font-size: 12px;
+  color: #7d7d7d;
+  padding: 7px 12px;
+}
+header #header-bottom .menu-nav .menu ul .shop .shop-drop-down a:hover {
+  color: #025BBF;
+}
+header #header-bottom .menu-nav .menu ul .shop .shop-drop-down a .special-span {
+  font-size: 10px;
+  background-color: gray;
+  color: #fff;
+  padding: 0 2px;
+  border-radius: 3px;
+  text-align: left;
+}
+header #header-bottom .menu-nav .menu ul .shop .shop-drop-down span {
+  color: black;
+}
+header #header-bottom .menu-nav .menu ul .shop:hover .shop-drop-down {
+  visibility: visible;
+  height: auto;
+}
+header #header-bottom .menu-nav .menu ul .pages {
+  position: relative;
+}
+header #header-bottom .menu-nav .menu ul .pages .pages-drop-down {
+  visibility: hidden;
+  position: absolute;
+  top: 80px;
+  left: 13px;
+  width: 200px;
+  border: 2px solid #eee;
+  padding: 10px 0 10px 20px !important;
+  background-color: #fff;
+}
+header #header-bottom .menu-nav .menu ul .pages .pages-drop-down a {
+  font-size: 12px;
+  color: #7d7d7d;
+  padding: 7px 0;
+}
+header #header-bottom .menu-nav .menu ul .pages .pages-drop-down a:hover {
+  color: #025BBF;
+}
+header #header-bottom .menu-nav .menu ul .pages .pages-drop-down .blog-div {
+  display: none;
+  position: absolute;
+}
+header #header-bottom .menu-nav .menu ul .pages .pages-drop-down:hover .blog-div {
+  display: block;
+  top: 205px;
+  left: 211px;
+  width: 150px;
+  border: 2px solid #eee;
+  padding: 10px 0 10px 12px;
+  background-color: #fff;
+}
+header #header-bottom .menu-nav .menu ul .pages .pages-drop-down:hover .blog-div a {
+  padding: 10px;
+  font-size: 12px;
+}
+header #header-bottom .menu-nav .menu ul .pages:hover .pages-drop-down {
+  visibility: visible;
+  height: auto;
+}
 
 @media (max-width: 576px) {
   header #header-top .box-all {
