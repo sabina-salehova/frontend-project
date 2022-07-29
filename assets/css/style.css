@@ -145,6 +145,7 @@ header #header-average .box-all .search-all .category .dropdownIcon .textbox {
   color: #89817D !important;
 }
 header #header-average .box-all .search-all .category .dropdownIcon .option {
+  z-index: 1;
   position: absolute;
   background-color: #fff;
   width: 100%;
@@ -365,11 +366,11 @@ header #header-bottom .menu-nav .menu ul li {
   position: relative;
   padding: 26px 0 14px 25px;
 }
-header #header-bottom .menu-nav .menu ul li a {
+header #header-bottom .menu-nav .menu ul li .commonHref {
   color: #fff;
   font-size: 14px;
 }
-header #header-bottom .menu-nav .menu ul li a::before {
+header #header-bottom .menu-nav .menu ul li .commonHref::before {
   transition: 0.5s;
   position: absolute;
   content: "";
@@ -381,10 +382,17 @@ header #header-bottom .menu-nav .menu ul li a::before {
   border-top-right-radius: 5px;
   background-color: #F7BA01;
 }
-header #header-bottom .menu-nav .menu ul li:hover a::before {
+header #header-bottom .menu-nav .menu ul li:hover .commonHref::before {
   width: 85%;
 }
-header #header-bottom .menu-nav .menu ul .home a::before {
+header #header-bottom .menu-nav .menu ul .home {
+  position: relative;
+}
+header #header-bottom .menu-nav .menu ul .home .specialHref {
+  color: #fff;
+  font-size: 14px;
+}
+header #header-bottom .menu-nav .menu ul .home .specialHref::before {
   position: absolute;
   content: "";
   top: 75px;
@@ -394,6 +402,29 @@ header #header-bottom .menu-nav .menu ul .home a::before {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   background-color: #F7BA01;
+}
+header #header-bottom .menu-nav .menu ul .home .home-drop-down {
+  visibility: hidden;
+  position: absolute;
+  top: 80px;
+  left: 13px;
+  width: 200px;
+  height: 0;
+  border: 1px solid #eee;
+  padding: 10px 0 10px 20px !important;
+  background-color: #fff;
+}
+header #header-bottom .menu-nav .menu ul .home .home-drop-down a {
+  font-size: 12px;
+  color: #7d7d7d;
+  padding: 7px 0;
+}
+header #header-bottom .menu-nav .menu ul .home .home-drop-down a:hover {
+  color: #025BBF;
+}
+header #header-bottom .menu-nav .menu ul .home:hover .home-drop-down {
+  visibility: visible;
+  height: auto;
 }
 
 @media (max-width: 576px) {

@@ -165,6 +165,7 @@ header #header-average {
                     }
 
                     .option {
+                        z-index: 1;
                         position: absolute;
                         background-color: #fff;
                         width: 100%;
@@ -434,9 +435,9 @@ header #header-bottom {
 
                 li{
                     position: relative; 
-                    padding: 26px 0 14px 25px;                    
+                    padding: 26px 0 14px 25px;
 
-                    a{
+                    .commonHref{
                         color: #fff;
                         font-size: 14px;
                         
@@ -454,13 +455,16 @@ header #header-bottom {
                         }
                     }
                     
-                    &:hover a::before{
+                    &:hover .commonHref::before{
                         width: 85%;
-                    }
+                    }                    
                 }
 
                 .home{
-                    a{
+                    position: relative;
+                    .specialHref{
+                        color: #fff;
+                        font-size: 14px;
                         &::before{
                             position: absolute;
                             content:'';
@@ -471,6 +475,34 @@ header #header-bottom {
                             border-top-left-radius: 5px;
                             border-top-right-radius: 5px ;
                             background-color:#F7BA01;                            
+                        }
+                    }
+
+                    .home-drop-down{
+                        visibility: hidden;
+                        position: absolute;
+                        top: 80px;
+                        left: 13px;
+                        width: 200px; 
+                        height: 0;                       
+                        border: 1px solid #eee; 
+                        padding: 10px 0 10px 20px !important;
+                        background-color: #fff;
+                        
+                        a{
+                            font-size: 12px;
+                            color: #7d7d7d;
+                            padding: 7px 0;
+                            &:hover{
+                                color: #025BBF;
+                            }
+                        }
+                    }
+
+                    &:hover{
+                        .home-drop-down{
+                            visibility: visible;
+                            height: auto;
                         }
                     }
                 }
