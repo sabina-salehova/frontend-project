@@ -1,9 +1,9 @@
 function showIcon(anything){
     document.querySelector('.textbox').value=anything;
     let arr=document.getElementsByClassName('forOption');
-
+    
     for (const item of arr) {
-        if(item.innerHTML==anything)
+        if(item.innerText==anything)
         {
             item.classList.add('active-color');
         }
