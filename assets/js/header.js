@@ -18,3 +18,8 @@ let dropdownI=document.querySelector('.dropdownIcon');
 dropdownI.onclick=function(){
     dropdownI.classList.toggle('active');
 }
+
+let header_bottom_dr_icon=document.querySelector('.all-categories');
+header_bottom_dr_icon.onclick=function(){    
+    header_bottom_dr_icon.classList.toggle('dr-active');
+}

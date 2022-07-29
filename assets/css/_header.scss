@@ -30,6 +30,12 @@
     }
 }
 
+.dr-active{
+    .options{
+        display: block !important;
+    }
+}
+
 header #header-top {
     background-color: #eee;
     padding: 5px 0;
@@ -230,22 +236,57 @@ header #header-bottom {
     background-color: #0465D2;
     color: #fff;
 
-    .all-categories{
-        background-color: #025BBF;
-        padding: 20px 0 20px 20px;
-        height: 78px;
-        width: 250px;
-        color: #fff;
-        font-weight: 600;
+    .all-categories{        
+        position: relative;
 
-        p{
-            padding: 0 20px;
-            font-size: 14px;
-        }
-        
         i{
             font-size: 14px;
         }
+
+        .title{
+            background-color: #025BBF;
+            padding: 20px 0 20px 20px;
+            height: 78px;
+            width: 250px;
+            color: #fff;
+            font-weight: 600;
+        }
+        .options{            
+            position: absolute;
+            background-color: #fff;
+            width: 250px;
+            top: 78px;
+            left: 12px;
+            text-align: start;
+            display: none;
+            border: 1px solid #eee;
+
+            .forOption{
+
+                transition: .1s;
+                
+                a{
+                    font-size: 14px;
+                    color: #7d7d7d;
+                }
+                i{
+                    font-size: 10px;
+                    color: #7d7d7d;
+                }
+                &:hover{                    
+                    border: 1px solid #e2e2e2;
+                    background-color: #eee;
+                    
+                }
+                &:hover a{
+                    color: #025BBF;
+                }
+                &:hover i{
+                    color: #025BBF;
+                }
+            }
+        }
+
     }
 
 }

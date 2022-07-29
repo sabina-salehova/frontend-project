@@ -43,6 +43,10 @@ input, select, button {
   display: block !important;
 }
 
+.dr-active .options {
+  display: block !important;
+}
+
 header #header-top {
   background-color: #eee;
   padding: 5px 0;
@@ -181,6 +185,12 @@ header #header-bottom {
   color: #fff;
 }
 header #header-bottom .all-categories {
+  position: relative;
+}
+header #header-bottom .all-categories i {
+  font-size: 14px;
+}
+header #header-bottom .all-categories .title {
   background-color: #025BBF;
   padding: 20px 0 20px 20px;
   height: 78px;
@@ -188,12 +198,36 @@ header #header-bottom .all-categories {
   color: #fff;
   font-weight: 600;
 }
-header #header-bottom .all-categories p {
-  padding: 0 20px;
-  font-size: 14px;
+header #header-bottom .all-categories .options {
+  position: absolute;
+  background-color: #fff;
+  width: 250px;
+  top: 78px;
+  left: 12px;
+  text-align: start;
+  display: none;
+  border: 1px solid #eee;
 }
-header #header-bottom .all-categories i {
+header #header-bottom .all-categories .options .forOption {
+  transition: 0.1s;
+}
+header #header-bottom .all-categories .options .forOption a {
   font-size: 14px;
+  color: #7d7d7d;
+}
+header #header-bottom .all-categories .options .forOption i {
+  font-size: 10px;
+  color: #7d7d7d;
+}
+header #header-bottom .all-categories .options .forOption:hover {
+  border: 1px solid #e2e2e2;
+  background-color: #eee;
+}
+header #header-bottom .all-categories .options .forOption:hover a {
+  color: #025BBF;
+}
+header #header-bottom .all-categories .options .forOption:hover i {
+  color: #025BBF;
 }
 
 @media (max-width: 576px) {
