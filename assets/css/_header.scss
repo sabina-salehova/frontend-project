@@ -26,7 +26,7 @@
     }
 
     .option {
-        display: block !important;
+        display: block !important;        
     }
 }
 
@@ -261,7 +261,8 @@ header #header-bottom {
             left: 12px;
             text-align: start;
             display: none;
-            border: 1px solid #eee;            
+            border: 1px solid #eee;
+            z-index: 1;            
 
             .forOption{
                 transition: .7s;
