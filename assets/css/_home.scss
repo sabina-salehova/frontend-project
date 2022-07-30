@@ -1,0 +1,101 @@
+.common-next-prev{
+    position: absolute;
+    top: 500px;
+    transform: translateY(-50%);    
+    font-size: 14px;
+    cursor: pointer;
+    padding: 12px 19px;            
+    background-color: white;
+    color:#9b9b9b;
+    font-weight: bold;
+    box-shadow: 0px 5px 10px 0px rgba(32, 32, 32, 0.04);
+    z-index: 1;
+}
+
+main #slider{
+    background-image: url('https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/slider_bg.jpg');
+    margin: 0;
+    padding: 0;
+    background-size: 100%;
+    height: 600px;
+    padding: 20px 0;
+    position: relative;
+
+    .slider-all{
+        padding: 90px 70px;
+        .left{
+            h5{
+                font-size: 64px;
+                text-transform: uppercase;
+                line-height: .9;
+                font-weight: 500;
+                margin-bottom: 10px;
+                letter-spacing: 2px;
+            }
+
+            h2{
+                font-size: 45px;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+                font-weight: 300;
+                font-style: normal;
+                color: #252525;
+                line-height: 1.4;
+            }
+            p{
+                line-height: 1.2;
+                margin-bottom: 45px;
+                color: #3b3b3b;
+                font-size: 16px;
+                span{
+                    color: #0163d2;
+                }
+            }
+
+            a{
+                font-family: "Jost", sans-serif;
+                padding: 17px 27px;
+                background-color: #0465d2;
+                text-transform: uppercase;
+                border-radius: 5px;
+                border: none;
+                color: white;
+                font-weight: 600;
+                font-size: 15px;
+                transition: .5s;
+
+                &:hover{
+                    background-color: #252525;
+                }
+            }
+        }
+
+        .rigth{
+            transition: .5s;
+             img{
+                
+                width: 100%;
+             }
+        }
+
+        .prev{
+            @extend .common-next-prev;
+            left: 50%;
+            transform: translateX(-103%);
+
+            &:hover{
+                color: #FF6000;
+            }            
+        }
+
+        .next{
+            @extend .common-next-prev;            
+            right: 50%; 
+            transform: translateX(103%);
+
+            &:hover{
+                color: #FF6000;
+            } 
+        }
+    }
+}

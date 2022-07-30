@@ -606,7 +606,7 @@ footer #footer-subscribe {
 }
 footer #footer-subscribe .subscribe-all {
   border-bottom: 1px solid #bdbcbc;
-  padding-bottom: 44px;
+  padding: 80px 0 44px 0;
 }
 footer #footer-subscribe .subscribe-all .left h4 {
   font-size: 22px;
@@ -729,6 +729,94 @@ footer #footer-bottom .left p {
 }
 footer #footer-bottom .rigth img {
   width: 100%;
+}
+
+.common-next-prev, main #slider .slider-all .next, main #slider .slider-all .prev {
+  position: absolute;
+  top: 500px;
+  transform: translateY(-50%);
+  font-size: 14px;
+  cursor: pointer;
+  padding: 12px 19px;
+  background-color: white;
+  color: #9b9b9b;
+  font-weight: bold;
+  box-shadow: 0px 5px 10px 0px rgba(32, 32, 32, 0.04);
+  z-index: 1;
+}
+
+main #slider {
+  background-image: url("https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/slider_bg.jpg");
+  margin: 0;
+  padding: 0;
+  background-size: 100%;
+  height: 600px;
+  padding: 20px 0;
+  position: relative;
+}
+main #slider .slider-all {
+  padding: 90px 70px;
+}
+main #slider .slider-all .left h5 {
+  font-size: 64px;
+  text-transform: uppercase;
+  line-height: 0.9;
+  font-weight: 500;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+main #slider .slider-all .left h2 {
+  font-size: 45px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 300;
+  font-style: normal;
+  color: #252525;
+  line-height: 1.4;
+}
+main #slider .slider-all .left p {
+  line-height: 1.2;
+  margin-bottom: 45px;
+  color: #3b3b3b;
+  font-size: 16px;
+}
+main #slider .slider-all .left p span {
+  color: #0163d2;
+}
+main #slider .slider-all .left a {
+  font-family: "Jost", sans-serif;
+  padding: 17px 27px;
+  background-color: #0465d2;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  transition: 0.5s;
+}
+main #slider .slider-all .left a:hover {
+  background-color: #252525;
+}
+main #slider .slider-all .rigth {
+  transition: 0.5s;
+}
+main #slider .slider-all .rigth img {
+  width: 100%;
+}
+main #slider .slider-all .prev {
+  left: 50%;
+  transform: translateX(-103%);
+}
+main #slider .slider-all .prev:hover {
+  color: #FF6000;
+}
+main #slider .slider-all .next {
+  right: 50%;
+  transform: translateX(103%);
+}
+main #slider .slider-all .next:hover {
+  color: #FF6000;
 }
 
 @media (max-width: 576px) {
