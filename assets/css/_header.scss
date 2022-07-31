@@ -165,7 +165,7 @@ header #header-average{
                     }
 
                     .option {
-                        z-index: 1;
+                        z-index: 4;
                         position: absolute;
                         background-color: #fff;
                         width: 100%;
@@ -254,6 +254,7 @@ header #header-bottom {
         }
 
         .options {
+            z-index: 3;
             position: absolute;
             background-color: #fff;
             width: 250px;
@@ -261,8 +262,7 @@ header #header-bottom {
             left: 12px;
             text-align: start;
             display: none;
-            border: 1px solid #eee;
-            z-index: 1;            
+            border: 1px solid #eee;            
 
             .forOption{
                 transition: .7s;
@@ -435,6 +435,7 @@ header #header-bottom {
                 align-items: center;
 
                 li{
+                    z-index: 1;
                     position: relative; 
                     padding: 26px 0 14px 25px;
 

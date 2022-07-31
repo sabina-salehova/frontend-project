@@ -53,7 +53,8 @@ setInterval(()=>{
 /* ----------------------- Slick Slider -------------------------- */
 
 $(document).ready(function(){
- $('.slick-slider').slick({
+
+ $('.products-all').slick({
   prevArrow: '<i class="fas fa-chevron-left slickPrev1"></i>',
   nextArrow: '<i class="fas fa-chevron-right slickNext1"></i>',
 
@@ -88,6 +89,42 @@ $(document).ready(function(){
        }
      ]
    });
+
+   $('.most-products-all').slick({
+    prevArrow: '<i class="fas fa-chevron-left slickPrev1"></i>',
+    nextArrow: '<i class="fas fa-chevron-right slickNext1"></i>',
+  
+       dots: false,
+       infinite: false,
+       speed: 350,
+       slidesToShow: 4,
+       slidesToScroll: 1,
+       responsive: [
+         {
+           breakpoint: 1024,
+           settings: {
+             slidesToShow: 3,
+             slidesToScroll: 3,
+             infinite: true,
+             dots: true
+           }
+         },
+         {
+           breakpoint: 600,
+           settings: {
+             slidesToShow: 2,
+             slidesToScroll: 2
+           }
+         },
+         {
+           breakpoint: 480,
+           settings: {
+             slidesToShow: 1,
+             slidesToScroll: 1
+           }
+         }
+       ]
+     });
 
     //   $('.products-all-slick').slick({
     //     slidesToShow: 3,
