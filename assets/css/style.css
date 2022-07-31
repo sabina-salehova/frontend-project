@@ -740,7 +740,6 @@ main #slider {
   height: 630px;
   padding: 20px 0;
   position: relative;
-  z-index: -1;
 }
 main #slider .common-next-prev, main #slider .slider-all .next, main #slider .slider-all .prev {
   position: absolute;
@@ -823,15 +822,16 @@ main #slider .slider-all .next:hover {
   color: #FF6000;
 }
 main #slider .slider-bottom {
-  top: 566px;
-  width: 100%;
+  position: absolute;
+  bottom: 0;
+  width: 90%;
   height: 50px;
   background-color: #fff;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-main #superDeal .superDeal-all {
+main #superDeal {
   padding: 0 20px;
 }
 main #superDeal .superDeal-all .left .text span {
@@ -887,6 +887,458 @@ main #superDeal .superDeal-all .rigth:hover i {
   background-color: #0163d2;
   border-color: #0163d2;
   color: #fff;
+}
+main #superDeal .deal-products .products-all .common {
+  position: relative;
+  margin-bottom: 20px;
+}
+main #superDeal .deal-products .products-all .common .top {
+  z-index: -1;
+  position: relative;
+}
+main #superDeal .deal-products .products-all .common .top img {
+  width: 100%;
+}
+main #superDeal .deal-products .products-all .common .top .forHover {
+  transition: 0.7s;
+  visibility: hidden;
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+  z-index: 0;
+}
+main #superDeal .deal-products .products-all .common .top .forHover .top {
+  background-color: #fff;
+  font-size: 18px;
+}
+main #superDeal .deal-products .products-all .common .top .forHover .top i {
+  color: #252525;
+}
+main #superDeal .deal-products .products-all .common .top .forHover .bottom {
+  background-color: #252525;
+}
+main #superDeal .deal-products .products-all .common .top .forHover .bottom h6 {
+  color: #fff;
+  font-size: 13px;
+}
+main #superDeal .deal-products .products-all .common .bottom {
+  z-index: 1;
+  background-color: #fff;
+}
+main #superDeal .deal-products .products-all .common .bottom h6 {
+  line-height: 1.75;
+  padding-bottom: 7px;
+}
+main #superDeal .deal-products .products-all .common .bottom h6 a {
+  color: #252525;
+  font-size: 16px;
+}
+main #superDeal .deal-products .products-all .common .bottom p {
+  color: #FF6000;
+  font-size: 15px;
+  font-family: "Jost", sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+}
+main #superDeal .deal-products .products-all .common .bottom p span {
+  color: #606060;
+}
+main #superDeal .deal-products .products-all .common:hover .forHover {
+  visibility: visible;
+  bottom: 0;
+}
+main #superDeal .deal-products .products-all .common::before {
+  position: absolute;
+  content: "Sale!";
+  top: 0;
+  left: 13px;
+  padding: 0 8px;
+  background-color: #FF6000;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #superDeal .deal-products .products-all .hidden {
+  position: relative;
+  margin-bottom: 20px;
+}
+main #superDeal .deal-products .products-all .hidden .top {
+  z-index: -1;
+  position: relative;
+}
+main #superDeal .deal-products .products-all .hidden .top img {
+  width: 100%;
+}
+main #superDeal .deal-products .products-all .hidden .top .forHover {
+  transition: 0.7s;
+  visibility: hidden;
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+  z-index: 0;
+}
+main #superDeal .deal-products .products-all .hidden .top .forHover .top {
+  background-color: #fff;
+  font-size: 18px;
+}
+main #superDeal .deal-products .products-all .hidden .top .forHover .top i {
+  color: #252525;
+}
+main #superDeal .deal-products .products-all .hidden .top .forHover .bottom {
+  background-color: #252525;
+}
+main #superDeal .deal-products .products-all .hidden .top .forHover .bottom h6 {
+  color: #fff;
+  font-size: 13px;
+}
+main #superDeal .deal-products .products-all .hidden .bottom {
+  z-index: 1;
+  background-color: #fff;
+}
+main #superDeal .deal-products .products-all .hidden .bottom h6 {
+  line-height: 1.75;
+  padding-bottom: 7px;
+}
+main #superDeal .deal-products .products-all .hidden .bottom h6 a {
+  color: #252525;
+  font-size: 16px;
+}
+main #superDeal .deal-products .products-all .hidden .bottom p {
+  color: #FF6000;
+  font-size: 15px;
+  font-family: "Jost", sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+}
+main #superDeal .deal-products .products-all .hidden .bottom p span {
+  color: #606060;
+}
+main #superDeal .deal-products .products-all .hidden:hover .forHover {
+  visibility: visible;
+  bottom: 0;
+}
+main #superDeal .deal-products .products-all .hidden::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 13px;
+  padding: 0 8px;
+  background-color: #FF6000;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #superDeal .deal-products .products-all .trend {
+  position: relative;
+  margin-bottom: 20px;
+}
+main #superDeal .deal-products .products-all .trend .top {
+  z-index: -1;
+  position: relative;
+}
+main #superDeal .deal-products .products-all .trend .top img {
+  width: 100%;
+}
+main #superDeal .deal-products .products-all .trend .top .forHover {
+  transition: 0.7s;
+  visibility: hidden;
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+  z-index: 0;
+}
+main #superDeal .deal-products .products-all .trend .top .forHover .top {
+  background-color: #fff;
+  font-size: 18px;
+}
+main #superDeal .deal-products .products-all .trend .top .forHover .top i {
+  color: #252525;
+}
+main #superDeal .deal-products .products-all .trend .top .forHover .bottom {
+  background-color: #252525;
+}
+main #superDeal .deal-products .products-all .trend .top .forHover .bottom h6 {
+  color: #fff;
+  font-size: 13px;
+}
+main #superDeal .deal-products .products-all .trend .bottom {
+  z-index: 1;
+  background-color: #fff;
+}
+main #superDeal .deal-products .products-all .trend .bottom h6 {
+  line-height: 1.75;
+  padding-bottom: 7px;
+}
+main #superDeal .deal-products .products-all .trend .bottom h6 a {
+  color: #252525;
+  font-size: 16px;
+}
+main #superDeal .deal-products .products-all .trend .bottom p {
+  color: #FF6000;
+  font-size: 15px;
+  font-family: "Jost", sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+}
+main #superDeal .deal-products .products-all .trend .bottom p span {
+  color: #606060;
+}
+main #superDeal .deal-products .products-all .trend:hover .forHover {
+  visibility: visible;
+  bottom: 0;
+}
+main #superDeal .deal-products .products-all .trend::before {
+  position: absolute;
+  content: "Trend";
+  top: 0;
+  left: 13px;
+  padding: 0 8px;
+  background-color: #FF6000;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+
+main #free-support {
+  padding: 0 20px;
+}
+main #free-support .free-support-all {
+  padding: 80px 0 100px;
+  border-top: 1px solid #e6e4e4;
+}
+main #free-support .free-support-all .box {
+  border-right: 1px solid #e6e4e4;
+}
+main #free-support .free-support-all .box img {
+  transition: 0.7s;
+}
+main #free-support .free-support-all .box span {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  color: #7d7d7d;
+  font-style: normal;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+}
+main #free-support .free-support-all .box:hover img {
+  transform: rotateY(360deg);
+}
+main #free-support .free-support-all .box:hover h6 {
+  color: #0163d2;
+}
+main #free-support .free-support-all .special {
+  border-right: none;
+}
+
+main #deals-day {
+  padding: 80px 30px;
+  background-color: #F2F2F2;
+  border-bottom: 1px solid black;
+}
+main #deals-day .deals-day-all .left .product-box {
+  position: relative;
+  background-image: url(https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/06/sblog_thumb04.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  color: #fff;
+  height: 330px;
+  width: 100%;
+}
+main #deals-day .deals-day-all .left .product-box .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #252525;
+  opacity: 0.5;
+  border-radius: 5px;
+}
+main #deals-day .deals-day-all .left .product-box .text-all {
+  position: absolute;
+  padding: 30px 0 10px 20px;
+}
+main #deals-day .deals-day-all .left .product-box .text-all h6 {
+  padding: 20px 0;
+}
+main #deals-day .deals-day-all .left .product-box .text-all h3 {
+  padding-bottom: 20px;
+}
+main #deals-day .deals-day-all .left .product-box .text-all p {
+  padding-bottom: 20px;
+}
+main #deals-day .deals-day-all .left .product-box .text-all a {
+  color: #fff;
+  padding: 10px 22px;
+  background-color: #FF6000;
+  border-radius: 3px;
+  font-size: 13px;
+  font-size: 13px;
+  font-weight: 600;
+}
+main #deals-day .deals-day-all .rigth .top p {
+  font-size: 12px;
+  font-weight: bold;
+  color: #ff6000;
+  font-style: normal;
+}
+main #deals-day .deals-day-all .rigth .top .bottom {
+  border-bottom: 1px solid #e6e4e4;
+}
+main #deals-day .deals-day-all .rigth .top .bottom h3 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  color: #252525;
+}
+main #deals-day .deals-day-all .rigth .top .bottom span {
+  cursor: pointer;
+  color: #ff6000;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+}
+main #deals-day .deals-day-all .rigth .products-all .common {
+  position: relative;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .top {
+  z-index: -1;
+  position: relative;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .top img {
+  width: 100%;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .top .forHover {
+  transition: 0.7s;
+  visibility: hidden;
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+  z-index: 0;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .top .forHover .top {
+  background-color: #fff;
+  font-size: 18px;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .top .forHover .top i {
+  color: #252525;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .top .forHover .bottom {
+  background-color: #252525;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .top .forHover .bottom h6 {
+  color: #fff;
+  font-size: 13px;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .average {
+  z-index: 1;
+  background-color: #fff;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .average h6 {
+  line-height: 1.75;
+  padding-bottom: 7px;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .average h6 a {
+  color: #252525;
+  font-size: 16px;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .average p {
+  color: #FF6000;
+  font-size: 15px;
+  font-family: "Jost", sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .average p span {
+  color: #606060;
+}
+main #deals-day .deals-day-all .rigth .products-all .common:hover .forHover {
+  visibility: visible;
+  bottom: 0;
+}
+main #deals-day .deals-day-all .rigth .products-all .common::before {
+  position: absolute;
+  content: "Sale!";
+  top: 15px;
+  right: 21px;
+  padding: 0 8px;
+  background-color: #FF6000;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .bottom {
+  background-color: #fff;
+  border-top: 1px solid #e6e4e4;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .bottom .total {
+  font-size: 12px;
+  font-weight: 500;
+  color: #959595;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .bottom .progress {
+  height: 6px;
+  border-radius: 5px;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .bottom .progress .left {
+  background-color: #F7BA01;
+  width: 5%;
+  border-radius: 5px;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .bottom .progress .rigth {
+  background-color: #F2F2F2;
+  width: 95%;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .text {
+  font-weight: 500;
+  color: #959595;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .text span {
+  color: #F7BA01;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .time {
+  padding: 0 0 10px;
+  font-weight: 500;
+  font-size: 10px;
+  font-weight: bold;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .time .day,
+main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .time .hour,
+main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .time .minute {
+  background-color: #252525;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 3px 0;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .time .second {
+  background-color: #F7BA01;
+  color: #fff;
+  text-align: center;
+  padding: 3px 0;
+  border-radius: 5px;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .time span {
+  display: block;
+}
+main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .time #day,
+main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .time #hr,
+main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .time #min,
+main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .time #sec {
+  font-size: 16px;
 }
 
 @media (max-width: 576px) {

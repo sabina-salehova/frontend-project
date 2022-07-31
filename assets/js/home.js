@@ -19,10 +19,10 @@ let img=document.querySelector('#slider .rigth img');
 img.src=myslider[currentSlider];
 
 let next=document.querySelector('#slider .next');
-let prev=document.querySelector('#slider .prev');
+let prev=document.querySelector('#slider  .prev');
 
 function autoPlay(){
-    console.log('next');
+    console.log(next);
     currentSlider++;
     
     if(currentSlider>myslider.length-1)
@@ -50,4 +50,5 @@ setInterval(()=>{
 }, 3000)
 
 
-/* -----------------------  -------------------------- */
+/* ----------------------- Slick Slider -------------------------- */
+
