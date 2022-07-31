@@ -70,7 +70,7 @@ $(document).ready(function(){
            slidesToShow: 3,
            slidesToScroll: 3,
            infinite: true,
-           dots: true
+           dots: false
          }
        },
        {
@@ -106,7 +106,7 @@ $(document).ready(function(){
              slidesToShow: 3,
              slidesToScroll: 3,
              infinite: true,
-             dots: true
+             dots: false
            }
          },
          {
