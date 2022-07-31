@@ -1641,6 +1641,147 @@ main #deals-day .deals-day-all .rigth .products-all .forTrend::before {
   font-weight: bold;
 }
 
+main #typeProducts {
+  padding: 60px 0;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProduct-title {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #E2E2E2;
+  margin-bottom: 40px;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProduct-title h4 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  color: #252525;
+  text-align: start;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProduct-title a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #FF6000;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopSale {
+  position: relative;
+  border: 1px solid #E2E2E2;
+  padding: 15px 0;
+  transition: 0.5s;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopSale .type-top-left {
+  width: 40%;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopSale .type-top-left img {
+  width: 100%;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopSale .type-top-rigth {
+  width: 60%;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopSale .type-top-rigth h6 {
+  font-size: 16px;
+  margin-bottom: 7px;
+  color: #252525;
+  font-style: normal;
+  font-weight: 500;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopSale .type-top-rigth h6 a {
+  color: #252525;
+  transition: 0.7s;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopSale .type-top-rigth h6:hover a {
+  color: #FF6000;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopSale .type-top-rigth p {
+  line-height: 1.5;
+  color: #FF6000;
+  margin-bottom: 7px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  font-family: "Jost", sans-serif;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopSale .type-top-rigth .rating {
+  font-size: 12px;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopSale:hover {
+  border-color: #252525;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopSale::before {
+  position: absolute;
+  content: "Sale!";
+  top: 9px;
+  left: 7px;
+  padding: 1px 8px;
+  background-color: #FF6000;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopSale .fa-solid {
+  color: #E8EBF2 !important;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopTrend {
+  position: relative;
+  border: 1px solid #E2E2E2;
+  padding: 15px 0;
+  transition: 0.5s;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopTrend .type-top-left {
+  width: 40%;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopTrend .type-top-left img {
+  width: 100%;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopTrend .type-top-rigth {
+  width: 60%;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopTrend .type-top-rigth h6 {
+  font-size: 16px;
+  margin-bottom: 7px;
+  color: #252525;
+  font-style: normal;
+  font-weight: 500;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopTrend .type-top-rigth h6 a {
+  color: #252525;
+  transition: 0.7s;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopTrend .type-top-rigth h6:hover a {
+  color: #FF6000;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopTrend .type-top-rigth p {
+  line-height: 1.5;
+  color: #FF6000;
+  margin-bottom: 7px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  font-family: "Jost", sans-serif;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopTrend .type-top-rigth .rating {
+  font-size: 12px;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopTrend:hover {
+  border-color: #252525;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopTrend::before {
+  position: absolute;
+  content: "Trend";
+  top: 9px;
+  left: 7px;
+  padding: 1px 8px;
+  background-color: #FF6000;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopTrend .fa-solid {
+  color: #FFA800;
+}
+
 main #mostPopularViewed {
   background-color: #F2F2F2;
   padding: 80px 0 60px;
