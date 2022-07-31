@@ -1207,19 +1207,22 @@ main #deals-day .deals-day-all .rigth .top .bottom span {
   font-size: 14px;
   font-weight: 500;
 }
-main #deals-day .deals-day-all .rigth .products-all .common {
+main #deals-day .deals-day-all .rigth .products-all-slick {
+  align-items: center;
+}
+main #deals-day .deals-day-all .rigth .products-all-slick .commons {
   position: relative;
   margin-bottom: 20px;
   z-index: 1;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .top {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .top {
   z-index: -1;
   position: relative;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .top img {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .top img {
   width: 100%;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .top .forHover {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .top .forHover {
   transition: 0.7s;
   visibility: hidden;
   position: absolute;
@@ -1227,47 +1230,47 @@ main #deals-day .deals-day-all .rigth .products-all .common .top .forHover {
   left: 0;
   z-index: 0;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .top .forHover .top {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .top .forHover .top {
   background-color: #fff;
   font-size: 18px;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .top .forHover .top i {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .top .forHover .top i {
   color: #252525;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .top .forHover .bottom {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .top .forHover .bottom {
   background-color: #252525;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .top .forHover .bottom h6 {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .top .forHover .bottom h6 {
   color: #fff;
   font-size: 13px;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .average {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .average {
   z-index: 1;
   background-color: #fff;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .average h6 {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .average h6 {
   line-height: 1.75;
   padding-bottom: 7px;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .average h6 a {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .average h6 a {
   color: #252525;
   font-size: 16px;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .average p {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .average p {
   color: #FF6000;
   font-size: 15px;
   font-family: "Jost", sans-serif;
   line-height: 1.5;
   font-weight: 500;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .average p span {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .average p span {
   color: #606060;
 }
-main #deals-day .deals-day-all .rigth .products-all .common:hover .forHover {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons:hover .forHover {
   visibility: visible;
   bottom: 0;
 }
-main #deals-day .deals-day-all .rigth .products-all .common::before {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons::before {
   position: absolute;
   content: "Sale!";
   top: 15px;
@@ -1280,64 +1283,64 @@ main #deals-day .deals-day-all .rigth .products-all .common::before {
   font-family: "Jost", sans-serif;
   font-weight: bold;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .bottom {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .bottom {
   background-color: #fff;
   border-top: 1px solid #e6e4e4;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .bottom .total {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .bottom .total {
   font-size: 12px;
   font-weight: 500;
   color: #959595;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .bottom .progress {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .bottom .progress {
   height: 6px;
   border-radius: 5px;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .bottom .progress .left {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .bottom .progress .left {
   background-color: #F7BA01;
   width: 5%;
   border-radius: 5px;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .bottom .progress .rigth {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .bottom .progress .rigth {
   background-color: #F2F2F2;
   width: 95%;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .text {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .bottom .time-all .text {
   font-weight: 500;
   color: #959595;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .text span {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .bottom .time-all .text span {
   color: #F7BA01;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .time {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .bottom .time-all .time {
   padding: 0 0 10px;
   font-weight: 500;
   font-size: 10px;
   font-weight: bold;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .time .day,
-main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .time .hour,
-main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .time .minute {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .bottom .time-all .time .day,
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .bottom .time-all .time .hour,
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .bottom .time-all .time .minute {
   background-color: #252525;
   color: #fff;
   text-align: center;
   border-radius: 5px;
   padding: 3px 0;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .time .second {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .bottom .time-all .time .second {
   background-color: #F7BA01;
   color: #fff;
   text-align: center;
   padding: 3px 0;
   border-radius: 5px;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .time span {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .bottom .time-all .time span {
   display: block;
 }
-main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .time #day,
-main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .time #hr,
-main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .time #min,
-main #deals-day .deals-day-all .rigth .products-all .common .bottom .time-all .time #sec {
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .bottom .time-all .time #day,
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .bottom .time-all .time #hr,
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .bottom .time-all .time #min,
+main #deals-day .deals-day-all .rigth .products-all-slick .commons .bottom .time-all .time #sec {
   font-size: 16px;
 }
 

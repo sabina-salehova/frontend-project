@@ -494,9 +494,11 @@ main #deals-day{
                 }
             }
 
-            .products-all{
+            .products-all-slick{
+                align-items: center;
+                //overflow: hidden;
                 
-                .common{
+                .commons{
                     @include forProductBox2('Sale!');
                     z-index: 1;
                     
