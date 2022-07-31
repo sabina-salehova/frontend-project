@@ -53,10 +53,13 @@ setInterval(()=>{
 /* ----------------------- Slick Slider -------------------------- */
 
 $(document).ready(function(){
- $('.products-all-slickdd').slick({
+ $('.slick-slider').slick({
+  prevArrow: '<i class="fas fa-chevron-left slickPrev1"></i>',
+  nextArrow: '<i class="fas fa-chevron-right slickNext1"></i>',
+
      dots: false,
      infinite: false,
-     speed: 300,
+     speed: 350,
      slidesToShow: 3,
      slidesToScroll: 1,
      responsive: [

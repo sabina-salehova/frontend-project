@@ -331,9 +331,10 @@ main #free-support{
 
 }
 
-@mixin forProductBox2($beforeText){
+@mixin forProductLargeBox($beforeText){
     position: relative;
     margin-bottom: 20px;
+    z-index: 1;
     .top{
         z-index: -1;
         position: relative;
@@ -388,6 +389,77 @@ main #free-support{
         }       
     }
 
+    .bottom{
+                        background-color: #fff;
+                        border-top: 1px solid #e6e4e4;
+                        .total{
+                            font-size: 12px;
+                            font-weight: 500;
+                            color: #959595;;
+                        }
+
+                        .progress{ 
+                            height: 6px;
+                            border-radius: 5px;
+                            .left{
+                                background-color: #F7BA01;
+                                width: 5%;
+                                border-radius: 5px;
+                            }
+                            .rigth{
+                                background-color: #F2F2F2;
+                                width: 95%;
+                            }
+                        }
+
+                        .time-all{
+
+                            .text{
+                                font-weight: 500;
+                                color: #959595;
+                                span{
+                                    color: #F7BA01;
+                                }
+                            }
+
+                            .time {
+                                padding: 0 0 10px;
+                                font-weight: 500;
+                                font-size: 10px;
+                                font-weight: bold;
+                    
+                                .day,
+                                .hour,
+                                .minute {
+                                    background-color: #252525;
+                                    color: #fff;
+                                    text-align: center;
+                                    border-radius: 5px;
+                                    padding: 3px 0;
+                                }
+                    
+                                .second {
+                                    background-color: #F7BA01;
+                                    color: #fff;
+                                    text-align: center;
+                                    padding: 3px 0;
+                                    border-radius: 5px;
+                                }
+                    
+                                span {
+                                    display: block;
+                                }
+                    
+                                #day,
+                                #hr,
+                                #min,
+                                #sec {
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+    }
+
     &:hover{
         .forHover{
             visibility: visible;
@@ -410,10 +482,11 @@ main #free-support{
     }
 }
 
+
+
 main #deals-day{
     padding: 80px 30px;
     background-color: #F2F2F2;
-    border-bottom: 1px solid black;
     .deals-day-all{
 
         .left{
@@ -494,85 +567,49 @@ main #deals-day{
                 }
             }
 
-            .products-all-slick{
+            .products-all{
+                position: relative;
                 align-items: center;
-                //overflow: hidden;
-                
-                .commons{
-                    @include forProductBox2('Sale!');
+
+                .CommonForSlickIcons{
+                    background: #fff ;
+                    padding: 15px 20px;
+                    position: absolute;
+                    top: 310px;
                     z-index: 1;
-                    
+                    color: #7d7d7d;
+                    font-size: 10px;
+                    font-weight: 900;
+                    border: 1px solid #d3d1d1;
+                    cursor: pointer;
 
-                    .bottom{
-                        background-color: #fff;
-                        border-top: 1px solid #e6e4e4;
-                        .total{
-                            font-size: 12px;
-                            font-weight: 500;
-                            color: #959595;;
-                        }
-
-                        .progress{ 
-                            height: 6px;
-                            border-radius: 5px;
-                            .left{
-                                background-color: #F7BA01;
-                                width: 5%;
-                                border-radius: 5px;
-                            }
-                            .rigth{
-                                background-color: #F2F2F2;
-                                width: 95%;
-                            }
-                        }
-
-                        .time-all{
-
-                            .text{
-                                font-weight: 500;
-                                color: #959595;
-                                span{
-                                    color: #F7BA01;
-                                }
-                            }
-
-                            .time {
-                                padding: 0 0 10px;
-                                font-weight: 500;
-                                font-size: 10px;
-                                font-weight: bold;
-                    
-                                .day,
-                                .hour,
-                                .minute {
-                                    background-color: #252525;
-                                    color: #fff;
-                                    text-align: center;
-                                    border-radius: 5px;
-                                    padding: 3px 0;
-                                }
-                    
-                                .second {
-                                    background-color: #F7BA01;
-                                    color: #fff;
-                                    text-align: center;
-                                    padding: 3px 0;
-                                    border-radius: 5px;
-                                }
-                    
-                                span {
-                                    display: block;
-                                }
-                    
-                                #day,
-                                #hr,
-                                #min,
-                                #sec {
-                                    font-size: 16px;
-                                }
-                            }
-                        }
+                    &:hover{
+                        color: #F7BA01;
+                        border-color: #F7BA01; 
                     }
+                }
+                
+                .slickPrev1{
+                    @extend .CommonForSlickIcons;
+                    left: -7px;
+                }
+
+                
+                .slickNext1{
+                    @extend .CommonForSlickIcons;
+                    right: -7px;                    
+                }
+
+                .forEmpty{
+                    @include forProductLargeBox('');                    
+                }
+
+                .forSeal{
+                    @include forProductLargeBox('Sale!');                    
+                }
+
+                .forTrend{
+                    @include forProductLargeBox('Trend');                    
                 }
                 
             }
