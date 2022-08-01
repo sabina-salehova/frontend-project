@@ -712,6 +712,7 @@ main #deals-day {
             font-size: 15px;
             font-family: 'Jost', sans-serif;
         }
+
         .rating {
             font-size: 12px;
         }
@@ -765,9 +766,10 @@ main #typeProducts {
                 }
             }
 
-            .typeProductTopSale{
+            .typeProductTopSale {
                 @include forTypeProductTop('Sale!');
-                .fa-solid{
+
+                .fa-solid {
                     color: #E8EBF2 !important;
                 }
             }
@@ -775,9 +777,9 @@ main #typeProducts {
             .typeProductTopTrend {
                 @include forTypeProductTop('Trend');
 
-                .fa-solid{
+                .fa-solid {
                     color: #FFA800;
-                }                
+                }
             }
         }
 
@@ -786,7 +788,49 @@ main #typeProducts {
 }
 
 
+main #bestSelling {
+    padding: 60px 0;
 
+    .bestSelling-all {
+        .bestSelling-text {
+            padding-bottom: 50px;
+
+            span {
+                display: block;
+                line-height: 1;
+                font-size: 12px;
+                font-weight: 600;
+                color: #ff6000;
+                margin-bottom: 15px;
+                text-align: center;
+            }
+
+            h2 {
+                letter-spacing: .3px;
+                font-size: 35px;
+                line-height: 1.4;
+                font-style: normal;
+                font-weight: 500;
+                color: #252525;
+                text-align: center;
+                font-weight: 600;
+            }
+        }
+
+        .bestSelling-tabMenu {
+            width: 90%;
+            
+        }
+
+        .bestSellingProducts {
+
+            .best-left {}
+
+            .best-rigth {}
+        }
+    }
+
+}
 
 
 main #mostPopularViewed {
