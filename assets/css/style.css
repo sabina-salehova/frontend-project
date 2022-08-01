@@ -825,7 +825,7 @@ main #slider .slider-all .next:hover {
 main #slider .slider-bottom {
   position: absolute;
   bottom: 0;
-  width: 90%;
+  width: 60%;
   height: 50px;
   background-color: #fff;
   border-top-left-radius: 10px;
@@ -1783,7 +1783,7 @@ main #typeProducts .typeProduct-all .typeProduct-box .typeProductTopTrend .fa-so
 }
 
 main #bestSelling {
-  padding: 60px 0;
+  padding: 10px 0 80px;
 }
 main #bestSelling .bestSelling-all .bestSelling-text {
   padding-bottom: 50px;
@@ -1808,8 +1808,114 @@ main #bestSelling .bestSelling-all .bestSelling-text h2 {
   font-weight: 600;
 }
 main #bestSelling .bestSelling-all .bestSelling-tabMenu {
-  width: 90%;
+  padding-bottom: 50px;
 }
+main #bestSelling .bestSelling-all .bestSelling-tabMenu .best-tabMenu {
+  background-color: #f2f2f2;
+  padding: 20px 100px;
+  border-radius: 50px;
+}
+main #bestSelling .bestSelling-all .bestSelling-tabMenu .best-tabMenu h6 {
+  color: #7d7d7d;
+  font-size: 14px;
+  cursor: pointer;
+}
+main #bestSelling .bestSelling-all .bestSelling-tabMenu .best-tabMenu #special {
+  color: #FF6000;
+  font-size: 14px;
+  cursor: pointer;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-left img {
+  width: 100%;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common {
+  position: relative;
+  margin-bottom: 20px;
+  border: 1px solid #ececec;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .top {
+  z-index: -1;
+  position: relative;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .top img {
+  width: 100%;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .top .forHover {
+  transition: 0.7s;
+  visibility: hidden;
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+  z-index: 0;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .top .forHover .top {
+  background-color: #fff;
+  font-size: 18px;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .top .forHover .top i {
+  color: #252525;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .top .forHover .bottom {
+  background-color: #252525;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .top .forHover .bottom h6 {
+  color: #fff;
+  font-size: 13px;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .bottom {
+  z-index: 1;
+  background-color: #fff;
+  border-top: 1px solid #ececec;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .bottom h6 {
+  line-height: 1.75;
+  padding-bottom: 7px;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .bottom h6 a {
+  color: #252525;
+  font-size: 16px;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .bottom p {
+  color: #FF6000;
+  font-size: 15px;
+  font-family: "Jost", sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .bottom p span {
+  color: #606060;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common:hover .forHover {
+  visibility: visible;
+  bottom: 0;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common::before {
+  position: absolute;
+  content: "50%";
+  top: 20px;
+  left: 20px;
+  padding: 0 8px;
+  background-color: #f7ba01;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common::after {
+  position: absolute;
+  content: "Sale!";
+  top: 20px;
+  right: 20px;
+  padding: 0 8px;
+  background-color: #FF6000;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+
 main #mostPopularViewed {
   background-color: #F2F2F2;
   padding: 80px 0 60px;

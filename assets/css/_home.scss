@@ -110,7 +110,7 @@ main #slider {
     .slider-bottom {
         position: absolute;
         bottom: 0;
-        width: 90%;
+        width: 60%;
         height: 50px;
         background-color: #fff;
         border-top-left-radius: 10px;
@@ -787,9 +787,113 @@ main #typeProducts {
 
 }
 
+@mixin forBestProductBox($beforeTextLeft,$beforeTextRigth) {
+    position: relative;
+    margin-bottom: 20px;
+    border: 1px solid #ececec;
+
+    .top {
+        z-index: -1;
+        position: relative;
+
+        img {
+            width: 100%;
+        }
+
+        .forHover {
+            transition: .7s;
+            visibility: hidden;
+            position: absolute;
+            bottom: -70px;
+            left: 0;
+            z-index: 0;
+
+            .top {
+                background-color: #fff;
+                font-size: 18px;
+
+                i {
+                    color: #252525;
+                }
+            }
+
+            .bottom {
+                background-color: #252525;
+
+                h6 {
+                    color: #fff;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    .bottom {
+        z-index: 1;
+        background-color: #fff;
+        border-top: 1px solid #ececec;
+
+        h6 {
+            line-height: 1.75;
+            padding-bottom: 7px;
+
+            a {
+                color: #252525;
+                font-size: 16px;
+            }
+        }
+
+        p {
+            color: #FF6000;
+            font-size: 15px;
+            font-family: 'Jost', sans-serif;
+            line-height: 1.5;
+            font-weight: 500;
+
+            span {
+                color: #606060;
+            }
+        }
+    }
+
+    &:hover {
+        .forHover {
+            visibility: visible;
+            bottom: 0;
+        }
+    }
+
+    &::before {
+        position: absolute;
+        content: $beforeTextLeft;
+        top: 20px;
+        left: 20px;
+        padding: 0 8px;
+        background-color: #f7ba01;
+        font-size: 12px;
+        color: #fff;
+        border-radius: 5px;
+        font-family: 'Jost', sans-serif;
+        font-weight: bold;
+    }
+
+    &::after {
+        position: absolute;
+        content: $beforeTextRigth;
+        top: 20px;
+        right: 20px;
+        padding: 0 8px;
+        background-color: #FF6000;
+        font-size: 12px;
+        color: #fff;
+        border-radius: 5px;
+        font-family: 'Jost', sans-serif;
+        font-weight: bold;
+    }
+}
 
 main #bestSelling {
-    padding: 60px 0;
+    padding: 10px 0 80px;
 
     .bestSelling-all {
         .bestSelling-text {
@@ -817,16 +921,56 @@ main #bestSelling {
             }
         }
 
-        .bestSelling-tabMenu {
-            width: 90%;
+        .bestSelling-tabMenu { 
+            padding-bottom: 50px;
+            .best-tabMenu{
+                background-color: #f2f2f2;
+                padding: 20px 100px;
+                border-radius: 50px;
+
+                h6{
+                    color: #7d7d7d;
+                    font-size: 14px;
+                    cursor: pointer;
+                }
+
+                #special{
+                    color: #FF6000;
+                    font-size: 14px;
+                    cursor: pointer;
+                }
+            }
+            
             
         }
 
         .bestSellingProducts {
 
-            .best-left {}
+            .best-left {
 
-            .best-rigth {}
+                img{
+                    width: 100%;
+                }
+            }
+
+            .best-rigth {
+
+                .best-products-all {
+                
+                    .common {
+                        @include forBestProductBox('50%','Sale!');
+                    }
+            
+                    // .hidden {
+                    //     @include forBestProductBox('');
+                    // }
+            
+                    // .trend {
+                    //     @include forBestProductBox('Trend');
+                    // }
+
+                }
+            }
         }
     }
 
