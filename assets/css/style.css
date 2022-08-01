@@ -825,7 +825,7 @@ main #slider .slider-all .next:hover {
 main #slider .slider-bottom {
   position: absolute;
   bottom: 0;
-  width: 60%;
+  width: 90%;
   height: 50px;
   background-color: #fff;
   border-top-left-radius: 10px;
@@ -935,6 +935,10 @@ main #superDeal .deal-products .deal-products-all .common .bottom h6 {
 main #superDeal .deal-products .deal-products-all .common .bottom h6 a {
   color: #252525;
   font-size: 16px;
+  transition: 0.2s;
+}
+main #superDeal .deal-products .deal-products-all .common .bottom h6 a:hover {
+  color: #0465D2;
 }
 main #superDeal .deal-products .deal-products-all .common .bottom p {
   color: #FF6000;
@@ -1007,6 +1011,10 @@ main #superDeal .deal-products .deal-products-all .hidden .bottom h6 {
 main #superDeal .deal-products .deal-products-all .hidden .bottom h6 a {
   color: #252525;
   font-size: 16px;
+  transition: 0.2s;
+}
+main #superDeal .deal-products .deal-products-all .hidden .bottom h6 a:hover {
+  color: #0465D2;
 }
 main #superDeal .deal-products .deal-products-all .hidden .bottom p {
   color: #FF6000;
@@ -1079,6 +1087,10 @@ main #superDeal .deal-products .deal-products-all .trend .bottom h6 {
 main #superDeal .deal-products .deal-products-all .trend .bottom h6 a {
   color: #252525;
   font-size: 16px;
+  transition: 0.2s;
+}
+main #superDeal .deal-products .deal-products-all .trend .bottom h6 a:hover {
+  color: #0465D2;
 }
 main #superDeal .deal-products .deal-products-all .trend .bottom p {
   color: #FF6000;
@@ -1280,6 +1292,10 @@ main #deals-day .deals-day-all .rigth .products-all .forEmpty .average h6 {
 main #deals-day .deals-day-all .rigth .products-all .forEmpty .average h6 a {
   color: #252525;
   font-size: 16px;
+  transition: 0.2s;
+}
+main #deals-day .deals-day-all .rigth .products-all .forEmpty .average h6 a:hover {
+  color: #0465D2;
 }
 main #deals-day .deals-day-all .rigth .products-all .forEmpty .average p {
   color: #FF6000;
@@ -1415,6 +1431,10 @@ main #deals-day .deals-day-all .rigth .products-all .forSeal .average h6 {
 main #deals-day .deals-day-all .rigth .products-all .forSeal .average h6 a {
   color: #252525;
   font-size: 16px;
+  transition: 0.2s;
+}
+main #deals-day .deals-day-all .rigth .products-all .forSeal .average h6 a:hover {
+  color: #0465D2;
 }
 main #deals-day .deals-day-all .rigth .products-all .forSeal .average p {
   color: #FF6000;
@@ -1550,6 +1570,10 @@ main #deals-day .deals-day-all .rigth .products-all .forTrend .average h6 {
 main #deals-day .deals-day-all .rigth .products-all .forTrend .average h6 a {
   color: #252525;
   font-size: 16px;
+  transition: 0.2s;
+}
+main #deals-day .deals-day-all .rigth .products-all .forTrend .average h6 a:hover {
+  color: #0465D2;
 }
 main #deals-day .deals-day-all .rigth .products-all .forTrend .average p {
   color: #FF6000;
@@ -1828,19 +1852,26 @@ main #bestSelling .bestSelling-all .bestSelling-tabMenu .best-tabMenu #special {
 main #bestSelling .bestSelling-all .bestSellingProducts .best-left img {
   width: 100%;
 }
-main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common {
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 {
   position: relative;
   margin-bottom: 20px;
   border: 1px solid #ececec;
 }
-main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .top {
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .top {
   z-index: -1;
   position: relative;
 }
-main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .top img {
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .top img {
   width: 100%;
 }
-main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .top .forHover {
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .top .forImgHover {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .top .forHover {
   transition: 0.7s;
   visibility: hidden;
   position: absolute;
@@ -1848,48 +1879,55 @@ main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-produc
   left: 0;
   z-index: 0;
 }
-main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .top .forHover .top {
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .top .forHover .top {
   background-color: #fff;
   font-size: 18px;
 }
-main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .top .forHover .top i {
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .top .forHover .top i {
   color: #252525;
 }
-main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .top .forHover .bottom {
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .top .forHover .bottom {
   background-color: #252525;
 }
-main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .top .forHover .bottom h6 {
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .top .forHover .bottom h6 {
   color: #fff;
   font-size: 13px;
 }
-main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .bottom {
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .bottom {
   z-index: 1;
   background-color: #fff;
   border-top: 1px solid #ececec;
 }
-main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .bottom h6 {
-  line-height: 1.75;
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .bottom span {
+  color: #7d7d7d;
+  text-decoration: line-through;
+  font-size: 12px;
+  font-weight: bold;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .bottom h6 {
   padding-bottom: 7px;
 }
-main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .bottom h6 a {
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .bottom h6 a {
   color: #252525;
   font-size: 16px;
+  transition: 0.3s;
 }
-main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .bottom p {
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .bottom h6 a:hover {
+  color: #FF6000;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .bottom p {
   color: #FF6000;
   font-size: 15px;
-  font-family: "Jost", sans-serif;
-  line-height: 1.5;
-  font-weight: 500;
+  font-weight: 600;
 }
-main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common .bottom p span {
-  color: #606060;
-}
-main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common:hover .forHover {
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1:hover .forHover {
   visibility: visible;
   bottom: 0;
 }
-main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common::before {
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1:hover .forImgHover {
+  visibility: visible;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1::before {
   position: absolute;
   content: "50%";
   top: 20px;
@@ -1902,7 +1940,7 @@ main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-produc
   font-family: "Jost", sans-serif;
   font-weight: bold;
 }
-main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common::after {
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1::after {
   position: absolute;
   content: "Sale!";
   top: 20px;
@@ -1914,6 +1952,450 @@ main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-produc
   border-radius: 5px;
   font-family: "Jost", sans-serif;
   font-weight: bold;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 i {
+  font-size: 13px;
+  color: #E8EBF2;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 {
+  position: relative;
+  margin-bottom: 20px;
+  border: 1px solid #ececec;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .top {
+  z-index: -1;
+  position: relative;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .top img {
+  width: 100%;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .top .forImgHover {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .top .forHover {
+  transition: 0.7s;
+  visibility: hidden;
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+  z-index: 0;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .top .forHover .top {
+  background-color: #fff;
+  font-size: 18px;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .top .forHover .top i {
+  color: #252525;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .top .forHover .bottom {
+  background-color: #252525;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .top .forHover .bottom h6 {
+  color: #fff;
+  font-size: 13px;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .bottom {
+  z-index: 1;
+  background-color: #fff;
+  border-top: 1px solid #ececec;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .bottom span {
+  color: #7d7d7d;
+  text-decoration: line-through;
+  font-size: 12px;
+  font-weight: bold;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .bottom h6 {
+  padding-bottom: 7px;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .bottom h6 a {
+  color: #252525;
+  font-size: 16px;
+  transition: 0.3s;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .bottom h6 a:hover {
+  color: #FF6000;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .bottom p {
+  color: #FF6000;
+  font-size: 15px;
+  font-weight: 600;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2:hover .forHover {
+  visibility: visible;
+  bottom: 0;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2:hover .forImgHover {
+  visibility: visible;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2::before {
+  position: absolute;
+  content: "10%";
+  top: 20px;
+  left: 20px;
+  padding: 0 8px;
+  background-color: #f7ba01;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2::after {
+  position: absolute;
+  content: "Discount";
+  top: 20px;
+  right: 20px;
+  padding: 0 8px;
+  background-color: #FF6000;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 i {
+  font-size: 13px;
+  color: #FFA800;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 {
+  position: relative;
+  margin-bottom: 20px;
+  border: 1px solid #ececec;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .top {
+  z-index: -1;
+  position: relative;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .top img {
+  width: 100%;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .top .forImgHover {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .top .forHover {
+  transition: 0.7s;
+  visibility: hidden;
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+  z-index: 0;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .top .forHover .top {
+  background-color: #fff;
+  font-size: 18px;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .top .forHover .top i {
+  color: #252525;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .top .forHover .bottom {
+  background-color: #252525;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .top .forHover .bottom h6 {
+  color: #fff;
+  font-size: 13px;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .bottom {
+  z-index: 1;
+  background-color: #fff;
+  border-top: 1px solid #ececec;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .bottom span {
+  color: #7d7d7d;
+  text-decoration: line-through;
+  font-size: 12px;
+  font-weight: bold;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .bottom h6 {
+  padding-bottom: 7px;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .bottom h6 a {
+  color: #252525;
+  font-size: 16px;
+  transition: 0.3s;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .bottom h6 a:hover {
+  color: #FF6000;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .bottom p {
+  color: #FF6000;
+  font-size: 15px;
+  font-weight: 600;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3:hover .forHover {
+  visibility: visible;
+  bottom: 0;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3:hover .forImgHover {
+  visibility: visible;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3::before {
+  position: absolute;
+  content: "57%";
+  top: 20px;
+  left: 20px;
+  padding: 0 8px;
+  background-color: #f7ba01;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3::after {
+  position: absolute;
+  content: "Sale!";
+  top: 20px;
+  right: 20px;
+  padding: 0 8px;
+  background-color: #FF6000;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 i {
+  font-size: 13px;
+  color: #FFA800;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4,
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 {
+  position: relative;
+  margin-bottom: 20px;
+  border: 1px solid #ececec;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .top,
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .top {
+  z-index: -1;
+  position: relative;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .top img,
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .top img {
+  width: 100%;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .top .forImgHover,
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .top .forImgHover {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .top .forHover,
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .top .forHover {
+  transition: 0.7s;
+  visibility: hidden;
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+  z-index: 0;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .top .forHover .top,
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .top .forHover .top {
+  background-color: #fff;
+  font-size: 18px;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .top .forHover .top i,
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .top .forHover .top i {
+  color: #252525;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .top .forHover .bottom,
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .top .forHover .bottom {
+  background-color: #252525;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .top .forHover .bottom h6,
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .top .forHover .bottom h6 {
+  color: #fff;
+  font-size: 13px;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .bottom,
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .bottom {
+  z-index: 1;
+  background-color: #fff;
+  border-top: 1px solid #ececec;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .bottom span,
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .bottom span {
+  color: #7d7d7d;
+  text-decoration: line-through;
+  font-size: 12px;
+  font-weight: bold;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .bottom h6,
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .bottom h6 {
+  padding-bottom: 7px;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .bottom h6 a,
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .bottom h6 a {
+  color: #252525;
+  font-size: 16px;
+  transition: 0.3s;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .bottom h6 a:hover,
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .bottom h6 a:hover {
+  color: #FF6000;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .bottom p,
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .bottom p {
+  color: #FF6000;
+  font-size: 15px;
+  font-weight: 600;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4:hover .forHover,
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5:hover .forHover {
+  visibility: visible;
+  bottom: 0;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4:hover .forImgHover,
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5:hover .forImgHover {
+  visibility: visible;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4::before,
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5::before {
+  position: absolute;
+  content: "";
+  top: 20px;
+  left: 20px;
+  padding: 0 8px;
+  background-color: #f7ba01;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4::after,
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5::after {
+  position: absolute;
+  content: "";
+  top: 20px;
+  right: 20px;
+  padding: 0 8px;
+  background-color: #FF6000;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 i,
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 i {
+  font-size: 13px;
+  color: #FFA800;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 {
+  position: relative;
+  margin-bottom: 20px;
+  border: 1px solid #ececec;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .top {
+  z-index: -1;
+  position: relative;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .top img {
+  width: 100%;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .top .forImgHover {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .top .forHover {
+  transition: 0.7s;
+  visibility: hidden;
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+  z-index: 0;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .top .forHover .top {
+  background-color: #fff;
+  font-size: 18px;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .top .forHover .top i {
+  color: #252525;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .top .forHover .bottom {
+  background-color: #252525;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .top .forHover .bottom h6 {
+  color: #fff;
+  font-size: 13px;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .bottom {
+  z-index: 1;
+  background-color: #fff;
+  border-top: 1px solid #ececec;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .bottom span {
+  color: #7d7d7d;
+  text-decoration: line-through;
+  font-size: 12px;
+  font-weight: bold;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .bottom h6 {
+  padding-bottom: 7px;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .bottom h6 a {
+  color: #252525;
+  font-size: 16px;
+  transition: 0.3s;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .bottom h6 a:hover {
+  color: #FF6000;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .bottom p {
+  color: #FF6000;
+  font-size: 15px;
+  font-weight: 600;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6:hover .forHover {
+  visibility: visible;
+  bottom: 0;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6:hover .forImgHover {
+  visibility: visible;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6::before {
+  position: absolute;
+  content: "18%";
+  top: 20px;
+  left: 20px;
+  padding: 0 8px;
+  background-color: #f7ba01;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6::after {
+  position: absolute;
+  content: "Sale!";
+  top: 20px;
+  right: 20px;
+  padding: 0 8px;
+  background-color: #FF6000;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #bestSelling .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 i {
+  font-size: 13px;
+  color: #FFA800;
 }
 
 main #mostPopularViewed {
@@ -2013,6 +2495,10 @@ main #mostPopularViewed .mostPopularViewed-all .most-products-all .forEmpty .ave
 main #mostPopularViewed .mostPopularViewed-all .most-products-all .forEmpty .average h6 a {
   color: #252525;
   font-size: 16px;
+  transition: 0.2s;
+}
+main #mostPopularViewed .mostPopularViewed-all .most-products-all .forEmpty .average h6 a:hover {
+  color: #0465D2;
 }
 main #mostPopularViewed .mostPopularViewed-all .most-products-all .forEmpty .average p {
   color: #FF6000;
@@ -2148,6 +2634,10 @@ main #mostPopularViewed .mostPopularViewed-all .most-products-all .forSeal .aver
 main #mostPopularViewed .mostPopularViewed-all .most-products-all .forSeal .average h6 a {
   color: #252525;
   font-size: 16px;
+  transition: 0.2s;
+}
+main #mostPopularViewed .mostPopularViewed-all .most-products-all .forSeal .average h6 a:hover {
+  color: #0465D2;
 }
 main #mostPopularViewed .mostPopularViewed-all .most-products-all .forSeal .average p {
   color: #FF6000;
@@ -2283,6 +2773,10 @@ main #mostPopularViewed .mostPopularViewed-all .most-products-all .forTrend .ave
 main #mostPopularViewed .mostPopularViewed-all .most-products-all .forTrend .average h6 a {
   color: #252525;
   font-size: 16px;
+  transition: 0.2s;
+}
+main #mostPopularViewed .mostPopularViewed-all .most-products-all .forTrend .average h6 a:hover {
+  color: #0465D2;
 }
 main #mostPopularViewed .mostPopularViewed-all .most-products-all .forTrend .average p {
   color: #FF6000;

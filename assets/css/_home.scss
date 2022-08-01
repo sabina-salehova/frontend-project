@@ -110,7 +110,7 @@ main #slider {
     .slider-bottom {
         position: absolute;
         bottom: 0;
-        width: 60%;
+        width: 90%;
         height: 50px;
         background-color: #fff;
         border-top-left-radius: 10px;
@@ -152,7 +152,7 @@ main #slider {
 
                 h6 {
                     color: #fff;
-                    font-size: 13px;
+                    font-size: 13px                   
                 }
             }
         }
@@ -169,6 +169,11 @@ main #slider {
             a {
                 color: #252525;
                 font-size: 16px;
+                transition: .2s;
+
+                &:hover{
+                    color: #0465D2;
+                }
             }
         }
 
@@ -406,6 +411,11 @@ main #free-support {
             a {
                 color: #252525;
                 font-size: 16px;
+                transition: .2s;
+
+                &:hover{
+                    color: #0465D2;
+                }
             }
         }
 
@@ -797,7 +807,15 @@ main #typeProducts {
         position: relative;
 
         img {
+            width: 100%;            
+        }
+
+        .forImgHover{
             width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            visibility: hidden;
         }
 
         .forHover {
@@ -833,33 +851,45 @@ main #typeProducts {
         background-color: #fff;
         border-top: 1px solid #ececec;
 
+        span {
+            color: #7d7d7d;
+            text-decoration: line-through;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
         h6 {
-            line-height: 1.75;
+            
             padding-bottom: 7px;
 
-            a {
+            a{
                 color: #252525;
                 font-size: 16px;
+                transition: .3s;
+
+                &:hover{
+                    color: #FF6000;
+                }
             }
         }
 
-        p {
+        p{
             color: #FF6000;
             font-size: 15px;
-            font-family: 'Jost', sans-serif;
-            line-height: 1.5;
-            font-weight: 500;
+            font-weight: 600;
 
-            span {
-                color: #606060;
-            }
-        }
+            
+        }        
     }
 
     &:hover {
         .forHover {
             visibility: visible;
             bottom: 0;
+        }
+
+        .forImgHover{
+            visibility: visible;           
         }
     }
 
@@ -891,6 +921,7 @@ main #typeProducts {
         font-weight: bold;
     }
 }
+
 
 main #bestSelling {
     padding: 10px 0 80px;
@@ -957,17 +988,47 @@ main #bestSelling {
 
                 .best-products-all {
                 
-                    .common {
+                    .common1 {
                         @include forBestProductBox('50%','Sale!');
+                        
+                        i{
+                            font-size: 13px;
+                            color: #E8EBF2;
+                        }
                     }
             
-                    // .hidden {
-                    //     @include forBestProductBox('');
-                    // }
+                    .common2 {
+                        @include forBestProductBox('10%','Discount');
+                        i{
+                            font-size: 13px;
+                            color: #FFA800;
+                        }
+                    }
+
+                    .common3 {
+                        @include forBestProductBox('57%','Sale!');
+                        i{
+                            font-size: 13px;
+                            color: #FFA800;
+                        }
+                    }
+
+                    .common4,
+                    .common5 {
+                        @include forBestProductBox('','');
+                        i{
+                            font-size: 13px;
+                            color: #FFA800;
+                        }
+                    }
             
-                    // .trend {
-                    //     @include forBestProductBox('Trend');
-                    // }
+                    .common6 {
+                        @include forBestProductBox('18%','Sale!');
+                        i{
+                            font-size: 13px;
+                            color: #FFA800;
+                        }
+                    }
 
                 }
             }
