@@ -22,7 +22,6 @@ let next=document.querySelector('#slider .next');
 let prev=document.querySelector('#slider  .prev');
 
 function autoPlay(){
-    console.log(next);
     currentSlider++;
     
     if(currentSlider>myslider.length-1)
@@ -133,3 +132,47 @@ $(document).ready(function(){
     //     autoplaySpeed: 2000,
     //   });
 });
+
+/*--------------------------------- for basket --------------------------------- */
+
+if(localStorage.getItem('basket')===null)
+{
+    localStorage.setItem('basket',JSON.stringify([]))
+}
+
+let buttons=document.querySelectorAll('.btn');
+for (const item of buttons) {
+    console.log('hamisini goturdu');
+    item.addEventListener('click',function(e){
+        e.preventDefault();
+        console.log('click edildi');
+
+        let basket=JSON.parse(localStorage.getItem('basket'));
+        let prod_id=e.target.parentElement.parentElement.parentElement.parentElement.id;
+        let prod_img=e.target.parentElement.parentElement.previousElementSibling.children[0].src;
+        let prod_name=e.target.parentElement.parentElement.parentElement.nextElementSibling.children[0].children[0].innerText;
+        let prod_price=e.target.parentElement.parentElement.parentElement.nextElementSibling.children[1].children[0].innerText;
+        
+        let existProd=basket.find(item=>item.id===prod_id);
+        
+        if(existProd===undefined)
+        {
+            basket.push({
+                id: prod_id,
+                name: prod_name,
+                img: prod_img,
+                price: prod_price,
+                count: 1
+            });
+        }
+        localStorage.setItem('basket',JSON.stringify(basket));
+    })
+}
+
+function ShowCount(){
+    let basket=JSON.parse(localStorage.getItem('basket'));
+    let count=basket.length;
+    document.getElementById('count').innerHTML=count;
+}
+
+ShowCount();

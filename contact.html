@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Home – Venam</title>
+</head>
+
+<body>
+
+    <header>
+        <section id="header-top">
+            <div class="container-my">
+                <div class="row box-all d-flex justify-content-between">
+                    <div
+                        class="left col-lg-2 col-sm-4 col-md-2 col-5 d-flex justify-content-between align-items-center">
+
+                        <!-- US -->
+                        <div class="dropdown">
+                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                US/USD
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">AUS/USD</a></li>
+                                <li><a class="dropdown-item" href="#">BNG/TK</a></li>
+                                <li><a class="dropdown-item" href="#">IN/RP</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- | -->
+
+                        <span class="ps-md-2 ps-lg-2 ps-2 ps-sm-2 ps-xl-2 pe-lg-3 pe-2 pe-sm-2 pe-xl-3 pe-md-2">|</span>
+
+                        <!-- Sell -->
+                        <div class="dropdown">
+                            <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Sell With Us
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Returns</a></li>
+                                <li><a class="dropdown-item" href="#">Privacy</a></li>
+                                <li><a class="dropdown-item" href="#">Terms</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- icons -->
+                    <div
+                        class="rigth box col-lg-1 col-2 col-sm-2 col-md-2 d-flex justify-content-between align-content-center">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="header-average">
+            <div class="container-my">
+                <div class="row box-all d-flex justify-content-between align-items-center p-0">
+
+                    <div class="logo col-lg-2">
+                        <a href="index.html"><img
+                                src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/logo.png"
+                                alt=""></a>
+                    </div>
+
+                    <div class="row search-all col-lg-6 d-flex justify-content-rigth align-items-center g-0">
+
+                        <div class="box search col-lg-7">
+                            <input class="input-search" type="text" placeholder="Search for your item's type.....">
+                        </div>
+                        <div
+                            class="d-flex box category col-lg-5 justify-content-between align-items-center text-center">
+                            <div class="left dropdownIcon col-lg-9">
+
+                                <input type="text" class="textbox" placeholder="All category" readonly>
+                                <div class="option">
+                                    <div class="forOption active-color" onclick="showIcon('All Category')">All Category
+                                    </div>
+                                    <div class="forOption" onclick="showIcon('Accessories')">Accessories</div>
+                                    <div class="forOption" onclick="showIcon('Best Seller')">Best Seller</div>
+                                    <div class="forOption" onclick="showIcon('Camera')">Camera</div>
+                                    <div class="forOption" onclick="showIcon('Computer')">Computer</div>
+                                    <div class="forOption" onclick="showIcon('Featured')">Featured</div>
+                                    <div class="forOption" onclick="showIcon('Gaming')">Gaming</div>
+                                    <div class="forOption" onclick="showIcon('Headphones')">Headphones</div>
+                                    <div class="forOption" onclick="showIcon('Hot Sell')">Hot Sell</div>
+                                    <div class="forOption" onclick="showIcon('Mobile & Tablet')">Mobile & Tablet</div>
+                                    <div class="forOption" onclick="showIcon('Trend')">Trend</div>
+                                    <div class="forOption" onclick="showIcon('TV & Smart Box')">TV & Smart Box</div>
+                                </div>
+
+                            </div>
+                            <button class="col-lg-3 d-inline"><i class="fa-solid fa-magnifying-glass"></i></button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="icons col-lg-2 d-flex justify-content-end align-items-center">
+                        <a href=""><i id="i1" class="fa-regular fa-user"></i></a>
+                        <a href=""><i id="i2" class="fa-solid fa-rotate"><span>0</span></i></a>
+                        <a href=""><i id="i3" class="fa-regular fa-heart"><span>0</span></i></a>
+                        <a href="cart.html"><i id="i4" class="fa-solid fa-bag-shopping"><span id="count">0</span></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="header-bottom">
+            <div class="container-my">
+                <div class="row">
+
+                    <!-- All categories -->
+                    <div class="all-categories col-lg-4">
+
+                        <div class="title d-flex align-items-center">
+                            <i class="fa-solid fa-bars"></i>
+                            <h6 class="px-3">ALL CATEGORIES</h6>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+
+                        <div class="options py-2">
+
+                            <div class="forOption forOp1 d-flex justify-content-between align-items-center py-2 px-3">
+                                <a href="">Accessories & Parts</a>
+                                <i class="fa-solid fa-angle-right"></i>
+
+                                <div class="apElements1">
+                                    <div class="ap1 row d-flex justify-content-between">
+                                        <div class="box col-lg-4 p-3">
+                                            <span class="apSpan">Accessories & Parts</span>
+                                            <a class="pt-3" href="">Cables & Adapters</a>
+                                            <a href="">Batteries</a>
+                                            <a href="">Chargers</a>
+                                            <a href="">Bags & Cases</a>
+                                        </div>
+                                        <div class="box col-lg-4 p-3">
+                                            <span class="apSpan">Accessories & Parts</span>
+                                            <a class="pt-3" href="">Cables & Adapters</a>
+                                            <a href="">Batteries</a>
+                                            <a href="">Chargers</a>
+                                            <a href="">Bags & Cases</a>
+                                        </div>
+                                        <div class="box col-lg-4 p-3">
+                                            <span class="apSpan">Accessories & Parts</span>
+                                            <a class="pt-3" href="">Cables & Adapters</a>
+                                            <a href="">Batteries</a>
+                                            <a href="">Chargers</a>
+                                            <a href="">Bags & Cases</a>
+                                        </div>
+                                        <div class="box col-lg-4 p-3">
+                                            <span class="apSpan">Accessories & Parts</span>
+                                            <a class="pt-3" href="">Cables & Adapters</a>
+                                            <a href="">Batteries</a>
+                                            <a href="">Chargers</a>
+                                            <a href="">Bags & Cases</a>
+                                        </div>
+                                        <div class="box col-lg-4 p-3">
+                                            <span class="apSpan">Accessories & Parts</span>
+                                            <a class="pt-3" href="">Cables & Adapters</a>
+                                            <a href="">Batteries</a>
+                                            <a href="">Chargers</a>
+                                            <a href="">Bags & Cases</a>
+                                        </div>
+                                        <div class="box col-lg-4 p-3">
+                                            <span class="apSpan">Accessories & Parts</span>
+                                            <a class="pt-3" href="">Cables & Adapters</a>
+                                            <a href="">Batteries</a>
+                                            <a href="">Chargers</a>
+                                            <a href="">Bags & Cases</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="forOption forOp2 d-flex justify-content-between align-items-center py-2 px-3">
+                                <a href="">Cables & Adapters</a>
+                                <i class="fa-solid fa-angle-right"></i>
+
+                                <div class="apElements2">
+                                    <div class="ap1 row d-flex justify-content-between">
+                                        <div class="row left d-flex justify-content-between col-lg-10">
+                                            <div class="box col-lg-4 p-3">
+                                                <span class="apSpan">Accessories & Parts</span>
+                                                <a class="pt-3" href="">Cables & Adapters</a>
+                                                <a href="">Batteries</a>
+                                                <a href="">Chargers</a>
+                                                <a href="">Bags & Cases</a>
+                                            </div>
+                                            <div class="box col-lg-4 p-3">
+                                                <span class="apSpan">Accessories & Parts</span>
+                                                <a class="pt-3" href="">Cables & Adapters</a>
+                                                <a href="">Batteries</a>
+                                                <a href="">Chargers</a>
+                                                <a href="">Bags & Cases</a>
+                                            </div>
+                                            <div class="box col-lg-4 p-3">
+                                                <span class="apSpan">Accessories & Parts</span>
+                                                <a class="pt-3" href="">Cables & Adapters</a>
+                                                <a href="">Batteries</a>
+                                                <a href="">Chargers</a>
+                                                <a href="">Bags & Cases</a>
+                                            </div>
+                                            <div class="box col-lg-4 p-3">
+                                                <span class="apSpan">Accessories & Parts</span>
+                                                <a class="pt-3" href="">Cables & Adapters</a>
+                                                <a href="">Batteries</a>
+                                                <a href="">Chargers</a>
+                                                <a href="">Bags & Cases</a>
+                                            </div>
+                                            <div class="box col-lg-4 p-3">
+                                                <span class="apSpan">Accessories & Parts</span>
+                                                <a class="pt-3" href="">Cables & Adapters</a>
+                                                <a href="">Batteries</a>
+                                                <a href="">Chargers</a>
+                                                <a href="">Bags & Cases</a>
+                                            </div>
+                                            <div class="box col-lg-4 p-3">
+                                                <span class="apSpan">Accessories & Parts</span>
+                                                <a class="pt-3" href="">Cables & Adapters</a>
+                                                <a href="">Batteries</a>
+                                                <a href="">Chargers</a>
+                                                <a href="">Bags & Cases</a>
+                                            </div>
+                                        </div>
+                                        <div class="rigth col-lg-2 row align-items-center">
+                                            <img src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/08/category-menu-1.png"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="forOption forOp3 d-flex justify-content-between align-items-center py-2 px-3">
+                                <a href="">Batteries</a>
+                                <i class="fa-solid fa-angle-right"></i>
+
+                                <div class="apElements3">
+                                    <div class="ap1 row d-flex justify-content-between">
+                                        <div class="row left d-flex justify-content-between col-lg-7">
+                                            <div class="box col-lg-6 p-3">
+                                                <span class="apSpan">Accessories & Parts</span>
+                                                <a class="pt-3" href="">Cables & Adapters</a>
+                                                <a href="">Batteries</a>
+                                                <a href="">Chargers</a>
+                                                <a href="">Bags & Cases</a>
+                                            </div>
+                                            <div class="box col-lg-6 p-3">
+                                                <span class="apSpan">Accessories & Parts</span>
+                                                <a class="pt-3" href="">Cables & Adapters</a>
+                                                <a href="">Batteries</a>
+                                                <a href="">Chargers</a>
+                                                <a href="">Bags & Cases</a>
+                                            </div>
+                                            <div class="box col-lg-6 p-3">
+                                                <span class="apSpan">Accessories & Parts</span>
+                                                <a class="pt-3" href="">Cables & Adapters</a>
+                                                <a href="">Batteries</a>
+                                                <a href="">Chargers</a>
+                                                <a href="">Bags & Cases</a>
+                                            </div>
+                                            <div class="box col-lg-6 p-3">
+                                                <span class="apSpan">Accessories & Parts</span>
+                                                <a class="pt-3" href="">Cables & Adapters</a>
+                                                <a href="">Batteries</a>
+                                                <a href="">Chargers</a>
+                                                <a href="">Bags & Cases</a>
+                                            </div>
+                                            <div class="box col-lg-6 p-3">
+                                                <span class="apSpan">Accessories & Parts</span>
+                                                <a class="pt-3" href="">Cables & Adapters</a>
+                                                <a href="">Batteries</a>
+                                                <a href="">Chargers</a>
+                                                <a href="">Bags & Cases</a>
+                                            </div>
+                                            <div class="box col-lg-6 p-3">
+                                                <span class="apSpan">Accessories & Parts</span>
+                                                <a class="pt-3" href="">Cables & Adapters</a>
+                                                <a href="">Batteries</a>
+                                                <a href="">Chargers</a>
+                                                <a href="">Bags & Cases</a>
+                                            </div>
+                                        </div>
+                                        <div class="rigth col-lg-5 d-flex align-items-center">
+                                            <img src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/08/banner-30.jpg"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="forOption d-flex justify-content-between align-items-center py-2 px-3">
+                                <a href="">Bags & Cases</a>
+                            </div>
+                            <div class="forOption d-flex justify-content-between align-items-center py-2 px-3">
+                                <a href="">Electronic Cigarettes</a>
+                            </div>
+                            <div class="forOption d-flex justify-content-between align-items-center py-2 px-3">
+                                <a href="">Audio & Video</a>
+                            </div>
+                            <div class="forOption d-flex justify-content-between align-items-center py-2 px-3">
+                                <a href="">Televisions</a>
+                            </div>
+                            <div class="forOption d-flex justify-content-between align-items-center py-2 px-3">
+                                <a href="">TV Receivers</a>
+                            </div>
+
+                            <div class="forOption forOp4 d-flex justify-content-between align-items-center py-2 px-3">
+                                <a href="">Projectors</a>
+                                <i class="fa-solid fa-angle-right"></i>
+
+                                <div class="apElements4">
+                                    <div class="ap1 row">
+                                        <div class="row left d-flex justify-content-between col-lg-12">
+                                            <div class="box col-lg-4 p-3">
+                                                <span class="apSpan">Accessories & Parts</span>
+                                                <a class="pt-3" href="">Cables & Adapters</a>
+                                                <a href="">Batteries</a>
+                                                <a href="">Chargers</a>
+                                                <a href="">Bags & Cases</a>
+                                            </div>
+                                            <div class="box col-lg-4 p-3">
+                                                <span class="apSpan">Accessories & Parts</span>
+                                                <a class="pt-3" href="">Cables & Adapters</a>
+                                                <a href="">Batteries</a>
+                                                <a href="">Chargers</a>
+                                                <a href="">Bags & Cases</a>
+                                            </div>
+                                            <div class="box col-lg-4 p-3">
+                                                <span class="apSpan">Accessories & Parts</span>
+                                                <a class="pt-3" href="">Cables & Adapters</a>
+                                                <a href="">Batteries</a>
+                                                <a href="">Chargers</a>
+                                                <a href="">Bags & Cases</a>
+                                            </div>
+                                            <div class="box col-lg-4 p-3">
+                                                <span class="apSpan">Accessories & Parts</span>
+                                                <a class="pt-3" href="">Cables & Adapters</a>
+                                                <a href="">Batteries</a>
+                                                <a href="">Chargers</a>
+                                                <a href="">Bags & Cases</a>
+                                            </div>
+                                            <div class="box col-lg-4 p-3">
+                                                <span class="apSpan">Accessories & Parts</span>
+                                                <a class="pt-3" href="">Cables & Adapters</a>
+                                                <a href="">Batteries</a>
+                                                <a href="">Chargers</a>
+                                                <a href="">Bags & Cases</a>
+                                            </div>
+                                            <div class="box col-lg-4 p-3">
+                                                <span class="apSpan">Accessories & Parts</span>
+                                                <a class="pt-3" href="">Cables & Adapters</a>
+                                                <a href="">Batteries</a>
+                                                <a href="">Chargers</a>
+                                                <a href="">Bags & Cases</a>
+                                            </div>
+                                        </div>
+                                        <div class="row rigth d-flex text-center">
+                                            <img src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/banner-15.jpg"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="forOption d-flex justify-content-between align-items-center py-2 px-3">
+                                <a href="">Audio Amplifier Boards</a>
+                            </div>
+                            <div class="forOption d-flex justify-content-between align-items-center py-2 px-3">
+                                <a href="">TV Sticks</a>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                    <!-- Mega menu -->
+                    <div class="menu-nav col-lg-8">
+                        <div class="menu d-flex justify-content-end align-items-center">
+
+                            <ul>
+                                <li class="home">
+                                    <a class="specialHref" href="">HOME</a>
+                                    <i class="ps-1 fa-solid fa-angle-down"></i>
+
+                                    <div class="row home-drop-down">
+                                        <a href="">Home 1 - Electronic</a>
+                                        <a href="">Home 2 - Fashion</a>
+                                        <a href="">Home 3 - Decor</a>
+                                        <a href="">Home 4 - Multi Vendor</a>
+                                        <a href="">Home 5 - Left Sidebar</a>
+                                        <a href="">Home 6 - Rigth Sidebar</a>
+                                        <a href="">Home 7 - Advanced</a>
+                                        <a href="">Home 8 - Transparent Header</a>
+                                    </div>
+                                </li>
+                                <li class="category">
+                                    <a class="commonHref" href="">CATEGORIES</a>
+                                    <i class="ps-1 fa-solid fa-angle-down"></i>
+
+                                    <div class="categories-drop-down">
+                                        <div class="categories-left d-flex ">
+                                            <div class="row left justify-content-between col-lg-8 p-3">
+                                                <div class="row box col-lg-6 p-3">
+                                                    <span class="apSpan">Accessories & Parts</span>
+                                                    <a class="pt-3" href="">Cables & Adapters</a>
+                                                    <a href="">Batteries</a>
+                                                    <a href="">Chargers</a>
+                                                    <a href="">Bags & Cases</a>
+                                                </div>
+                                                <div class="row box col-lg-6 p-3">
+                                                    <span class="apSpan">Accessories & Parts</span>
+                                                    <a class="pt-3" href="">Cables & Adapters</a>
+                                                    <a href="">Batteries</a>
+                                                    <a href="">Chargers</a>
+                                                    <a href="">Bags & Cases</a>
+                                                </div>
+                                                <div class="row box col-lg-6 p-3">
+                                                    <span class="apSpan">Accessories & Parts</span>
+                                                    <a class="pt-3" href="">Cables & Adapters</a>
+                                                    <a href="">Batteries</a>
+                                                    <a href="">Chargers</a>
+                                                    <a href="">Bags & Cases</a>
+                                                </div>
+                                                <div class="row box col-lg-6 p-3">
+                                                    <span class="apSpan">Accessories & Parts</span>
+                                                    <a class="pt-3" href="">Cables & Adapters</a>
+                                                    <a href="">Batteries</a>
+                                                    <a href="">Chargers</a>
+                                                    <a href="">Bags & Cases</a>
+                                                </div>
+                                                <div class="row box col-lg-6 p-3">
+                                                    <span class="apSpan">Accessories & Parts</span>
+                                                    <a class="pt-3" href="">Cables & Adapters</a>
+                                                    <a href="">Batteries</a>
+                                                    <a href="">Chargers</a>
+                                                    <a href="">Bags & Cases</a>
+                                                </div>
+                                                <div class="row box col-lg-6 p-3">
+                                                    <span class="apSpan">Accessories & Parts</span>
+                                                    <a class="pt-3" href="">Cables & Adapters</a>
+                                                    <a href="">Batteries</a>
+                                                    <a href="">Chargers</a>
+                                                    <a href="">Bags & Cases</a>
+                                                </div>
+                                            </div>
+                                            <div class="rigth d-flex justify-content-end col-lg-4 g-0">
+                                                <img src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/08/banner-30.jpg"
+                                                    alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li class="shop">
+                                    <a class="commonHref" href="">SHOP</a>
+                                    <i class="ps-1 fa-solid fa-angle-down"></i>
+
+                                    <div class="row shop-drop-down">
+                                        <div class="categories-left d-flex justify-content-around">
+                                            <div class="row box col-lg-2 p-3">
+                                                <span class="apSpan">Catalog</span>
+                                                <a class="pt-3" href="">Left Sidebar <span
+                                                        class="special-span">Default</span></a>
+                                                <a href="">Rigth Sidebar</a>
+                                                <a href="">Grid View</a>
+                                                <a href="">List View</a>
+                                                <a href="">Load More</a>
+                                                <a href="">Infinite Scrolling</a>
+                                                <a href="">Fixed Sidebar</a>
+                                            </div>
+                                            <div class="row box col-lg-2 p-3">
+                                                <span class="apSpan">Catalog</span>
+                                                <a class="pt-3" href="">Left Sidebar</a>
+                                                <a href="">Rigth Sidebar</a>
+                                                <a href="">Grid View</a>
+                                                <a href="">List View</a>
+                                                <a href="">Load More</a>
+                                                <a href="">Infinite Scrolling</a>
+                                                <a href="">Fixed Sidebar</a>
+                                            </div>
+                                            <div class="row box col-lg-2 p-3">
+                                                <span class="apSpan">Catalog</span>
+                                                <a class="pt-3" href="">Left Sidebar</a>
+                                                <a href="">Rigth Sidebar</a>
+                                                <a href="">Grid View</a>
+                                                <a href="">List View</a>
+                                                <a href="">Load More</a>
+                                                <a href="">Infinite Scrolling</a>
+                                                <a href="">Fixed Sidebar</a>
+                                            </div>
+                                            <div class="row box col-lg-2 p-3">
+                                                <span class="apSpan">Catalog</span>
+                                                <a class="pt-3" href="">Left Sidebar</a>
+                                                <a href="">Rigth Sidebar</a>
+                                                <a href="">Grid View</a>
+                                                <a href="">List View</a>
+                                                <a href="">Load More</a>
+                                                <a href="">Infinite Scrolling</a>
+                                                <a href="">Fixed Sidebar</a>
+                                            </div>
+                                            <div class="row box col-lg-2 p-3">
+                                                <span class="apSpan">Catalog</span>
+                                                <a class="pt-3" href="">Left Sidebar <span
+                                                        class="special-span">Hot</span></a>
+                                                <a href="">Rigth Sidebar</a>
+                                                <a href="">Grid View</a>
+                                                <a href="">List View <span class="special-span">Special</span></a>
+                                                <a href="">Load More</a>
+                                                <a href="">Infinite Scrolling</a>
+                                                <a href="">Fixed Sidebar</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="pages">
+                                    <a class="commonHref" href="">PAGES</a>
+                                    <i class="ps-1 fa-solid fa-angle-down"></i>
+
+                                    <div class="row pages-drop-down">
+                                        <a class="commonHref1" href="">About Us</a>
+                                        <a class="commonHref1" href="">About Me</a>
+                                        <a class="commonHref1" href="">FAQ Page</a>
+                                        <a class="commonHref1" href="">Contact Us 1</a>
+                                        <a class="commonHref1" href="">Contact Us 2</a>
+                                        <a class="commonHref1" href="">404 Page</a>
+                                        <a class="commonHref1 blogHref" href="">Blog <i
+                                                class="text-end fa-solid fa-angle-down ps-5"></i></a>
+
+                                        <div class="blog-div row">
+                                            <a href="">Blog Masonry</a>
+                                            <a href="">Blog Wide</a>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li class="special-menu">
+                                    <a class="commonHref" href="">SPECIAL</a>
+                                    <i class="ps-1 fa-solid fa-angle-down"></i>
+
+                                    <div class="special-drop-down">
+                                        <div class="row special-left d-flex justify-content-evenly">
+                                            <div class="row box col-lg-3 py-3 d-flex justify-content-around">
+                                                <div class="left d-flex col-lg-3 align-items-center">
+                                                    <img src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/06/el_img18_hover-100x100.jpg"
+                                                        alt="">
+                                                </div>
+                                                <div class="rigth row col-lg-9">
+                                                    <span class="apSpan">Catalog</span>
+                                                    <a class="pt-1" href="">Left Sidebar</a>
+                                                    <a href="">Rigth Sidebar</a>
+                                                    <a href="">Grid View</a>
+                                                    <a href="">List View</a>
+                                                    <a href=""><span class="special-span">View All</span></a>
+                                                </div>
+                                            </div>
+                                            <div class="row box col-lg-3 py-3 d-flex justify-content-around">
+                                                <div class="left d-flex col-lg-3 align-items-center">
+                                                    <img src="	https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/06/el_img18-100x100.jpg"
+                                                        alt="">
+                                                </div>
+                                                <div class="rigth row col-lg-9">
+                                                    <span class="apSpan">Catalog</span>
+                                                    <a class="pt-1" href="">Left Sidebar</a>
+                                                    <a href="">Rigth Sidebar</a>
+                                                    <a href="">Grid View</a>
+                                                    <a href="">List View</a>
+                                                    <a href=""><span class="special-span">View All</span></a>
+                                                </div>
+                                            </div>
+                                            <div class="row box col-lg-3 py-3 d-flex justify-content-around">
+                                                <div class="left d-flex col-lg-3 align-items-center">
+                                                    <img src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/el_img2-100x100.jpg"
+                                                        alt="">
+                                                </div>
+                                                <div class="rigth row col-lg-9">
+                                                    <span class="apSpan">Catalog</span>
+                                                    <a class="pt-1" href="">Left Sidebar</a>
+                                                    <a href="">Rigth Sidebar</a>
+                                                    <a href="">Grid View</a>
+                                                    <a href="">List View</a>
+                                                    <a href=""><span class="special-span">View All</span></a>
+                                                </div>
+                                            </div>
+                                            <div class="row box col-lg-3 py-3 d-flex justify-content-around">
+                                                <div class="left d-flex col-lg-3 align-items-center">
+                                                    <img src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/el_img9-100x100.jpg"
+                                                        alt="">
+                                                </div>
+                                                <div class="rigth row col-lg-9">
+                                                    <span class="apSpan">Catalog</span>
+                                                    <a class="pt-1" href="">Left Sidebar</a>
+                                                    <a href="">Rigth Sidebar</a>
+                                                    <a href="">Grid View</a>
+                                                    <a href="">List View</a>
+                                                    <a href=""><span class="special-span">View All</span></a>
+                                                </div>
+                                            </div>
+                                            <div class="row box col-lg-3 py-3 d-flex justify-content-around">
+                                                <div class="rigth row col-lg-12">
+                                                    <span class="apSpan">Catalog</span>
+                                                    <a class="pt-1" href="">Left Sidebar</a>
+                                                    <a href="">Rigth Sidebar</a>
+                                                    <a href="">Grid View</a>
+                                                    <a href="">List View</a>
+                                                    <a href=""><span class="special-span">View All</span></a>
+                                                </div>
+                                            </div>
+                                            <div class="gray row box col-lg-3 py-3 d-flex justify-content-around">
+                                                <div class="rigth row col-lg-12">
+                                                    <span class="apSpan">Catalog</span>
+                                                    <a class="pt-1" href="">Left Sidebar</a>
+                                                    <a href="">Rigth Sidebar</a>
+                                                    <a href="">Grid View</a>
+                                                    <a href="">List View</a>
+                                                    <a href=""><span class="special-span">View All</span></a>
+                                                </div>
+                                            </div>
+                                            <div class="row box col-lg-3 py-3 d-flex justify-content-around">
+                                                <div class="rigth row col-lg-12">
+                                                    <span class="apSpan">Catalog</span>
+                                                    <a class="pt-1" href="">Left Sidebar</a>
+                                                    <a href="">Rigth Sidebar</a>
+                                                    <a href="">Grid View</a>
+                                                    <a href="">List View</a>
+                                                    <a href=""><span class="special-span">View All</span></a>
+                                                </div>
+                                            </div>
+                                            <div class="gray row box col-lg-3 py-3 d-flex justify-content-around">
+                                                <div class="rigth row col-lg-12">
+                                                    <span class="apSpan">Catalog</span>
+                                                    <a class="pt-1" href="">Left Sidebar</a>
+                                                    <a href="">Rigth Sidebar</a>
+                                                    <a href="">Grid View</a>
+                                                    <a href="">List View</a>
+                                                    <a href=""><span class="special-span">View All</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="store">
+                                    <a class="commonHref" href="">STORE LIST</a>
+                                    <i class="ps-1 fa-solid fa-angle-down"></i>
+
+                                    <div class="row store-drop-down">
+                                        <a href="">Store List</a>
+                                        <a href="">Vendor Page</a>
+                                        <a href="">Vendor Registration</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a class="commonHref" href="contact.html">CONTACT</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+    <main>
+       
+
+        <section id="mostPopularViewed">
+            <div class="container-my">
+                <div class="mostPopularViewed-all">
+                    <div class="mostPopularViewed-all-top">
+                        <span>EXCLUSIVE COLLECTION</span>
+                        <h2>MOST POPULAR VIEWED</h2>
+                    </div>                   
+                </div>
+            </div>
+        </section>
+
+
+        <section id="smartWatch">
+            <div class="container-my">
+                <div class="row smartWatch-all justify-content-between align-items-center">
+                    <div class="col-lg-5">
+                        <div class="row watch-left align-items-center">
+                            <div class="watch-left-text text-end pe-4">
+                                <span>EXCLUSIVE OFFER</span>
+                                <h2>SMART WATCH BRACELET</h2>
+                            </div>
+                            <div class="watch-left-img ">
+                                <img src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/limited_offer_discount.png"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="watch-rigth-top text-end">
+                            <a href="">limited time offer</a>
+                        </div>
+                        <div class="watch-rigth-bottom d-flex justify-content-end align-items-center">
+                            <span class="upto">UPTO</span>
+                            <span class="money">$ 50.00</span>
+                            <span class="off">OFF</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <section id="footer-subscribe">
+            <div class="container-my">
+                <div class="subscribe-all d-flex justify-content-between">
+                    <div class="left col-lg-6">
+                        <h4 class="pb-2">Subscribe Now !</h4>
+                        <span>Venam By Signing Up To Our Newsletter.</span>
+                    </div>
+                    <div class="rigth col-lg-6">
+                        <form class="d-flex" action="">
+                            <input class="col-lg-9" type="text" placeholder="Enter Your Email ...">
+                            <button class="col-lg-3">SUBSCRIBE</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer-find">
+            <div class="container-my">
+                <div class="row  ">
+                    <div class="top pb-2">
+                        <h4>Find Out More</h4>
+                    </div>
+                    <div class="bottom d-flex justify-content-start">
+                        <span class="main">Main Categories :</span>
+                        <ul>
+                            <li>
+                                <a href="">Accessories</a>
+                                <span class="pe-2">|</span>
+                            </li>
+                            <li>
+                                <a href="">Adapters</a>
+                                <span class="px-2">|</span>
+                            </li>
+                            <li>
+                                <a href="">Batteries</a>
+                                <span class="px-2">|</span>
+                            </li>
+                            <li>
+                                <a href="">Webcams</a>
+                                <span class="px-2">|</span>
+                            </li>
+                            <li>
+                                <a href="">Televisions</a>
+                                <span class="px-2">|</span>
+                            </li>
+                            <li>
+                                <a href="">Projectors</a>
+                                <span class="px-2">|</span>
+                            </li>
+                            <li>
+                                <a href="">Bags & Cases</a>
+                                <span class="px-2">|</span>
+                            </li>
+                            <li>
+                                <a href="">Receivers</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer-contact">
+            <div class="container-my">
+                <div class="row d-flex justify-content-between">
+                    <div class="left col-lg-4">
+                        <div class="logo">
+                            <img src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/logo_black.png"
+                                alt="">
+                        </div>
+                        <div class="text">
+                            Namkand sodales vel online best prices Amazon Check out ethnic wear, formal wear western
+                            wear Blood Pressure Rate Monito lorem ipsum dolor sit amet lorem ipsum sonda mony daml...
+                        </div>
+                        <div class="icons">
+                            <i class="ps-4 fa-brands fa-instagram"></i>
+                            <i class="ps-4 fa-brands fa-facebook"></i>
+                            <i class="ps-4 fa-brands fa-twitter"></i>
+                            <i class="ps-4 fa-brands fa-linkedin"></i>
+                            <i class="ps-4 fa-brands fa-pinterest"></i>
+                        </div>
+                    </div>
+                    <div class="rigth col-lg-7 d-flex justify-content-between">
+                        <div class="box row col-lg-4">
+                            <h5 class="pb-4">Customer Service</h5>
+                            <ul>
+                                <li><a href="">Help Center</a></li>
+                                <li><a href="">Returns</a></li>
+                                <li><a href="">Product Recalls</a></li>
+                                <li><a href="">Accessibility</a></li>
+                                <li><a href="">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="box row col-lg-3">
+                            <h5 class="pb-4">Quick Links</h5>
+                            <ul>
+                                <li><a href="">Return Policy</a></li>
+                                <li><a href="">Terms Of Use</a></li>
+                                <li><a href="">Security</a></li>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Store Pickup</a></li>
+                            </ul>
+                        </div>
+                        <div class="box row col-lg-5">
+                            <h5 class="pb-3">Contact Us</h5>
+                            <ul>
+                                <li class="pb-4">
+                                    <i class="pe-2 fa-solid fa-location-dot"></i>
+                                    <span>W898 RTower Stat, Suite 56</span>
+                                </li>
+                                <li class="pb-4">
+                                    <i class="pe-2 fa-solid fa-headphones-simple"></i>
+                                    <span>458-965-3224</span>
+                                </li>
+                                <li class="pb-4">
+                                    <i class="pe-2 fa-solid fa-envelope-open"></i>
+                                    <span>Support@info.Com</span>
+                                </li>
+                                <li class="pb-4">
+                                    <i class="pe-2 fa-solid fa-mobile-retro"></i>
+                                    <span>458-965-3224</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer-bottom">
+            <div class="container-my">
+                <div class="row d-flex justify-content-between align-items-center">
+                    <div class="left col-lg-9 d-flex align-items-center">
+                        <p>Copyright © 2021 - Venam All Rights Reserved.</p>
+                    </div>
+                    <div class="row rigth col-lg-3 d-flex align-items-center">
+                        <img src="	https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/card_img.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+
+    <script src="assets/js/bootstrap.bundle.js"></script>
+
+    <!--Jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--Slick slider-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+
+    <script src="assets/js/header.js"></script>
+    <script src="assets/js/home.js"></script>
+</body>
+
+</html>
