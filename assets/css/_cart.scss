@@ -68,3 +68,293 @@ main #modern-weekly{
     }
 }
 
+main #forBasket{
+
+    main .products .card{
+        box-shadow:  0px 0px 12px 1px grey;
+    }
+    
+    main .products .card .card-body{
+        border-top: 1px solid rgb(230, 227, 227);    
+    }
+    
+    main .products .card .card-body .btn{
+        width: 100%;
+    }
+    
+    input{
+        width: 50%;
+    }
+
+    .table img{
+        width: 25%;
+    }
+    
+    
+    
+    // @media (max-width:992px)
+    // {
+    //     .container{
+    //         padding: 0 3rem;
+    //     }    
+    //     main .products .card{
+    //         margin: 10px;
+    //     }
+    
+    //     .table img{
+    //         width: 50%;
+    //     }
+    // }
+    
+
+}
+
+
+
+@mixin forProductLargeBox($beforeText) {
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 1;
+
+    .top {
+        z-index: -1;
+        position: relative;
+
+        img {
+            width: 100%;
+        }
+
+        .forHover {
+            transition: .7s;
+            visibility: hidden;
+            position: absolute;
+            bottom: -70px;
+            left: 0;
+            z-index: 0;
+
+            .top {
+                background-color: #fff;
+                font-size: 18px;
+
+                i {
+                    color: #252525;
+                }
+            }
+
+            .bottom {
+                background-color: #252525;
+
+                h6 {
+                    color: #fff;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    .average {
+        z-index: 1;
+        background-color: #fff;
+        ;
+
+        h6 {
+            line-height: 1.75;
+            padding-bottom: 7px;
+
+            a {
+                color: #252525;
+                font-size: 16px;
+                transition: .2s;
+
+                &:hover{
+                    color: #0465D2;
+                }
+            }
+        }
+
+        p {
+            color: #FF6000;
+            font-size: 15px;
+            font-family: 'Jost', sans-serif;
+            line-height: 1.5;
+            font-weight: 500;
+
+            span {
+                color: #606060;
+            }
+        }
+    }
+
+    .bottom {
+        background-color: #fff;
+        border-top: 1px solid #e6e4e4;
+
+        .total {
+            font-size: 12px;
+            font-weight: 500;
+            color: #959595;
+            ;
+        }
+
+        .progress {
+            height: 6px;
+            border-radius: 5px;
+
+            .left {
+                background-color: #F7BA01;
+                width: 5%;
+                border-radius: 5px;
+            }
+
+            .rigth {
+                background-color: #F2F2F2;
+                width: 95%;
+            }
+        }
+
+        .time-all {
+
+            .text {
+                font-weight: 500;
+                color: #959595;
+
+                span {
+                    color: #F7BA01;
+                }
+            }
+
+            .time {
+                padding: 0 0 10px;
+                font-weight: 500;
+                font-size: 10px;
+                font-weight: bold;
+
+                .day,
+                .hour,
+                .minute {
+                    background-color: #252525;
+                    color: #fff;
+                    text-align: center;
+                    border-radius: 5px;
+                    padding: 3px 0;
+                    width: 45px;
+                }
+
+                .second {
+                    background-color: #F7BA01;
+                    color: #fff;
+                    text-align: center;
+                    padding: 3px 0;
+                    border-radius: 5px;
+                    width: 45px;
+                }
+
+                span {
+                    display: block;
+                }
+
+                #day,
+                #hr,
+                #min,
+                #sec {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    &:hover {
+        .forHover {
+            visibility: visible;
+            bottom: 0;
+        }
+    }
+
+    &::before {
+        position: absolute;
+        content: $beforeText;
+        top: 15px;
+        right: 21px;
+        padding: 0 8px;
+        background-color: #FF6000;
+        font-size: 12px;
+        color: #fff;
+        border-radius: 5px;
+        font-family: 'Jost', sans-serif;
+        font-weight: bold;
+    }
+}
+
+
+
+main #mostPopularViewed2 {
+    padding: 80px 0 60px;
+
+
+    .mostPopularViewed-all2 {
+
+        .most-products-all {
+            position: relative;
+            align-items: center;
+    
+            .CommonForSlickIcons {
+                background: #252525;
+                padding: 12px 15px;
+                position: absolute;
+                top: 200px;
+                z-index: 1;
+                color: #fff;
+                font-size: 10px;
+                font-weight: 900;
+                cursor: pointer;
+                border-radius: 50%;
+                transition: .5s;
+    
+                &:hover {
+                    background-color: #FF6000;
+                }
+            }
+    
+            .slickPrev1 {
+                @extend .CommonForSlickIcons;
+                left: -30px;
+            }
+    
+    
+            .slickNext1 {
+                @extend .CommonForSlickIcons;
+                right: -30px;
+            }
+    
+            .forEmpty {
+                @include forProductLargeBox('');
+            }
+    
+            .forSeal {
+                @include forProductLargeBox('Sale!');
+            }
+    
+            .forTrend {
+                @include forProductLargeBox('Trend');
+            }
+    
+        }
+    
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

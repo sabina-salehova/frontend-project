@@ -759,7 +759,7 @@ main #slider .common-next-prev, main #slider .slider-all .next, main #slider .sl
 }
 main #slider .slider-all {
   position: relative;
-  padding: 90px 0;
+  padding: 50px 0 90px;
 }
 main #slider .slider-all .left h5 {
   font-size: 64px;
@@ -801,9 +801,6 @@ main #slider .slider-all .left a {
 }
 main #slider .slider-all .left a:hover {
   background-color: #252525;
-}
-main #slider .slider-all .rigth {
-  transition: 0.5s;
 }
 main #slider .slider-all .rigth img {
   width: 100%;
@@ -896,7 +893,7 @@ main #superDeal .deal-products .deal-products-all .common {
   margin-bottom: 20px;
 }
 main #superDeal .deal-products .deal-products-all .common .top {
-  z-index: -1;
+  z-index: 10;
   position: relative;
 }
 main #superDeal .deal-products .deal-products-all .common .top img {
@@ -906,7 +903,7 @@ main #superDeal .deal-products .deal-products-all .common .top .forHover {
   transition: 0.7s;
   visibility: hidden;
   position: absolute;
-  bottom: -70px;
+  bottom: -10px;
   left: 0;
   z-index: 0;
 }
@@ -948,6 +945,9 @@ main #superDeal .deal-products .deal-products-all .common .bottom p {
   font-weight: 500;
 }
 main #superDeal .deal-products .deal-products-all .common .bottom p span {
+  color: #FF6000;
+}
+main #superDeal .deal-products .deal-products-all .common .bottom p .color {
   color: #606060;
 }
 main #superDeal .deal-products .deal-products-all .common:hover .forHover {
@@ -972,7 +972,7 @@ main #superDeal .deal-products .deal-products-all .hidden {
   margin-bottom: 20px;
 }
 main #superDeal .deal-products .deal-products-all .hidden .top {
-  z-index: -1;
+  z-index: 10;
   position: relative;
 }
 main #superDeal .deal-products .deal-products-all .hidden .top img {
@@ -982,7 +982,7 @@ main #superDeal .deal-products .deal-products-all .hidden .top .forHover {
   transition: 0.7s;
   visibility: hidden;
   position: absolute;
-  bottom: -70px;
+  bottom: -10px;
   left: 0;
   z-index: 0;
 }
@@ -1024,6 +1024,9 @@ main #superDeal .deal-products .deal-products-all .hidden .bottom p {
   font-weight: 500;
 }
 main #superDeal .deal-products .deal-products-all .hidden .bottom p span {
+  color: #FF6000;
+}
+main #superDeal .deal-products .deal-products-all .hidden .bottom p .color {
   color: #606060;
 }
 main #superDeal .deal-products .deal-products-all .hidden:hover .forHover {
@@ -1048,7 +1051,7 @@ main #superDeal .deal-products .deal-products-all .trend {
   margin-bottom: 20px;
 }
 main #superDeal .deal-products .deal-products-all .trend .top {
-  z-index: -1;
+  z-index: 10;
   position: relative;
 }
 main #superDeal .deal-products .deal-products-all .trend .top img {
@@ -1058,7 +1061,7 @@ main #superDeal .deal-products .deal-products-all .trend .top .forHover {
   transition: 0.7s;
   visibility: hidden;
   position: absolute;
-  bottom: -70px;
+  bottom: -10px;
   left: 0;
   z-index: 0;
 }
@@ -1100,6 +1103,9 @@ main #superDeal .deal-products .deal-products-all .trend .bottom p {
   font-weight: 500;
 }
 main #superDeal .deal-products .deal-products-all .trend .bottom p span {
+  color: #FF6000;
+}
+main #superDeal .deal-products .deal-products-all .trend .bottom p .color {
   color: #606060;
 }
 main #superDeal .deal-products .deal-products-all .trend:hover .forHover {
@@ -3198,4 +3204,1425 @@ main #modern-weekly .modern-weekly-all .weekly-section a {
 }
 main #modern-weekly .modern-weekly-all .weekly-section a:hover {
   background-color: #252525;
+}
+
+main #forBasket main .products .card {
+  box-shadow: 0px 0px 12px 1px grey;
+}
+main #forBasket main .products .card .card-body {
+  border-top: 1px solid rgb(230, 227, 227);
+}
+main #forBasket main .products .card .card-body .btn {
+  width: 100%;
+}
+main #forBasket input {
+  width: 50%;
+}
+main #forBasket .table img {
+  width: 25%;
+}
+
+main #mostPopularViewed2 {
+  padding: 80px 0 60px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all {
+  position: relative;
+  align-items: center;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .CommonForSlickIcons, main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .slickNext1, main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .slickPrev1, main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all #deals-day .deals-day-all .rigth .products-all .slickPrev1, main #deals-day .deals-day-all .rigth .products-all #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .slickPrev1, main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all #deals-day .deals-day-all .rigth .products-all .slickNext1, main #deals-day .deals-day-all .rigth .products-all #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .slickNext1 {
+  background: #252525;
+  padding: 12px 15px;
+  position: absolute;
+  top: 200px;
+  z-index: 1;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 900;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .CommonForSlickIcons:hover, main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .slickNext1:hover, main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .slickPrev1:hover {
+  background-color: #FF6000;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .slickPrev1 {
+  left: -30px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .slickNext1 {
+  right: -30px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty {
+  position: relative;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .top {
+  z-index: -1;
+  position: relative;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .top img {
+  width: 100%;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .top .forHover {
+  transition: 0.7s;
+  visibility: hidden;
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+  z-index: 0;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .top .forHover .top {
+  background-color: #fff;
+  font-size: 18px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .top .forHover .top i {
+  color: #252525;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .top .forHover .bottom {
+  background-color: #252525;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .top .forHover .bottom h6 {
+  color: #fff;
+  font-size: 13px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .average {
+  z-index: 1;
+  background-color: #fff;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .average h6 {
+  line-height: 1.75;
+  padding-bottom: 7px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .average h6 a {
+  color: #252525;
+  font-size: 16px;
+  transition: 0.2s;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .average h6 a:hover {
+  color: #0465D2;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .average p {
+  color: #FF6000;
+  font-size: 15px;
+  font-family: "Jost", sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .average p span {
+  color: #606060;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom {
+  background-color: #fff;
+  border-top: 1px solid #e6e4e4;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .total {
+  font-size: 12px;
+  font-weight: 500;
+  color: #959595;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .progress {
+  height: 6px;
+  border-radius: 5px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .progress .left {
+  background-color: #F7BA01;
+  width: 5%;
+  border-radius: 5px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .progress .rigth {
+  background-color: #F2F2F2;
+  width: 95%;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .text {
+  font-weight: 500;
+  color: #959595;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .text span {
+  color: #F7BA01;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .time {
+  padding: 0 0 10px;
+  font-weight: 500;
+  font-size: 10px;
+  font-weight: bold;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .time .day,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .time .hour,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .time .minute {
+  background-color: #252525;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 3px 0;
+  width: 45px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .time .second {
+  background-color: #F7BA01;
+  color: #fff;
+  text-align: center;
+  padding: 3px 0;
+  border-radius: 5px;
+  width: 45px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .time span {
+  display: block;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .time #day,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .time #hr,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .time #min,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .time #sec {
+  font-size: 16px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty:hover .forHover {
+  visibility: visible;
+  bottom: 0;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty::before {
+  position: absolute;
+  content: "";
+  top: 15px;
+  right: 21px;
+  padding: 0 8px;
+  background-color: #FF6000;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal {
+  position: relative;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .top {
+  z-index: -1;
+  position: relative;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .top img {
+  width: 100%;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .top .forHover {
+  transition: 0.7s;
+  visibility: hidden;
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+  z-index: 0;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .top .forHover .top {
+  background-color: #fff;
+  font-size: 18px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .top .forHover .top i {
+  color: #252525;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .top .forHover .bottom {
+  background-color: #252525;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .top .forHover .bottom h6 {
+  color: #fff;
+  font-size: 13px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .average {
+  z-index: 1;
+  background-color: #fff;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .average h6 {
+  line-height: 1.75;
+  padding-bottom: 7px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .average h6 a {
+  color: #252525;
+  font-size: 16px;
+  transition: 0.2s;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .average h6 a:hover {
+  color: #0465D2;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .average p {
+  color: #FF6000;
+  font-size: 15px;
+  font-family: "Jost", sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .average p span {
+  color: #606060;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom {
+  background-color: #fff;
+  border-top: 1px solid #e6e4e4;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .total {
+  font-size: 12px;
+  font-weight: 500;
+  color: #959595;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .progress {
+  height: 6px;
+  border-radius: 5px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .progress .left {
+  background-color: #F7BA01;
+  width: 5%;
+  border-radius: 5px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .progress .rigth {
+  background-color: #F2F2F2;
+  width: 95%;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .text {
+  font-weight: 500;
+  color: #959595;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .text span {
+  color: #F7BA01;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .time {
+  padding: 0 0 10px;
+  font-weight: 500;
+  font-size: 10px;
+  font-weight: bold;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .time .day,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .time .hour,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .time .minute {
+  background-color: #252525;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 3px 0;
+  width: 45px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .time .second {
+  background-color: #F7BA01;
+  color: #fff;
+  text-align: center;
+  padding: 3px 0;
+  border-radius: 5px;
+  width: 45px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .time span {
+  display: block;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .time #day,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .time #hr,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .time #min,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .time #sec {
+  font-size: 16px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal:hover .forHover {
+  visibility: visible;
+  bottom: 0;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal::before {
+  position: absolute;
+  content: "Sale!";
+  top: 15px;
+  right: 21px;
+  padding: 0 8px;
+  background-color: #FF6000;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend {
+  position: relative;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .top {
+  z-index: -1;
+  position: relative;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .top img {
+  width: 100%;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .top .forHover {
+  transition: 0.7s;
+  visibility: hidden;
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+  z-index: 0;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .top .forHover .top {
+  background-color: #fff;
+  font-size: 18px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .top .forHover .top i {
+  color: #252525;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .top .forHover .bottom {
+  background-color: #252525;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .top .forHover .bottom h6 {
+  color: #fff;
+  font-size: 13px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .average {
+  z-index: 1;
+  background-color: #fff;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .average h6 {
+  line-height: 1.75;
+  padding-bottom: 7px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .average h6 a {
+  color: #252525;
+  font-size: 16px;
+  transition: 0.2s;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .average h6 a:hover {
+  color: #0465D2;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .average p {
+  color: #FF6000;
+  font-size: 15px;
+  font-family: "Jost", sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .average p span {
+  color: #606060;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom {
+  background-color: #fff;
+  border-top: 1px solid #e6e4e4;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .total {
+  font-size: 12px;
+  font-weight: 500;
+  color: #959595;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .progress {
+  height: 6px;
+  border-radius: 5px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .progress .left {
+  background-color: #F7BA01;
+  width: 5%;
+  border-radius: 5px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .progress .rigth {
+  background-color: #F2F2F2;
+  width: 95%;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .text {
+  font-weight: 500;
+  color: #959595;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .text span {
+  color: #F7BA01;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .time {
+  padding: 0 0 10px;
+  font-weight: 500;
+  font-size: 10px;
+  font-weight: bold;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .time .day,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .time .hour,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .time .minute {
+  background-color: #252525;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 3px 0;
+  width: 45px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .time .second {
+  background-color: #F7BA01;
+  color: #fff;
+  text-align: center;
+  padding: 3px 0;
+  border-radius: 5px;
+  width: 45px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .time span {
+  display: block;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .time #day,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .time #hr,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .time #min,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .time #sec {
+  font-size: 16px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend:hover .forHover {
+  visibility: visible;
+  bottom: 0;
+}
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend::before {
+  position: absolute;
+  content: "Trend";
+  top: 15px;
+  right: 21px;
+  padding: 0 8px;
+  background-color: #FF6000;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+
+main #largeTitle {
+  background-color: #F2F2F2;
+  padding: 80px 0 60px;
+}
+main #largeTitle .largeTitle-all {
+  padding-bottom: 30px;
+}
+main #largeTitle .largeTitle-all h3 {
+  letter-spacing: 0.3px;
+  font-size: 35px;
+  line-height: 1.4;
+  font-style: normal;
+  font-weight: 500;
+  color: #252525;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+main #largeTitle .largeTitle-all .titleBottom-all {
+  background-color: #fff;
+  padding: 15px 40px;
+  text-align: center;
+  border-radius: 50px;
+}
+main #largeTitle .largeTitle-all .titleBottom-all .color {
+  line-height: 1;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ff6000;
+}
+main #largeTitle .largeTitle-all .titleBottom-all span {
+  color: #6d6c6c;
+  text-align: center;
+  line-height: 1;
+  font-size: 13px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+main #largeTitle .largeTitle-all .titleBottom-all span:hover {
+  color: #ff6000;
+}
+
+main #contactt {
+  padding: 70px 0;
+}
+main #contactt .contactt-box {
+  border: 1px solid #d6d4d4;
+  box-shadow: 0px 0px 17px 0px #d6d4d4;
+  padding: 50px 0;
+}
+main #contactt .contactt-box h5 {
+  font-size: 20px;
+  margin: 20px 0;
+  font-style: normal;
+  font-weight: 500;
+  color: #252525;
+}
+main #contactt .contactt-box p {
+  color: #7d7d7d;
+  line-height: 26px;
+  font-size: 15px;
+}
+main #contactt .contactt-box .top i {
+  padding: 22px 25px;
+  background-color: #ff6000;
+  border: 1px solid #7d7d7d;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+}
+
+main #sendMessage {
+  padding: 60px 0 80px;
+}
+main #sendMessage .sendMessage-all .sendMessage-text {
+  padding-bottom: 50px;
+}
+main #sendMessage .sendMessage-all .sendMessage-text span {
+  display: block;
+  line-height: 1;
+  font-size: 12px;
+  font-weight: 600;
+  color: #ff6000;
+  margin-bottom: 15px;
+  text-align: center;
+}
+main #sendMessage .sendMessage-all .sendMessage-text h2 {
+  letter-spacing: 0.3px;
+  font-size: 35px;
+  line-height: 1.4;
+  font-style: normal;
+  font-weight: 500;
+  color: #252525;
+  text-align: center;
+  font-weight: 600;
+}
+main #sendMessage .sendMessage-all .sendMessage-bottom .mBox input {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  padding: 17px 18px;
+  border-radius: 4px;
+  padding-right: 40px;
+  color: #e2e2e2;
+  font-size: 13px;
+}
+main #sendMessage .sendMessage-all .sendMessage-bottom .mBox textarea {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  padding: 17px 18px;
+  border-radius: 4px;
+  padding-right: 40px;
+  color: #e2e2e2;
+  font-size: 13px;
+}
+main #sendMessage .sendMessage-all .btn {
+  width: 150px;
+  padding: 10px 50px;
+  background-color: #ff6000;
+  color: #fff;
+  font-weight: bold;
+}
+
+#devidedSections .modern-section {
+  margin: 20px 0;
+  background-image: url("https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/06/banner-2.jpg");
+  background-position: center;
+  background-size: cover;
+  border: 1px solid #E2E2E2;
+  padding: 20px 0 40px 30px;
+  border-radius: 5px;
+}
+#devidedSections .modern-section span {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1;
+  color: #7d7d7d;
+  text-align: left;
+}
+#devidedSections .modern-section h3 {
+  font-size: 28px;
+  line-height: 1.6;
+  font-style: normal;
+  font-weight: 500;
+  color: #252525;
+  text-align: left;
+}
+#devidedSections .modern-section p {
+  width: 60%;
+  line-height: 1.8;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: #7d7d7d;
+  font-family: "Jost", sans-serif;
+}
+#devidedSections .modern-section a {
+  font-size: 11px;
+  padding: 15px 20px;
+  background-color: #0465d2;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 40px 0;
+  transition: 0.3s;
+}
+#devidedSections .modern-section a:hover {
+  background-color: #252525;
+}
+
+#devidedSections .weekly-section {
+  background-image: url("https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/08/banner-1.jpg");
+  background-position: center;
+  background-size: cover;
+  border: 1px solid #E2E2E2;
+  padding: 20px 0 40px 30px;
+  border-radius: 5px;
+}
+#devidedSections .weekly-section span {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1;
+  color: #7d7d7d;
+  text-align: left;
+}
+#devidedSections .weekly-section h3 {
+  font-size: 28px;
+  line-height: 1.6;
+  font-style: normal;
+  font-weight: 500;
+  color: #252525;
+  text-align: left;
+}
+#devidedSections .weekly-section p {
+  width: 60%;
+  line-height: 1.8;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: #7d7d7d;
+  font-family: "Jost", sans-serif;
+}
+#devidedSections .weekly-section a {
+  font-size: 11px;
+  padding: 15px 20px;
+  background-color: #0465d2;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 40px 0;
+  transition: 0.3s;
+}
+#devidedSections .weekly-section a:hover {
+  background-color: #252525;
+}
+
+#devidedSections .devidedSectionsAll .devidedRigth {
+  padding: 60px 0 0 0;
+}
+
+main #free-support2 {
+  padding: 0 20px;
+}
+main #free-support2 .free-support-all {
+  padding: 80px 0 100px;
+}
+main #free-support2 .free-support-all .box {
+  border-right: 1px solid #e6e4e4;
+}
+main #free-support2 .free-support-all .box img {
+  transition: 0.7s;
+}
+main #free-support2 .free-support-all .box span {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  color: #7d7d7d;
+  font-style: normal;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+}
+main #free-support2 .free-support-all .box:hover img {
+  transform: rotateY(360deg);
+}
+main #free-support2 .free-support-all .box:hover h6 {
+  color: #0163d2;
+}
+main #free-support2 .free-support-all .special {
+  border-right: none;
+}
+
+main #mostPopularViewed2 {
+  background-color: #F2F2F2;
+  padding: 20px 0 30px;
+  margin: 30px 0;
+}
+main #mostPopularViewed2 .mostPopularViewed-all .most-products-all {
+  position: relative;
+  align-items: center;
+}
+main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .CommonForSlickIcons, main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .slickNext1, main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .slickPrev1, main #mostPopularViewed2 .mostPopularViewed-all .most-products-all #deals-day .deals-day-all .rigth .products-all .slickPrev1, main #deals-day .deals-day-all .rigth .products-all #mostPopularViewed2 .mostPopularViewed-all .most-products-all .slickPrev1, main #mostPopularViewed2 .mostPopularViewed-all .most-products-all #deals-day .deals-day-all .rigth .products-all .slickNext1, main #deals-day .deals-day-all .rigth .products-all #mostPopularViewed2 .mostPopularViewed-all .most-products-all .slickNext1 {
+  position: absolute;
+  top: -30px;
+  z-index: 1;
+  color: #7d7d7d;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .CommonForSlickIcons:hover, main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .slickNext1:hover, main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .slickPrev1:hover {
+  color: #F7BA01;
+  border-color: #F7BA01;
+}
+main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .slickPrev1 {
+  right: 30px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .slickNext1 {
+  right: 15px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .forEmpty {
+  position: relative;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .forEmpty .top {
+  z-index: -1;
+  background-color: #fff;
+  position: relative;
+  padding-bottom: 5px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .forEmpty .top img {
+  width: 100%;
+}
+main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .forEmpty h4 a {
+  font-size: 15px;
+  color: #252525;
+}
+main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .forEmpty::before {
+  position: absolute;
+  content: "1";
+  top: 15px;
+  left: 5px;
+  padding: 0 8px;
+  background-color: #FF6000;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .forSeal {
+  position: relative;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .forSeal .top {
+  z-index: -1;
+  background-color: #fff;
+  position: relative;
+  padding-bottom: 5px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .forSeal .top img {
+  width: 100%;
+}
+main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .forSeal h4 a {
+  font-size: 15px;
+  color: #252525;
+}
+main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .forSeal::before {
+  position: absolute;
+  content: "2";
+  top: 15px;
+  left: 5px;
+  padding: 0 8px;
+  background-color: #FF6000;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .forTrend {
+  position: relative;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .forTrend .top {
+  z-index: -1;
+  background-color: #fff;
+  position: relative;
+  padding-bottom: 5px;
+}
+main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .forTrend .top img {
+  width: 100%;
+}
+main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .forTrend h4 a {
+  font-size: 15px;
+  color: #252525;
+}
+main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .forTrend::before {
+  position: absolute;
+  content: "3";
+  top: 15px;
+  left: 5px;
+  padding: 0 8px;
+  background-color: #FF6000;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+
+main #bestSelling2 {
+  padding: 10px 0 80px;
+}
+main #bestSelling2 .bestSelling-all .bestSelling-text {
+  padding-bottom: 50px;
+}
+main #bestSelling2 .bestSelling-all .bestSelling-text span {
+  display: block;
+  line-height: 1;
+  font-size: 12px;
+  font-weight: 600;
+  color: #ff6000;
+  margin-bottom: 15px;
+  text-align: center;
+}
+main #bestSelling2 .bestSelling-all .bestSelling-text h2 {
+  letter-spacing: 0.3px;
+  font-size: 35px;
+  line-height: 1.4;
+  font-style: normal;
+  font-weight: 500;
+  color: #252525;
+  text-align: center;
+  font-weight: 600;
+}
+main #bestSelling2 .bestSelling-all .bestSelling-tabMenu {
+  padding-bottom: 50px;
+}
+main #bestSelling2 .bestSelling-all .bestSelling-tabMenu .best-tabMenu {
+  background-color: #f2f2f2;
+  padding: 20px 100px;
+  border-radius: 50px;
+}
+main #bestSelling2 .bestSelling-all .bestSelling-tabMenu .best-tabMenu h6 {
+  color: #7d7d7d;
+  font-size: 14px;
+  cursor: pointer;
+}
+main #bestSelling2 .bestSelling-all .bestSelling-tabMenu .best-tabMenu #special {
+  color: #FF6000;
+  font-size: 14px;
+  cursor: pointer;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-left img {
+  width: 100%;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 {
+  position: relative;
+  margin-bottom: 20px;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .top {
+  z-index: -1;
+  position: relative;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .top img {
+  width: 100%;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .top .forImgHover {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .top .forHover {
+  transition: 0.7s;
+  visibility: hidden;
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+  z-index: 0;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .top .forHover .top {
+  background-color: #fff;
+  font-size: 18px;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .top .forHover .top i {
+  color: #252525;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .top .forHover .bottom {
+  background-color: #252525;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .top .forHover .bottom h6 {
+  color: #fff;
+  font-size: 13px;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .bottom {
+  z-index: 1;
+  background-color: #fff;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .bottom span {
+  color: #7d7d7d;
+  text-decoration: line-through;
+  font-size: 12px;
+  font-weight: bold;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .bottom h6 {
+  padding-bottom: 7px;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .bottom h6 a {
+  color: #252525;
+  font-size: 16px;
+  transition: 0.3s;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .bottom h6 a:hover {
+  color: #FF6000;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 .bottom p {
+  color: #FF6000;
+  font-size: 15px;
+  font-weight: 600;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1:hover .forHover {
+  visibility: visible;
+  bottom: 0;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1:hover .forImgHover {
+  visibility: visible;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1::before {
+  position: absolute;
+  content: "50%";
+  top: 20px;
+  left: 20px;
+  padding: 0 8px;
+  background-color: #f7ba01;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1::after {
+  position: absolute;
+  content: "Sale!";
+  top: 20px;
+  right: 20px;
+  padding: 0 8px;
+  background-color: #FF6000;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1 i {
+  font-size: 13px;
+  color: #E8EBF2;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 {
+  position: relative;
+  margin-bottom: 20px;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .top {
+  z-index: -1;
+  position: relative;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .top img {
+  width: 100%;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .top .forImgHover {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .top .forHover {
+  transition: 0.7s;
+  visibility: hidden;
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+  z-index: 0;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .top .forHover .top {
+  background-color: #fff;
+  font-size: 18px;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .top .forHover .top i {
+  color: #252525;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .top .forHover .bottom {
+  background-color: #252525;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .top .forHover .bottom h6 {
+  color: #fff;
+  font-size: 13px;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .bottom {
+  z-index: 1;
+  background-color: #fff;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .bottom span {
+  color: #7d7d7d;
+  text-decoration: line-through;
+  font-size: 12px;
+  font-weight: bold;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .bottom h6 {
+  padding-bottom: 7px;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .bottom h6 a {
+  color: #252525;
+  font-size: 16px;
+  transition: 0.3s;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .bottom h6 a:hover {
+  color: #FF6000;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 .bottom p {
+  color: #FF6000;
+  font-size: 15px;
+  font-weight: 600;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2:hover .forHover {
+  visibility: visible;
+  bottom: 0;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2:hover .forImgHover {
+  visibility: visible;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2::before {
+  position: absolute;
+  content: "10%";
+  top: 20px;
+  left: 20px;
+  padding: 0 8px;
+  background-color: #f7ba01;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2::after {
+  position: absolute;
+  content: "Discount";
+  top: 20px;
+  right: 20px;
+  padding: 0 8px;
+  background-color: #FF6000;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2 i {
+  font-size: 13px;
+  color: #FFA800;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 {
+  position: relative;
+  margin-bottom: 20px;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .top {
+  z-index: -1;
+  position: relative;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .top img {
+  width: 100%;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .top .forImgHover {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .top .forHover {
+  transition: 0.7s;
+  visibility: hidden;
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+  z-index: 0;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .top .forHover .top {
+  background-color: #fff;
+  font-size: 18px;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .top .forHover .top i {
+  color: #252525;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .top .forHover .bottom {
+  background-color: #252525;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .top .forHover .bottom h6 {
+  color: #fff;
+  font-size: 13px;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .bottom {
+  z-index: 1;
+  background-color: #fff;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .bottom span {
+  color: #7d7d7d;
+  text-decoration: line-through;
+  font-size: 12px;
+  font-weight: bold;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .bottom h6 {
+  padding-bottom: 7px;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .bottom h6 a {
+  color: #252525;
+  font-size: 16px;
+  transition: 0.3s;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .bottom h6 a:hover {
+  color: #FF6000;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 .bottom p {
+  color: #FF6000;
+  font-size: 15px;
+  font-weight: 600;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3:hover .forHover {
+  visibility: visible;
+  bottom: 0;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3:hover .forImgHover {
+  visibility: visible;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3::before {
+  position: absolute;
+  content: "57%";
+  top: 20px;
+  left: 20px;
+  padding: 0 8px;
+  background-color: #f7ba01;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3::after {
+  position: absolute;
+  content: "Sale!";
+  top: 20px;
+  right: 20px;
+  padding: 0 8px;
+  background-color: #FF6000;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3 i {
+  font-size: 13px;
+  color: #FFA800;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4,
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 {
+  position: relative;
+  margin-bottom: 20px;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .top,
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .top {
+  z-index: -1;
+  position: relative;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .top img,
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .top img {
+  width: 100%;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .top .forImgHover,
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .top .forImgHover {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .top .forHover,
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .top .forHover {
+  transition: 0.7s;
+  visibility: hidden;
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+  z-index: 0;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .top .forHover .top,
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .top .forHover .top {
+  background-color: #fff;
+  font-size: 18px;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .top .forHover .top i,
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .top .forHover .top i {
+  color: #252525;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .top .forHover .bottom,
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .top .forHover .bottom {
+  background-color: #252525;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .top .forHover .bottom h6,
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .top .forHover .bottom h6 {
+  color: #fff;
+  font-size: 13px;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .bottom,
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .bottom {
+  z-index: 1;
+  background-color: #fff;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .bottom span,
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .bottom span {
+  color: #7d7d7d;
+  text-decoration: line-through;
+  font-size: 12px;
+  font-weight: bold;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .bottom h6,
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .bottom h6 {
+  padding-bottom: 7px;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .bottom h6 a,
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .bottom h6 a {
+  color: #252525;
+  font-size: 16px;
+  transition: 0.3s;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .bottom h6 a:hover,
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .bottom h6 a:hover {
+  color: #FF6000;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 .bottom p,
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 .bottom p {
+  color: #FF6000;
+  font-size: 15px;
+  font-weight: 600;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4:hover .forHover,
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5:hover .forHover {
+  visibility: visible;
+  bottom: 0;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4:hover .forImgHover,
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5:hover .forImgHover {
+  visibility: visible;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4::before,
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5::before {
+  position: absolute;
+  content: "";
+  top: 20px;
+  left: 20px;
+  padding: 0 8px;
+  background-color: #f7ba01;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4::after,
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5::after {
+  position: absolute;
+  content: "";
+  top: 20px;
+  right: 20px;
+  padding: 0 8px;
+  background-color: #FF6000;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common4 i,
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5 i {
+  font-size: 13px;
+  color: #FFA800;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 {
+  position: relative;
+  margin-bottom: 20px;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .top {
+  z-index: -1;
+  position: relative;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .top img {
+  width: 100%;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .top .forImgHover {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .top .forHover {
+  transition: 0.7s;
+  visibility: hidden;
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+  z-index: 0;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .top .forHover .top {
+  background-color: #fff;
+  font-size: 18px;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .top .forHover .top i {
+  color: #252525;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .top .forHover .bottom {
+  background-color: #252525;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .top .forHover .bottom h6 {
+  color: #fff;
+  font-size: 13px;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .bottom {
+  z-index: 1;
+  background-color: #fff;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .bottom span {
+  color: #7d7d7d;
+  text-decoration: line-through;
+  font-size: 12px;
+  font-weight: bold;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .bottom h6 {
+  padding-bottom: 7px;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .bottom h6 a {
+  color: #252525;
+  font-size: 16px;
+  transition: 0.3s;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .bottom h6 a:hover {
+  color: #FF6000;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 .bottom p {
+  color: #FF6000;
+  font-size: 15px;
+  font-weight: 600;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6:hover .forHover {
+  visibility: visible;
+  bottom: 0;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6:hover .forImgHover {
+  visibility: visible;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6::before {
+  position: absolute;
+  content: "18%";
+  top: 20px;
+  left: 20px;
+  padding: 0 8px;
+  background-color: #f7ba01;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6::after {
+  position: absolute;
+  content: "Sale!";
+  top: 20px;
+  right: 20px;
+  padding: 0 8px;
+  background-color: #FF6000;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 i {
+  font-size: 13px;
+  color: #FFA800;
 }/*# sourceMappingURL=style.css.map */

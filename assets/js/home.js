@@ -13,40 +13,43 @@ let myTexts=[
 
 let currentSlider=0;
 let text=document.getElementById('text-h2');
-text.innerText=myTexts[currentSlider];
 
-let img=document.querySelector('#slider .rigth img');
-img.src=myslider[currentSlider];
+if (text !== null) {
+  text.innerText=myTexts[currentSlider];
 
-let next=document.querySelector('#slider .next');
-let prev=document.querySelector('#slider  .prev');
+  let img=document.querySelector('#slider .rigth img');
+  img.src=myslider[currentSlider];
 
-function autoPlay(){
-    currentSlider++;
-    
-    if(currentSlider>myslider.length-1)
-    currentSlider=0;
+  let next=document.querySelector('#slider .next');
+  let prev=document.querySelector('#slider  .prev');
 
-    img.src=myslider[currentSlider];
-    text.innerText=myTexts[currentSlider];
+  function autoPlay(){
+      currentSlider++;
+      
+      if(currentSlider>myslider.length-1)
+      currentSlider=0;
+
+      img.src=myslider[currentSlider];
+      text.innerText=myTexts[currentSlider];
+  }
+
+  next.addEventListener('click', autoPlay);
+
+  prev.addEventListener('click', function(){
+      currentSlider--;
+      
+      if(currentSlider<0)
+      currentSlider=myslider.length-1;
+
+      img.src=myslider[currentSlider];
+      text.innerText=myTexts[currentSlider];
+  });
+
+  setInterval(()=>{
+  autoPlay();
+  }, 3000)
 }
 
-next.addEventListener('click', autoPlay);
-
-prev.addEventListener('click', function(){
-    console.log('prev');
-    currentSlider--;
-    
-    if(currentSlider<0)
-    currentSlider=myslider.length-1;
-
-    img.src=myslider[currentSlider];
-    text.innerText=myTexts[currentSlider];
-});
-
-setInterval(()=>{
- autoPlay();
-}, 3000)
 
 
 /* ----------------------- Slick Slider -------------------------- */
@@ -135,19 +138,27 @@ $(document).ready(function(){
 
 /*--------------------------------- for basket --------------------------------- */
 
-if(localStorage.getItem('basket')===null)
-{
-    localStorage.setItem('basket',JSON.stringify([]))
+let basket = JSON.parse(localStorage.getItem("basket"));
+
+if (basket == null) {
+    localStorage.setItem("basket", JSON.stringify([]));
+    basket = [];
 }
 
-let buttons=document.querySelectorAll('.btn');
+let buttons = document.querySelectorAll('.btn');
+
+function updateBasketCount() {
+  let basketCount = document.querySelector("span#count");
+  let products = JSON.parse(localStorage.getItem("basket"));
+  basketCount.innerText = products.length;
+}
+ 
+
 for (const item of buttons) {
     console.log('hamisini goturdu');
     item.addEventListener('click',function(e){
         e.preventDefault();
-        console.log('click edildi');
 
-        let basket=JSON.parse(localStorage.getItem('basket'));
         let prod_id=e.target.parentElement.parentElement.parentElement.parentElement.id;
         let prod_img=e.target.parentElement.parentElement.previousElementSibling.children[0].src;
         let prod_name=e.target.parentElement.parentElement.parentElement.nextElementSibling.children[0].children[0].innerText;
@@ -166,13 +177,11 @@ for (const item of buttons) {
             });
         }
         localStorage.setItem('basket',JSON.stringify(basket));
+
+        updateBasketCount();
+        
     })
+
 }
 
-function ShowCount(){
-    let basket=JSON.parse(localStorage.getItem('basket'));
-    let count=basket.length;
-    document.getElementById('count').innerHTML=count;
-}
-
-ShowCount();
+updateBasketCount();

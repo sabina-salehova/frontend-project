@@ -113,7 +113,7 @@
                         <a href=""><i id="i1" class="fa-regular fa-user"></i></a>
                         <a href=""><i id="i2" class="fa-solid fa-rotate"><span>0</span></i></a>
                         <a href=""><i id="i3" class="fa-regular fa-heart"><span>0</span></i></a>
-                        <a href="cart.html"><i id="i4" class="fa-solid fa-bag-shopping"><span>0</span></i></a>
+                        <a href="cart.html"><i id="i4" class="fa-solid fa-bag-shopping"><span id="count">0</span></i></a>
                     </div>
 
                 </div>
@@ -396,7 +396,7 @@
 
                             <ul>
                                 <li class="home">
-                                    <a class="specialHref" href="">HOME</a>
+                                    <a class="specialHref" href="index.html">HOME</a>
                                     <i class="ps-1 fa-solid fa-angle-down"></i>
 
                                     <div class="row home-drop-down">
@@ -469,7 +469,7 @@
 
                                 </li>
                                 <li class="shop">
-                                    <a class="commonHref" href="">SHOP</a>
+                                    <a class="commonHref" href="shop.html">SHOP</a>
                                     <i class="ps-1 fa-solid fa-angle-down"></i>
 
                                     <div class="row shop-drop-down">
@@ -703,356 +703,55 @@
                 </div>
             </div>
         </section>
-       
-        <section id="bestSelling">
+
+
+        <section id="forBasket">
             <div class="container-my">
-                <div class="row bestSelling-all d-flex justify-content-between text-center">
-                    <div class="bestSelling-text">
-                        <span>EXCLUSIVE COLLECTION</span>
-                        <h2>BEST SELLING PRODUCTS</h2>
+
+                <div class="forbasket-all">
+
+                    <div class="w-100 d-none" id="alert">
+                        <div class="alert alert-secondary" role="alert">
+                            <i class="fa-solid fa-cart-shopping"></i>    Your cart is currently empty.</a>
+                        </div>
                     </div>
 
-                    <div class="row bestSelling-tabMenu d-flex justify-content-center">
-                        <div class="col-lg-9 col-12">
-                            <div class="best-tabMenu d-flex justify-content-between text-center">
-                                <h6 id="special">ALL</h6>
-                                <h6>GAMING</h6>
-                                <h6>ACCESSORIES</h6>
-                                <h6>FEATURED</h6>
-                                <h6>HOT SELL</h6>
-                                <h6>TREND</h6>
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <table id="table" class="table table-striped table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Id</th>
+                                        <th>Image</th>
+                                        <th>Name</th>
+                                        <th>Count</th>
+                                        <th>Price</th>
+                                        <th></th>                            
+                                    </tr>
+                                </thead>
+                                <tbody id="tbody">
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-lg-5">
+                            <div id="result">
+                                <h5>Məhsul sayı: <span id="gCount"></span></h5>
+                                <h5>Ümumi məbləğ: <span id="gPay"></span>  AZN</h5>
                             </div>
                         </div>
                     </div>
 
-                    <div class="row bestSellingProducts">
-                        <div class="col-lg-3">
-                            <div class="best-left">
-                                <img src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/08/sale-left-1.png"
-                                    alt="">
-                            </div>
-                        </div>
-                        <div class="col-lg-9">
-                            <div class="best-rigth ">
-                                <div class="row best-products-all d-flex justify-content-evenly">
-
-                                    <!----------------- PRODUCT BOX ---------------------->
-                                    <div class="col-lg-4">
-                                        <div class="box common1 product">
-
-                                            <div class="top">
-
-                                                <a class="firstImg" href=""><img
-                                                        src="	https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/el_img5-450x450.jpg"
-                                                        alt=""></a>
-
-                                                <div class="forImgHover">
-                                                    <a href="">
-                                                        <img src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/el_img5_hover-450x450.jpg" alt="">
-                                                    </a>
-                                                </div>
-
-                                                <div class="forHover w-100 text-center">
-                                                    <div
-                                                        class="top d-flex justify-content-evenly py-2 align-items-center">
-                                                        <i class="fa-regular fa-eye"></i>
-                                                        <i class="fa-regular fa-heart"></i>
-                                                        <i class="fa-solid fa-arrows-rotate"></i>
-                                                    </div>
-                                                    <div class="bottom pt-2 pb-1 align-items-center">
-                                                        <h6>ADD TO CART</h6>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-
-                                            <div class="bottom py-3 px-4">
-                                                
-                                                <div class="bottom-top d-flex justify-content-between py-2">
-                                                    <div class="rating d-flex justify-content-start pt-2">
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                </div>
-                                                <span class="mb-2">$50.00</span>
-                                                </div>
-                                                <div class="bottom-text d-flex justify-content-between">
-                                                    <h6 class=""><a href="">Sound Equipment</a></h6>
-                                                    <p>$25.00</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <!----------------- PRODUCT BOX FINISH---------------------->
-
-                                    <div class="col-lg-4">
-                                        <div class="box common2 product">
-
-                                            <div class="top">
-
-                                                <a class="firstImg" href=""><img
-                                                        src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/el_img8-450x450.jpg"
-                                                        alt=""></a>
-
-                                                <div class="forImgHover">
-                                                    <a href="">
-                                                        <img src="	https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/el_img8_hover-450x450.jpg" alt="">
-                                                    </a>
-                                                </div>
-
-                                                <div class="forHover w-100 text-center">
-                                                    <div
-                                                        class="top d-flex justify-content-evenly py-2 align-items-center">
-                                                        <i class="fa-regular fa-eye"></i>
-                                                        <i class="fa-regular fa-heart"></i>
-                                                        <i class="fa-solid fa-arrows-rotate"></i>
-                                                    </div>
-                                                    <div class="bottom pt-2 pb-1 align-items-center">
-                                                        <h6>ADD TO CART</h6>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-
-                                            <div class="bottom py-3 px-4">
-                                                
-                                                <div class="bottom-top d-flex justify-content-between py-2">
-                                                    <div class="rating d-flex justify-content-start pt-2">
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                </div>
-                                                <span class="mb-2">$20.00</span>
-                                                </div>
-                                                <div class="bottom-text d-flex justify-content-between">
-                                                    <h6 class=""><a href="">Sound Equipment</a></h6>
-                                                    <p>$18.00</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4">
-                                        <div class="box common3 product">
-
-                                            <div class="top">
-
-                                                <a class="firstImg" href=""><img
-                                                        src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/1d20de71-9151-425f-890b-2fd4c703c430.dfbaf58eff390bef1eec9774e2e32233-450x450.jpg"
-                                                        alt=""></a>
-
-                                                <div class="forImgHover">
-                                                    <a href="">
-                                                        <img src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/el_img12_hover-450x450.jpg" alt="">
-                                                    </a>
-                                                </div>
-
-                                                <div class="forHover w-100 text-center">
-                                                    <div
-                                                        class="top d-flex justify-content-evenly py-2 align-items-center">
-                                                        <i class="fa-regular fa-eye"></i>
-                                                        <i class="fa-regular fa-heart"></i>
-                                                        <i class="fa-solid fa-arrows-rotate"></i>
-                                                    </div>
-                                                    <div class="bottom pt-2 pb-1 align-items-center">
-                                                        <h6>ADD TO CART</h6>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-
-                                            <div class="bottom py-3 px-4">
-                                                
-                                                <div class="bottom-top d-flex justify-content-between py-2">
-                                                    <div class="rating d-flex justify-content-start pt-2">
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                </div>
-                                                <span class="mb-2">$35.00</span>
-                                                </div>
-                                                <div class="bottom-text d-flex justify-content-between">
-                                                    <h6 class=""><a href="">Sound Equipment</a></h6>
-                                                    <p>$15.00</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4">
-                                        <div class="box common4 product">
-
-                                            <div class="top">
-
-                                                <a class="firstImg" href=""><img
-                                                        src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/el_img2-450x450.jpg"
-                                                        alt=""></a>
-
-                                                <div class="forImgHover">
-                                                    <a href="">
-                                                        <img src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/el_img2_hover-450x450.jpg" alt="">
-                                                    </a>
-                                                </div>
-
-                                                <div class="forHover w-100 text-center">
-                                                    <div
-                                                        class="top d-flex justify-content-evenly py-2 align-items-center">
-                                                        <i class="fa-regular fa-eye"></i>
-                                                        <i class="fa-regular fa-heart"></i>
-                                                        <i class="fa-solid fa-arrows-rotate"></i>
-                                                    </div>
-                                                    <div class="bottom pt-2 pb-1 align-items-center">
-                                                        <h6>ADD TO CART</h6>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-
-                                            <div class="bottom py-3 px-4">
-                                                
-                                                <div class="bottom-top d-flex justify-content-between py-2">
-                                                    <div class="rating d-flex justify-content-start pt-2">
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                </div>
-                                                <span class="mb-2"></span>
-                                                </div>
-                                                <div class="bottom-text d-flex justify-content-between">
-                                                    <h6 class=""><a href="">Sound Equipment</a></h6>
-                                                    <p>$15.00</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4">
-                                        <div class="box common5 product">
-
-                                            <div class="top">
-
-                                                <a class="firstImg" href=""><img
-                                                        src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/el_img6-450x450.jpg"
-                                                        alt=""></a>
-
-                                                <div class="forImgHover">
-                                                    <a href="">
-                                                        <img src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/el_img6_hover-450x450.jpg" alt="">
-                                                    </a>
-                                                </div>
-
-                                                <div class="forHover w-100 text-center">
-                                                    <div
-                                                        class="top d-flex justify-content-evenly py-2 align-items-center">
-                                                        <i class="fa-regular fa-eye"></i>
-                                                        <i class="fa-regular fa-heart"></i>
-                                                        <i class="fa-solid fa-arrows-rotate"></i>
-                                                    </div>
-                                                    <div class="bottom pt-2 pb-1 align-items-center">
-                                                        <h6>ADD TO CART</h6>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-
-                                            <div class="bottom py-3 px-4">
-                                                
-                                                <div class="bottom-top d-flex justify-content-between py-2">
-                                                    <div class="rating d-flex justify-content-start pt-2">
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                </div>
-                                                <span class="mb-2">$35.00</span>
-                                                </div>
-                                                <div class="bottom-text d-flex justify-content-between">
-                                                    <h6 class=""><a href="">Sound Equipment</a></h6>
-                                                    <p>$15.00</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-4">
-                                        <div class="box common6 product">
-
-                                            <div class="top">
-
-                                                <a class="firstImg" href=""><img
-                                                        src="	https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/el_img9-450x450.jpg"
-                                                        alt=""></a>
-
-                                                <div class="forImgHover">
-                                                    <a href="">
-                                                        <img src="	https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/el_img9_hover-450x450.jpg" alt="">
-                                                    </a>
-                                                </div>
-
-                                                <div class="forHover w-100 text-center">
-                                                    <div
-                                                        class="top d-flex justify-content-evenly py-2 align-items-center">
-                                                        <i class="fa-regular fa-eye"></i>
-                                                        <i class="fa-regular fa-heart"></i>
-                                                        <i class="fa-solid fa-arrows-rotate"></i>
-                                                    </div>
-                                                    <div class="bottom pt-2 pb-1 align-items-center">
-                                                        <h6>ADD TO CART</h6>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-
-                                            <div class="bottom py-3 px-4">
-                                                
-                                                <div class="bottom-top d-flex justify-content-between py-2">
-                                                    <div class="rating d-flex justify-content-start pt-2">
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                    <i class="fa-solid fa-star"></i>
-                                                </div>
-                                                <span class="mb-2">$35.00</span>
-                                                </div>
-                                                <div class="bottom-text d-flex justify-content-between">
-                                                    <h6 class=""><a href="">Sound Equipment</a></h6>
-                                                    <p>$15.00</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                 </div>
-            </div>
-        </section>
 
-        <section id="mostPopularViewed">
+            </div>
+
+        </section>         
+
+        <section id="mostPopularViewed2">
             <div class="container-my">
-                <div class="mostPopularViewed-all">
-                    <div class="mostPopularViewed-all-top">
-                        <span>EXCLUSIVE COLLECTION</span>
-                        <h2>MOST POPULAR VIEWED</h2>
-                    </div>
+                <div class="mostPopularViewed-all2">                    
                     <div class="most-products-all slick-slider">
 
                         <!-- --------------- PRODUCT BOX 2---------------------->
@@ -1136,28 +835,6 @@
                                     <div class="rigth"></div>
                                 </div>
                                 <div class="d-block time-all align-items-center py-3">
-                                    <div class="text text-center">
-                                        <p><span>Hurry Up</span> Limited Time Offer</p>
-                                    </div>
-                                    <div class="d-flex justify-content-center time align-items-center">
-                                        <div class="day me-1">
-                                            <span id="day">00</span>
-                                            <span>DAY</span>
-                                        </div>
-                                        <div class="hour me-1">
-                                            <span id="hr">00</span>
-                                            <span>HR</span>
-                                        </div>
-                                        <div class="minute me-1">
-                                            <span id="min">00</span>
-                                            <span>MIN</span>
-                                        </div>
-                                        <div class="second">
-                                            <span id="sec">00</span>
-                                            <span>SEC</span>
-                                        </div>
-                                    </div>
-
 
                                 </div>
                             </div>
@@ -1167,7 +844,7 @@
 
 
                         <!-- --------------- PRODUCT BOX 2---------------------->
-                        <div class="forEmpty product mx-2">
+                        <div class="forSeal product mx-2">
 
                             <div class="top">
 
@@ -1203,28 +880,6 @@
                                     <div class="rigth"></div>
                                 </div>
                                 <div class="d-block time-all align-items-center py-3">
-                                    <div class="text text-center">
-                                        <p><span>Hurry Up</span> Limited Time Offer</p>
-                                    </div>
-                                    <div class="d-flex justify-content-center time align-items-center">
-                                        <div class="day me-1">
-                                            <span id="day">00</span>
-                                            <span>DAY</span>
-                                        </div>
-                                        <div class="hour me-1">
-                                            <span id="hr">00</span>
-                                            <span>HR</span>
-                                        </div>
-                                        <div class="minute me-1">
-                                            <span id="min">00</span>
-                                            <span>MIN</span>
-                                        </div>
-                                        <div class="second">
-                                            <span id="sec">00</span>
-                                            <span>SEC</span>
-                                        </div>
-                                    </div>
-
 
                                 </div>
                             </div>
@@ -1270,28 +925,6 @@
                                     <div class="rigth"></div>
                                 </div>
                                 <div class="d-block time-all align-items-center py-3">
-                                    <div class="text text-center">
-                                        <p><span>Hurry Up</span> Limited Time Offer</p>
-                                    </div>
-                                    <div class="d-flex justify-content-center time align-items-center">
-                                        <div class="day me-1">
-                                            <span id="day">00</span>
-                                            <span>DAY</span>
-                                        </div>
-                                        <div class="hour me-1">
-                                            <span id="hr">00</span>
-                                            <span>HR</span>
-                                        </div>
-                                        <div class="minute me-1">
-                                            <span id="min">00</span>
-                                            <span>MIN</span>
-                                        </div>
-                                        <div class="second">
-                                            <span id="sec">00</span>
-                                            <span>SEC</span>
-                                        </div>
-                                    </div>
-
 
                                 </div>
                             </div>
@@ -1300,7 +933,7 @@
                         <!----------------- PRODUCT BOX FINISH---------------------->
 
                         <!-- --------------- PRODUCT BOX 2---------------------->
-                        <div class="forTrend product mx-2">
+                        <div class="forSeal product mx-2">
 
                             <div class="top">
 
@@ -1336,28 +969,6 @@
                                     <div class="rigth"></div>
                                 </div>
                                 <div class="d-block time-all align-items-center py-3">
-                                    <div class="text text-center">
-                                        <p><span>Hurry Up</span> Limited Time Offer</p>
-                                    </div>
-                                    <div class="d-flex justify-content-center time align-items-center">
-                                        <div class="day me-1">
-                                            <span id="day">00</span>
-                                            <span>DAY</span>
-                                        </div>
-                                        <div class="hour me-1">
-                                            <span id="hr">00</span>
-                                            <span>HR</span>
-                                        </div>
-                                        <div class="minute me-1">
-                                            <span id="min">00</span>
-                                            <span>MIN</span>
-                                        </div>
-                                        <div class="second">
-                                            <span id="sec">00</span>
-                                            <span>SEC</span>
-                                        </div>
-                                    </div>
-
 
                                 </div>
                             </div>
@@ -1402,28 +1013,6 @@
                                     <div class="rigth"></div>
                                 </div>
                                 <div class="d-block time-all align-items-center py-3">
-                                    <div class="text text-center">
-                                        <p><span>Hurry Up</span> Limited Time Offer</p>
-                                    </div>
-                                    <div class="d-flex justify-content-center time align-items-center">
-                                        <div class="day me-1">
-                                            <span id="day">00</span>
-                                            <span>DAY</span>
-                                        </div>
-                                        <div class="hour me-1">
-                                            <span id="hr">00</span>
-                                            <span>HR</span>
-                                        </div>
-                                        <div class="minute me-1">
-                                            <span id="min">00</span>
-                                            <span>MIN</span>
-                                        </div>
-                                        <div class="second">
-                                            <span id="sec">00</span>
-                                            <span>SEC</span>
-                                        </div>
-                                    </div>
-
 
                                 </div>
                             </div>
@@ -1468,34 +1057,234 @@
                                     <div class="rigth"></div>
                                 </div>
                                 <div class="d-block time-all align-items-center py-3">
-                                    <div class="text text-center">
-                                        <p><span>Hurry Up</span> Limited Time Offer</p>
-                                    </div>
-                                    <div class="d-flex justify-content-center time align-items-center">
-                                        <div class="day me-1">
-                                            <span id="day">00</span>
-                                            <span>DAY</span>
-                                        </div>
-                                        <div class="hour me-1">
-                                            <span id="hr">00</span>
-                                            <span>HR</span>
-                                        </div>
-                                        <div class="minute me-1">
-                                            <span id="min">00</span>
-                                            <span>MIN</span>
-                                        </div>
-                                        <div class="second">
-                                            <span id="sec">00</span>
-                                            <span>SEC</span>
-                                        </div>
-                                    </div>
-
 
                                 </div>
                             </div>
 
                         </div>
                         <!----------------- PRODUCT BOX FINISH---------------------->
+
+                        <!-- --------------- PRODUCT BOX 2---------------------->
+                        <div class="forSeal product mx-2">
+
+                            <div class="top">
+
+                                <a href=""><img
+                                        src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/06/a75b07fe-b225-48c1-bd81-468fb5cf4923.e70ba6937ff2509799058c83a79e6d0d-300x300.jpg"
+                                        alt=""></a>
+
+                                <div class="forHover w-100 text-center">
+                                    <div class="top d-flex justify-content-evenly py-2 align-items-center">
+                                        <i class="fa-regular fa-eye"></i>
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-arrows-rotate"></i>
+                                    </div>
+                                    <div class="bottom py-2 align-items-center">
+                                        <h6>ADD TO CART</h6>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="average text-center py-3">
+                                <h6 class=""><a href="">Apple 256GB</a></h6>
+                                <p>US $240.00 <span>| { 4% off }</span></p>
+                            </div>
+
+                            <div class="bottom mb-2">
+                                <div class="total pb-2 pt-4 d-flex w-75 justify-content-between mx-auto">
+                                    <div class="left">Total Sold: 1</div>
+                                    <div class="rigth">Stocks: 19</div>
+                                </div>
+                                <div class="progress d-flex w-75 justify-content-center mx-auto">
+                                    <div class="left"></div>
+                                    <div class="rigth"></div>
+                                </div>
+                                <div class="d-block time-all align-items-center py-3">
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!----------------- PRODUCT BOX FINISH---------------------->
+
+                        <!-- --------------- PRODUCT BOX 2---------------------->
+                        <div class="forSeal product mx-2">
+
+                            <div class="top">
+
+                                <a href=""><img
+                                        src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/06/el_img20-300x300.jpg"
+                                        alt=""></a>
+
+                                <div class="forHover w-100 text-center">
+                                    <div class="top d-flex justify-content-evenly py-2 align-items-center">
+                                        <i class="fa-regular fa-eye"></i>
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-arrows-rotate"></i>
+                                    </div>
+                                    <div class="bottom py-2 align-items-center">
+                                        <h6>ADD TO CART</h6>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="average text-center py-3">
+                                <h6 class=""><a href="">Apple 256GB</a></h6>
+                                <p>US $240.00 <span>| { 4% off }</span></p>
+                            </div>
+
+                            <div class="bottom mb-2">
+                                <div class="total pb-2 pt-4 d-flex w-75 justify-content-between mx-auto">
+                                    <div class="left">Total Sold: 1</div>
+                                    <div class="rigth">Stocks: 19</div>
+                                </div>
+                                <div class="progress d-flex w-75 justify-content-center mx-auto">
+                                    <div class="left"></div>
+                                    <div class="rigth"></div>
+                                </div>
+                                <div class="d-block time-all align-items-center py-3">
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!----------------- PRODUCT BOX FINISH---------------------->
+
+                         <!-- --------------- PRODUCT BOX 2---------------------->
+                         <div class="forSeal product mx-2">
+
+                            <div class="top">
+
+                                <a href=""><img
+                                        src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/1d20de71-9151-425f-890b-2fd4c703c430.dfbaf58eff390bef1eec9774e2e32233-450x450.jpg"
+                                        alt=""></a>
+
+                                <div class="forHover w-100 text-center">
+                                    <div class="top d-flex justify-content-evenly py-2 align-items-center">
+                                        <i class="fa-regular fa-eye"></i>
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-arrows-rotate"></i>
+                                    </div>
+                                    <div class="bottom py-2 align-items-center">
+                                        <h6>ADD TO CART</h6>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="average text-center py-3">
+                                <h6 class=""><a href="">Apple 256GB</a></h6>
+                                <p>US $240.00 <span>| { 4% off }</span></p>
+                            </div>
+
+                            <div class="bottom mb-2">
+                                <div class="total pb-2 pt-4 d-flex w-75 justify-content-between mx-auto">
+                                    <div class="left">Total Sold: 1</div>
+                                    <div class="rigth">Stocks: 19</div>
+                                </div>
+                                <div class="progress d-flex w-75 justify-content-center mx-auto">
+                                    <div class="left"></div>
+                                    <div class="rigth"></div>
+                                </div>
+                                <div class="d-block time-all align-items-center py-3">
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!----------------- PRODUCT BOX FINISH---------------------->
+
+                        <!-- --------------- PRODUCT BOX 2---------------------->
+                        <div class="forSeal product mx-2">
+
+                            <div class="top">
+
+                                <a href=""><img
+                                        src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/08/31d0HeVgCSL._AC_-300x300.jpg"
+                                        alt=""></a>
+
+                                <div class="forHover w-100 text-center">
+                                    <div class="top d-flex justify-content-evenly py-2 align-items-center">
+                                        <i class="fa-regular fa-eye"></i>
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-arrows-rotate"></i>
+                                    </div>
+                                    <div class="bottom py-2 align-items-center">
+                                        <h6>ADD TO CART</h6>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="average text-center py-3">
+                                <h6 class=""><a href="">Apple 256GB</a></h6>
+                                <p>US $240.00 <span>| { 4% off }</span></p>
+                            </div>
+
+                            <div class="bottom mb-2">
+                                <div class="total pb-2 pt-4 d-flex w-75 justify-content-between mx-auto">
+                                    <div class="left">Total Sold: 1</div>
+                                    <div class="rigth">Stocks: 19</div>
+                                </div>
+                                <div class="progress d-flex w-75 justify-content-center mx-auto">
+                                    <div class="left"></div>
+                                    <div class="rigth"></div>
+                                </div>
+                                <div class="d-block time-all align-items-center py-3">
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!----------------- PRODUCT BOX FINISH---------------------->
+
+
+                        <!-- --------------- PRODUCT BOX 2---------------------->
+                        <div class="forSeal product mx-2">
+
+                            <div class="top">
+
+                                <a href=""><img
+                                        src="https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/06/el_img24-450x450.jpg"
+                                        alt=""></a>
+
+                                <div class="forHover w-100 text-center">
+                                    <div class="top d-flex justify-content-evenly py-2 align-items-center">
+                                        <i class="fa-regular fa-eye"></i>
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-arrows-rotate"></i>
+                                    </div>
+                                    <div class="bottom py-2 align-items-center">
+                                        <h6>ADD TO CART</h6>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="average text-center py-3">
+                                <h6 class=""><a href="">Apple 256GB</a></h6>
+                                <p>US $240.00 <span>| { 4% off }</span></p>
+                            </div>
+
+                            <div class="bottom mb-2">
+                                <div class="total pb-2 pt-4 d-flex w-75 justify-content-between mx-auto">
+                                    <div class="left">Total Sold: 1</div>
+                                    <div class="rigth">Stocks: 19</div>
+                                </div>
+                                <div class="progress d-flex w-75 justify-content-center mx-auto">
+                                    <div class="left"></div>
+                                    <div class="rigth"></div>
+                                </div>
+                                <div class="d-block time-all align-items-center py-3">
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!----------------- PRODUCT BOX FINISH---------------------->
+
 
                     </div>
                 </div>
@@ -1692,6 +1481,7 @@
 
     <script src="assets/js/header.js"></script>
     <script src="assets/js/cart.js"></script>
+    <script src="assets/js/home.js"></script>
 </body>
 
 </html>

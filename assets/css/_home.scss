@@ -26,7 +26,7 @@ main #slider {
 
     .slider-all {
         position: relative;
-        padding: 90px 0;
+        padding: 50px 0 90px;
 
         .left {
             h5 {
@@ -78,8 +78,6 @@ main #slider {
         }
 
         .rigth {
-            transition: .5s;
-
             img {
 
                 width: 100%;
@@ -123,7 +121,7 @@ main #slider {
     margin-bottom: 20px;
 
     .top {
-        z-index: -1;
+        z-index: 10;
         position: relative;
 
         img {
@@ -134,7 +132,7 @@ main #slider {
             transition: .7s;
             visibility: hidden;
             position: absolute;
-            bottom: -70px;
+            bottom: -10px;
             left: 0;
             z-index: 0;
 
@@ -185,6 +183,9 @@ main #slider {
             font-weight: 500;
 
             span {
+                color: #FF6000;
+            }
+            .color{
                 color: #606060;
             }
         }
