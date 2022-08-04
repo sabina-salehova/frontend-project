@@ -66,12 +66,182 @@
 #devidedSections{
     .devidedSectionsAll{
 
+        .devidedLeft{
+            padding: 60px 0 0 0;
+            h6{
+                font-style: normal;
+                line-height: 1.8;
+                font-size: 22px !important;
+                font-weight: 500 !important;
+                margin-bottom: 10px;
+            }
+
+            ul{
+                list-style: none;
+                padding-left: 0 !important;
+            }
+            label{
+                margin-left: 7px;
+                color: #252525;
+                font-size: 13px;
+            }
+
+            .colors{
+                li{
+                    align-items: center;
+                    padding-bottom: 8px;
+                    a{
+                        font-size: 14px;
+                        color: #252525;
+                    } 
+                    
+                    span{
+                        font-size: 12px;
+                        padding: 4px 6px;
+                        font-weight: 400;
+                        border-radius: 5px;
+                        font-weight: 400;
+                        text-align: center;
+                        color: #7d7d7d;
+                        background-color: #f2f2f2;
+                    }
+                }
+            }
+
+            #forFilter{
+                width: 95%;
+                height: 6px;
+                background-color: #f2f2f2;
+                position: relative;
+
+                &::before{
+                    cursor: pointer;
+                    position: absolute;
+                    content: '';
+                    top: -4px;
+                    left: 0;
+                    border-radius: 50%;
+                    border: 1px solid #c5c5c5;
+                    width: 14px;
+                    height: 14px;
+                    background-color: #f2f2f2;
+                }
+
+                &::after{
+                    cursor: pointer;
+                    position: absolute;
+                    content: '';
+                    top: -4px;
+                    right: 0;
+                    border-radius: 50%;
+                    border: 1px solid #c5c5c5;
+                    width: 14px;
+                    height: 14px;
+                    background-color: #f2f2f2;
+                }
+            }
+
+            .filter-price{
+                
+                button{
+                    padding: 7px 15px;
+                    font-size: 12px;
+                    border-radius: 4px !important;
+                    font-weight: 500;
+                    border: none;
+                    transition: .3s;
+
+                    &:hover{
+                        background-color: #FF6000;
+                        color: #fff;
+                    }
+                }
+
+                span{
+                    text-align: right;
+                    line-height: 2;
+                    font-size: 12px;
+                    font-weight: 500;
+                    color: #7d7d7d;
+                }
+            }  
+
+               
+        .rating{
+            .average-rating{
+                i{
+                    font-size: 12px;
+                    color: #DBE4FF;
+                }
+                #color{
+                    color: #FFA800;
+                }            
+            }
+        }
+
+        .search2{
+            
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            input{
+                border: 1px solid #bdbcbc;
+                //border: none;
+                padding: 12px 102px 17px 10px;
+                font-size: 12px;
+                color: #7D7D7D;
+                font-weight: 600;
+                border-radius: 7px;
+                          
+            }
+            button{
+                border: none;
+                color: #252525;
+                border-top-right-radius: 7px;
+                border-bottom-right-radius: 7px;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 1;
+                margin-top: 2px;
+                padding: 15px 21px;
+
+                &:hover{
+                    background-color: #ff6000;
+                    color: #fff;
+            }    }        
+        }
+
+        .ptags{
+
+            a{
+                display: inline-block;
+                font-size: 13px !important;
+                margin: 2px;
+                text-transform: capitalize;
+                text-decoration: none !important;
+                cursor: pointer;
+                outline: 0;
+                background: #f2f2f2;
+                color: #252525;
+                padding: 5px 10px;
+                border: none;
+                border-radius: 5px;
+                transition: .5s;
+                &:hover{
+
+                    color:#fff;
+                    background-color: #ff6000;
+                }
+          }        
+        }
+
+
+    }
+        }
 
         .devidedRigth{
             padding: 60px 0 0 0;
         }
-    
-    }
+ 
 }
 
 
@@ -163,6 +333,13 @@ main #free-support2 {
         padding: 20px 0 30px;
         margin: 30px 0;
    
+        .mostPopularViewed-all-text{
+            h4{
+                color: #252525;
+                font-size: 22px;
+                text-align: start;
+            }
+        }
     
         .mostPopularViewed-all {
     
@@ -172,7 +349,7 @@ main #free-support2 {
     
                 .CommonForSlickIcons {
                     position: absolute;
-                    top: -30px;
+                    top: -60px;
                     z-index: 1;
                     color: #7d7d7d;
                     font-size: 15px;
@@ -187,13 +364,13 @@ main #free-support2 {
     
                 .slickPrev1 {
                     @extend .CommonForSlickIcons;
-                    right: 30px;
+                    right: 40px;
                 }
     
     
                 .slickNext1 {
                     @extend .CommonForSlickIcons;
-                    right: 15px;
+                    right: 25px;
                 }
     
                 .forEmpty {
@@ -212,6 +389,8 @@ main #free-support2 {
     
         }
 }
+
+
 
 
 @mixin forBestProductBox($beforeTextLeft,$beforeTextRigth) {
@@ -325,8 +504,8 @@ main #free-support2 {
     &::after {
         position: absolute;
         content: $beforeTextRigth;
-        top: 20px;
-        right: 20px;
+        top: 42px;
+        right: 134px;
         padding: 0 8px;
         background-color: #FF6000;
         font-size: 12px;

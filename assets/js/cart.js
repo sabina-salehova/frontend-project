@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-   $('.most-products-all').slick({
+   $('.most-products-all2').slick({
      prevArrow: '<i class="fas fa-chevron-left slickPrev1"></i>',
      nextArrow: '<i class="fas fa-chevron-right slickNext1"></i>',
    

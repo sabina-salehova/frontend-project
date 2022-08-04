@@ -1672,7 +1672,7 @@ main #deals-day .deals-day-all .rigth .products-all .forTrend::before {
 }
 
 main #typeProducts {
-  padding: 60px 0;
+  padding: 20px 0 30px;
 }
 main #typeProducts .typeProduct-all .typeProduct-box .typeProduct-title {
   padding-bottom: 20px;
@@ -3225,11 +3225,11 @@ main #forBasket .table img {
 main #mostPopularViewed2 {
   padding: 80px 0 60px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 {
   position: relative;
   align-items: center;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .CommonForSlickIcons, main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .slickNext1, main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .slickPrev1, main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all #deals-day .deals-day-all .rigth .products-all .slickPrev1, main #deals-day .deals-day-all .rigth .products-all #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .slickPrev1, main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all #deals-day .deals-day-all .rigth .products-all .slickNext1, main #deals-day .deals-day-all .rigth .products-all #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .slickNext1 {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .CommonForSlickIcons, main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .slickNext1, main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .slickPrev1, main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 #deals-day .deals-day-all .rigth .products-all .slickPrev1, main #deals-day .deals-day-all .rigth .products-all #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .slickPrev1, main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 #deals-day .deals-day-all .rigth .products-all .slickNext1, main #deals-day .deals-day-all .rigth .products-all #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .slickNext1 {
   background: #252525;
   padding: 12px 15px;
   position: absolute;
@@ -3242,28 +3242,28 @@ main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .CommonForSl
   border-radius: 50%;
   transition: 0.5s;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .CommonForSlickIcons:hover, main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .slickNext1:hover, main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .slickPrev1:hover {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .CommonForSlickIcons:hover, main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .slickNext1:hover, main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .slickPrev1:hover {
   background-color: #FF6000;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .slickPrev1 {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .slickPrev1 {
   left: -30px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .slickNext1 {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .slickNext1 {
   right: -30px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty {
   position: relative;
   margin-bottom: 20px;
   z-index: 1;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .top {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .top {
   z-index: -1;
   position: relative;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .top img {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .top img {
   width: 100%;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .top .forHover {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .top .forHover {
   transition: 0.7s;
   visibility: hidden;
   position: absolute;
@@ -3271,84 +3271,84 @@ main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .t
   left: 0;
   z-index: 0;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .top .forHover .top {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .top .forHover .top {
   background-color: #fff;
   font-size: 18px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .top .forHover .top i {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .top .forHover .top i {
   color: #252525;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .top .forHover .bottom {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .top .forHover .bottom {
   background-color: #252525;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .top .forHover .bottom h6 {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .top .forHover .bottom h6 {
   color: #fff;
   font-size: 13px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .average {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .average {
   z-index: 1;
   background-color: #fff;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .average h6 {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .average h6 {
   line-height: 1.75;
   padding-bottom: 7px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .average h6 a {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .average h6 a {
   color: #252525;
   font-size: 16px;
   transition: 0.2s;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .average h6 a:hover {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .average h6 a:hover {
   color: #0465D2;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .average p {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .average p {
   color: #FF6000;
   font-size: 15px;
   font-family: "Jost", sans-serif;
   line-height: 1.5;
   font-weight: 500;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .average p span {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .average p span {
   color: #606060;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .bottom {
   background-color: #fff;
   border-top: 1px solid #e6e4e4;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .total {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .bottom .total {
   font-size: 12px;
   font-weight: 500;
   color: #959595;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .progress {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .bottom .progress {
   height: 6px;
   border-radius: 5px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .progress .left {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .bottom .progress .left {
   background-color: #F7BA01;
   width: 5%;
   border-radius: 5px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .progress .rigth {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .bottom .progress .rigth {
   background-color: #F2F2F2;
   width: 95%;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .text {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .bottom .time-all .text {
   font-weight: 500;
   color: #959595;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .text span {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .bottom .time-all .text span {
   color: #F7BA01;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .time {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .bottom .time-all .time {
   padding: 0 0 10px;
   font-weight: 500;
   font-size: 10px;
   font-weight: bold;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .time .day,
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .time .hour,
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .time .minute {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .bottom .time-all .time .day,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .bottom .time-all .time .hour,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .bottom .time-all .time .minute {
   background-color: #252525;
   color: #fff;
   text-align: center;
@@ -3356,7 +3356,7 @@ main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .b
   padding: 3px 0;
   width: 45px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .time .second {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .bottom .time-all .time .second {
   background-color: #F7BA01;
   color: #fff;
   text-align: center;
@@ -3364,20 +3364,20 @@ main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .b
   border-radius: 5px;
   width: 45px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .time span {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .bottom .time-all .time span {
   display: block;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .time #day,
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .time #hr,
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .time #min,
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty .bottom .time-all .time #sec {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .bottom .time-all .time #day,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .bottom .time-all .time #hr,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .bottom .time-all .time #min,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty .bottom .time-all .time #sec {
   font-size: 16px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty:hover .forHover {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty:hover .forHover {
   visibility: visible;
   bottom: 0;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty::before {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forEmpty::before {
   position: absolute;
   content: "";
   top: 15px;
@@ -3390,19 +3390,19 @@ main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forEmpty::b
   font-family: "Jost", sans-serif;
   font-weight: bold;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal {
   position: relative;
   margin-bottom: 20px;
   z-index: 1;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .top {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .top {
   z-index: -1;
   position: relative;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .top img {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .top img {
   width: 100%;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .top .forHover {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .top .forHover {
   transition: 0.7s;
   visibility: hidden;
   position: absolute;
@@ -3410,84 +3410,84 @@ main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .to
   left: 0;
   z-index: 0;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .top .forHover .top {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .top .forHover .top {
   background-color: #fff;
   font-size: 18px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .top .forHover .top i {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .top .forHover .top i {
   color: #252525;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .top .forHover .bottom {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .top .forHover .bottom {
   background-color: #252525;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .top .forHover .bottom h6 {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .top .forHover .bottom h6 {
   color: #fff;
   font-size: 13px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .average {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .average {
   z-index: 1;
   background-color: #fff;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .average h6 {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .average h6 {
   line-height: 1.75;
   padding-bottom: 7px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .average h6 a {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .average h6 a {
   color: #252525;
   font-size: 16px;
   transition: 0.2s;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .average h6 a:hover {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .average h6 a:hover {
   color: #0465D2;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .average p {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .average p {
   color: #FF6000;
   font-size: 15px;
   font-family: "Jost", sans-serif;
   line-height: 1.5;
   font-weight: 500;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .average p span {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .average p span {
   color: #606060;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .bottom {
   background-color: #fff;
   border-top: 1px solid #e6e4e4;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .total {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .bottom .total {
   font-size: 12px;
   font-weight: 500;
   color: #959595;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .progress {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .bottom .progress {
   height: 6px;
   border-radius: 5px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .progress .left {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .bottom .progress .left {
   background-color: #F7BA01;
   width: 5%;
   border-radius: 5px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .progress .rigth {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .bottom .progress .rigth {
   background-color: #F2F2F2;
   width: 95%;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .text {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .bottom .time-all .text {
   font-weight: 500;
   color: #959595;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .text span {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .bottom .time-all .text span {
   color: #F7BA01;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .time {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .bottom .time-all .time {
   padding: 0 0 10px;
   font-weight: 500;
   font-size: 10px;
   font-weight: bold;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .time .day,
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .time .hour,
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .time .minute {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .bottom .time-all .time .day,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .bottom .time-all .time .hour,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .bottom .time-all .time .minute {
   background-color: #252525;
   color: #fff;
   text-align: center;
@@ -3495,7 +3495,7 @@ main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bo
   padding: 3px 0;
   width: 45px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .time .second {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .bottom .time-all .time .second {
   background-color: #F7BA01;
   color: #fff;
   text-align: center;
@@ -3503,20 +3503,20 @@ main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bo
   border-radius: 5px;
   width: 45px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .time span {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .bottom .time-all .time span {
   display: block;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .time #day,
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .time #hr,
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .time #min,
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal .bottom .time-all .time #sec {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .bottom .time-all .time #day,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .bottom .time-all .time #hr,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .bottom .time-all .time #min,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal .bottom .time-all .time #sec {
   font-size: 16px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal:hover .forHover {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal:hover .forHover {
   visibility: visible;
   bottom: 0;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal::before {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forSeal::before {
   position: absolute;
   content: "Sale!";
   top: 15px;
@@ -3529,19 +3529,19 @@ main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forSeal::be
   font-family: "Jost", sans-serif;
   font-weight: bold;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend {
   position: relative;
   margin-bottom: 20px;
   z-index: 1;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .top {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .top {
   z-index: -1;
   position: relative;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .top img {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .top img {
   width: 100%;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .top .forHover {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .top .forHover {
   transition: 0.7s;
   visibility: hidden;
   position: absolute;
@@ -3549,84 +3549,84 @@ main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .t
   left: 0;
   z-index: 0;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .top .forHover .top {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .top .forHover .top {
   background-color: #fff;
   font-size: 18px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .top .forHover .top i {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .top .forHover .top i {
   color: #252525;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .top .forHover .bottom {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .top .forHover .bottom {
   background-color: #252525;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .top .forHover .bottom h6 {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .top .forHover .bottom h6 {
   color: #fff;
   font-size: 13px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .average {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .average {
   z-index: 1;
   background-color: #fff;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .average h6 {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .average h6 {
   line-height: 1.75;
   padding-bottom: 7px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .average h6 a {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .average h6 a {
   color: #252525;
   font-size: 16px;
   transition: 0.2s;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .average h6 a:hover {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .average h6 a:hover {
   color: #0465D2;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .average p {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .average p {
   color: #FF6000;
   font-size: 15px;
   font-family: "Jost", sans-serif;
   line-height: 1.5;
   font-weight: 500;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .average p span {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .average p span {
   color: #606060;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .bottom {
   background-color: #fff;
   border-top: 1px solid #e6e4e4;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .total {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .bottom .total {
   font-size: 12px;
   font-weight: 500;
   color: #959595;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .progress {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .bottom .progress {
   height: 6px;
   border-radius: 5px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .progress .left {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .bottom .progress .left {
   background-color: #F7BA01;
   width: 5%;
   border-radius: 5px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .progress .rigth {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .bottom .progress .rigth {
   background-color: #F2F2F2;
   width: 95%;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .text {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .bottom .time-all .text {
   font-weight: 500;
   color: #959595;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .text span {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .bottom .time-all .text span {
   color: #F7BA01;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .time {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .bottom .time-all .time {
   padding: 0 0 10px;
   font-weight: 500;
   font-size: 10px;
   font-weight: bold;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .time .day,
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .time .hour,
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .time .minute {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .bottom .time-all .time .day,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .bottom .time-all .time .hour,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .bottom .time-all .time .minute {
   background-color: #252525;
   color: #fff;
   text-align: center;
@@ -3634,7 +3634,7 @@ main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .b
   padding: 3px 0;
   width: 45px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .time .second {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .bottom .time-all .time .second {
   background-color: #F7BA01;
   color: #fff;
   text-align: center;
@@ -3642,20 +3642,20 @@ main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .b
   border-radius: 5px;
   width: 45px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .time span {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .bottom .time-all .time span {
   display: block;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .time #day,
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .time #hr,
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .time #min,
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend .bottom .time-all .time #sec {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .bottom .time-all .time #day,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .bottom .time-all .time #hr,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .bottom .time-all .time #min,
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend .bottom .time-all .time #sec {
   font-size: 16px;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend:hover .forHover {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend:hover .forHover {
   visibility: visible;
   bottom: 0;
 }
-main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all .forTrend::before {
+main #mostPopularViewed2 .mostPopularViewed-all2 .most-products-all2 .forTrend::before {
   position: absolute;
   content: "Trend";
   top: 15px;
@@ -3888,7 +3888,146 @@ main #sendMessage .sendMessage-all .btn {
   background-color: #252525;
 }
 
-#devidedSections .devidedSectionsAll .devidedRigth {
+#devidedSections .devidedSectionsAll .devidedLeft {
+  padding: 60px 0 0 0;
+}
+#devidedSections .devidedSectionsAll .devidedLeft h6 {
+  font-style: normal;
+  line-height: 1.8;
+  font-size: 22px !important;
+  font-weight: 500 !important;
+  margin-bottom: 10px;
+}
+#devidedSections .devidedSectionsAll .devidedLeft ul {
+  list-style: none;
+  padding-left: 0 !important;
+}
+#devidedSections .devidedSectionsAll .devidedLeft label {
+  margin-left: 7px;
+  color: #252525;
+  font-size: 13px;
+}
+#devidedSections .devidedSectionsAll .devidedLeft .colors li {
+  align-items: center;
+  padding-bottom: 8px;
+}
+#devidedSections .devidedSectionsAll .devidedLeft .colors li a {
+  font-size: 14px;
+  color: #252525;
+}
+#devidedSections .devidedSectionsAll .devidedLeft .colors li span {
+  font-size: 12px;
+  padding: 4px 6px;
+  font-weight: 400;
+  border-radius: 5px;
+  font-weight: 400;
+  text-align: center;
+  color: #7d7d7d;
+  background-color: #f2f2f2;
+}
+#devidedSections .devidedSectionsAll .devidedLeft #forFilter {
+  width: 95%;
+  height: 6px;
+  background-color: #f2f2f2;
+  position: relative;
+}
+#devidedSections .devidedSectionsAll .devidedLeft #forFilter::before {
+  cursor: pointer;
+  position: absolute;
+  content: "";
+  top: -4px;
+  left: 0;
+  border-radius: 50%;
+  border: 1px solid #c5c5c5;
+  width: 14px;
+  height: 14px;
+  background-color: #f2f2f2;
+}
+#devidedSections .devidedSectionsAll .devidedLeft #forFilter::after {
+  cursor: pointer;
+  position: absolute;
+  content: "";
+  top: -4px;
+  right: 0;
+  border-radius: 50%;
+  border: 1px solid #c5c5c5;
+  width: 14px;
+  height: 14px;
+  background-color: #f2f2f2;
+}
+#devidedSections .devidedSectionsAll .devidedLeft .filter-price button {
+  padding: 7px 15px;
+  font-size: 12px;
+  border-radius: 4px !important;
+  font-weight: 500;
+  border: none;
+  transition: 0.3s;
+}
+#devidedSections .devidedSectionsAll .devidedLeft .filter-price button:hover {
+  background-color: #FF6000;
+  color: #fff;
+}
+#devidedSections .devidedSectionsAll .devidedLeft .filter-price span {
+  text-align: right;
+  line-height: 2;
+  font-size: 12px;
+  font-weight: 500;
+  color: #7d7d7d;
+}
+#devidedSections .devidedSectionsAll .devidedLeft .rating .average-rating i {
+  font-size: 12px;
+  color: #DBE4FF;
+}
+#devidedSections .devidedSectionsAll .devidedLeft .rating .average-rating #color {
+  color: #FFA800;
+}
+#devidedSections .devidedSectionsAll .devidedLeft .search2 {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#devidedSections .devidedSectionsAll .devidedLeft .search2 input {
+  border: 1px solid #bdbcbc;
+  padding: 12px 102px 17px 10px;
+  font-size: 12px;
+  color: #7D7D7D;
+  font-weight: 600;
+  border-radius: 7px;
+}
+#devidedSections .devidedSectionsAll .devidedLeft .search2 button {
+  border: none;
+  color: #252525;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  margin-top: 2px;
+  padding: 15px 21px;
+}
+#devidedSections .devidedSectionsAll .devidedLeft .search2 button:hover {
+  background-color: #ff6000;
+  color: #fff;
+}
+#devidedSections .devidedSectionsAll .devidedLeft .ptags a {
+  display: inline-block;
+  font-size: 13px !important;
+  margin: 2px;
+  text-transform: capitalize;
+  text-decoration: none !important;
+  cursor: pointer;
+  outline: 0;
+  background: #f2f2f2;
+  color: #252525;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+#devidedSections .devidedSectionsAll .devidedLeft .ptags a:hover {
+  color: #fff;
+  background-color: #ff6000;
+}
+#devidedSections .devidedRigth {
   padding: 60px 0 0 0;
 }
 
@@ -3928,13 +4067,18 @@ main #mostPopularViewed2 {
   padding: 20px 0 30px;
   margin: 30px 0;
 }
+main #mostPopularViewed2 .mostPopularViewed-all-text h4 {
+  color: #252525;
+  font-size: 22px;
+  text-align: start;
+}
 main #mostPopularViewed2 .mostPopularViewed-all .most-products-all {
   position: relative;
   align-items: center;
 }
 main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .CommonForSlickIcons, main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .slickNext1, main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .slickPrev1, main #mostPopularViewed2 .mostPopularViewed-all .most-products-all #deals-day .deals-day-all .rigth .products-all .slickPrev1, main #deals-day .deals-day-all .rigth .products-all #mostPopularViewed2 .mostPopularViewed-all .most-products-all .slickPrev1, main #mostPopularViewed2 .mostPopularViewed-all .most-products-all #deals-day .deals-day-all .rigth .products-all .slickNext1, main #deals-day .deals-day-all .rigth .products-all #mostPopularViewed2 .mostPopularViewed-all .most-products-all .slickNext1 {
   position: absolute;
-  top: -30px;
+  top: -60px;
   z-index: 1;
   color: #7d7d7d;
   font-size: 15px;
@@ -3946,10 +4090,10 @@ main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .CommonForSli
   border-color: #F7BA01;
 }
 main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .slickPrev1 {
-  right: 30px;
+  right: 40px;
 }
 main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .slickNext1 {
-  right: 15px;
+  right: 25px;
 }
 main #mostPopularViewed2 .mostPopularViewed-all .most-products-all .forEmpty {
   position: relative;
@@ -4180,8 +4324,8 @@ main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-produ
 main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common1::after {
   position: absolute;
   content: "Sale!";
-  top: 20px;
-  right: 20px;
+  top: 42px;
+  right: 134px;
   padding: 0 8px;
   background-color: #FF6000;
   font-size: 12px;
@@ -4283,8 +4427,8 @@ main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-produ
 main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common2::after {
   position: absolute;
   content: "Discount";
-  top: 20px;
-  right: 20px;
+  top: 42px;
+  right: 134px;
   padding: 0 8px;
   background-color: #FF6000;
   font-size: 12px;
@@ -4386,8 +4530,8 @@ main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-produ
 main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common3::after {
   position: absolute;
   content: "Sale!";
-  top: 20px;
-  right: 20px;
+  top: 42px;
+  right: 134px;
   padding: 0 8px;
   background-color: #FF6000;
   font-size: 12px;
@@ -4508,8 +4652,8 @@ main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-produ
 main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common5::after {
   position: absolute;
   content: "";
-  top: 20px;
-  right: 20px;
+  top: 42px;
+  right: 134px;
   padding: 0 8px;
   background-color: #FF6000;
   font-size: 12px;
@@ -4612,8 +4756,8 @@ main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-produ
 main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6::after {
   position: absolute;
   content: "Sale!";
-  top: 20px;
-  right: 20px;
+  top: 42px;
+  right: 134px;
   padding: 0 8px;
   background-color: #FF6000;
   font-size: 12px;
@@ -4625,4 +4769,19 @@ main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-produ
 main #bestSelling2 .bestSelling-all .bestSellingProducts .best-rigth .best-products-all .common6 i {
   font-size: 13px;
   color: #FFA800;
+}
+
+body {
+  min-height: 100vh;
+}
+
+#login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#login .login-all {
+  width: 400px;
+  height: auto;
 }/*# sourceMappingURL=style.css.map */
